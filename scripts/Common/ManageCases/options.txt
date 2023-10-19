@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Git\XUI\scripts\dev\CaseList_07
+-IC:\Git\xui-ui-performance\scripts\Common\ManageCases
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\git\xui\scripts\dev\caselist_07\\logfile.log
-c:\git\xui\scripts\dev\caselist_07\\combined_CaseList_07.c
-c:\git\xui\scripts\dev\caselist_07\\pre_cci.c
+-ec:\git\xui-ui-performance\scripts\common\managecases\\logfile.log
+c:\git\xui-ui-performance\scripts\common\managecases\\combined_ManageCases.c
+c:\git\xui-ui-performance\scripts\common\managecases\\pre_cci.c
