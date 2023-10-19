@@ -24,8 +24,12 @@
     <FileEntry Name="user_modified_perfs.json" Filter="2" />
     <FileEntry Name="TCIEAuthenticationFilters.ini" Filter="2" />
     <FileEntry Name="username.dat" Filter="2" />
+    <FileEntry Name="combined_ManageCases.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
+    <FileEntry Name="239039821440.idx" Filter="1" />
+    <FileEntry Name="260360388440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CaseList_02.prm.bak" Filter="1" />
@@ -39,6 +43,9 @@
     <FileEntry Name="interactive_replay_Chromium.txt" Filter="1" />
     <FileEntry Name="interactive_replay_TruClientBrowser.txt" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="ManageCases.c.pickle" Filter="1" />
+    <FileEntry Name="ManageCases.ci" Filter="1" />
+    <FileEntry Name="ManageCases.prm.bak" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrvi3a.911.log" Filter="1" />
     <FileEntry Name="mdrvSFs.305.log" Filter="1" />
@@ -54,6 +61,5 @@
     <FileEntry Name="Backup\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
     <FileEntry Name="results\" Filter="1" />
-    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
