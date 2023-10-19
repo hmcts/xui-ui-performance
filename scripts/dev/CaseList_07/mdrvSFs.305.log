@@ -1,0 +1,8 @@
+Start auto log messages stack.	[MsgId: MMSG-10546]
+Virtual User Script started at : 2023-10-05 12:05:09	[MsgId: MMSG-205068]
+Notify: Transaction "SignInPage" started.	[MsgId: MMSG-16999]
+Notify: Transaction "SignInPage" ended with a "Pass" status (Duration: 2.4140 Wasted Time: 0.3860).	[MsgId: MMSG-16871]
+t=00016959ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous API TCA.getParam instead. For details, see https://admhelp.microfocus.com/tc/en/2021.0.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]	[MsgId: MWAR-205179]
+Notify: Transaction "SignIn" started.	[MsgId: MMSG-16999]
+Notify: Transaction "SignIn" ended with a "Stop" status (Duration: 165.6484).	[MsgId: MMSG-16873]
+t=00205343ms: Error -205177: Step 1.12: Click on Sign in button - Request timed out:        Snapshot Info [MSH Init 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]

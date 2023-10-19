@@ -1,0 +1,405 @@
+Virtual User Script started at : 2023-10-04 15:22:17
+TruClient Replay (build 0248) for LoadRunner Professional 2021.0.0, build 0371. OS: Windows 10, Browser: Chromium 86.0.4240.183, initialized on 2023/10/04 at 15:22:13 (1696429333.180s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 0
+    Using system proxy settings
+    Check for newer versions of stored pages: 4 (Automatically)
+    Keep-Alive..........................................: 1
+    Proxy Keep-Alive....................................: 1
+    Keep-Alive timeout (ms).............................: 60000
+    HTTP Version........................................: 1.1
+    Proxy HTTP Version..................................: 1.1
+    DNS cache entries...................................: 20
+    Run-Time Settings file..............................: "C:\Users\marca\OneDrive - CJS Common Platform\VuGen\Scripts\CaseList_05\\default.cfg"
+    Vuser directory.....................................: "C:\Users\marca\AppData\Local\Temp\TC\Temp\"
+    Vuser output directory..............................: "C:\Users\marca\AppData\Local\Temp\TC\Temp\"
+End of selected Run-Time Settings
+Please refer to the ReadMe file in the LoadRunner Professional installation directory for notes about measurements and logging
+t=00004188ms: Step 1: Call Function Common.SignIn started    [MsgId: MMSG-205180]
+t=00004191ms: Step 1: Function SignIn started    [MsgId: MMSG-205180]
+Notify: Transaction "SignInPage" started.
+t=00004704ms: Step 1.2: Navigate to "https://manage-case.per...form.hmcts.net/" started    [MsgId: MMSG-205180]
+t=00005844ms: Step 1.2: Navigate to https://manage-case.perf...tform.hmcts.net/ successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SignInPage" ended with a "Pass" status (Duration: 1.1460 Wasted Time: 0.3980).
+t=00005848ms: Step 1.3: Verify Sign in's Visible Text contains Sign in started    [MsgId: MMSG-205180]
+t=00007149ms: Step 1.3: Verify Sign in's Visible Text contains Sign in successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00007152ms: Step 1.4: Verify Reject additional cookies's Visible Text contains Reject additional cookies started    [MsgId: MMSG-205180]
+t=00007382ms: Step 1.4: Verify Reject additional cookies's Visible Text contains Reject additional cookies successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00007892ms: Step 1.5: Click on Reject additional cookies button started    [MsgId: MMSG-205180]
+t=00010137ms: Step 1.5: Click on Reject additional cookies button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00010140ms: Step 1.6: Verify Hide this cookie message's Visible Text contains Hide this cookie message started    [MsgId: MMSG-205180]
+t=00010378ms: Step 1.6: Verify Hide this cookie message's Visible Text contains Hide this cookie message successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00010892ms: Step 1.7: Click on Hide this cookie message button started    [MsgId: MMSG-205180]
+t=00013132ms: Step 1.7: Click on Hide this cookie message button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00013636ms: Step 1.8: Click on Email address textbox started    [MsgId: MMSG-205180]
+t=00013877ms: Step 1.8: Click on Email address textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00014396ms: Step 1.9: Type TC.getParam("username") in Email address textbox started    [MsgId: MMSG-205180]
+t=00014406ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous API TCA.getParam instead. For details, see https://admhelp.microfocus.com/tc/en/2021.0.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00016755ms: Step 1.9: Type prl-cw@justice.gov.uk in Email address textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00017272ms: Step 1.10: Click on Password passwordbox started    [MsgId: MMSG-205180]
+t=00019525ms: Step 1.10: Click on Password passwordbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00020039ms: Step 1.11: Type ********** in Password passwordbox started    [MsgId: MMSG-205180]
+t=00021217ms: Step 1.11: Type ********** in Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SignIn" started.
+t=00021728ms: Step 1.12: Click on Sign in button started    [MsgId: MMSG-205180]
+t=00027398ms: Step 1.12: Click on Sign in button successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "SignIn" ended with a "Pass" status (Duration: 5.6730 Wasted Time: 0.4630).
+t=00027402ms: Step 1.13: Verify Reject analytics cookies's Visible Text contains Reject analytics cookies started    [MsgId: MMSG-205180]
+t=00027627ms: Step 1.13: Verify Reject analytics cookies's Visible Text contains Reject analytics cookies successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00027636ms: Step 1.14: Wait until Reject analytics cookies button exists started    [MsgId: MMSG-205180]
+t=00027870ms: Step 1.14: Wait until Reject analytics cookies button exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00028385ms: Step 1.15: Click on Reject analytics cookies button started    [MsgId: MMSG-205180]
+t=00029056ms: Step 1.15: Click on Reject analytics cookies button successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+t=00029060ms: Step 1.16: Verify Case list's Visible Text contains Case list started    [MsgId: MMSG-205180]
+t=00030389ms: Step 1.16: Verify Case list's Visible Text contains Case list successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00030394ms: Step 1.18: Wait 6 seconds started    [MsgId: MMSG-205180]
+t=00036608ms: Step 1.18: Wait 6 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00036616ms: Step 1: Function SignIn successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00036619ms: Step 1: Call Function Common.SignIn successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Running Vuser...
+Starting iteration 1.
+t=00036638ms: Step 1: Call Function Common.SelectCasesApplyFilter started    [MsgId: MMSG-205180]
+t=00036642ms: Step 2: Function SelectCasesApplyFilter started    [MsgId: MMSG-205180]
+Notify: Transaction "Cases" started.
+t=00037157ms: Step 2.1: Click on Case list link started    [MsgId: MMSG-205180]
+t=00043743ms: Step 2.1: Click on Case list link successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "Cases" ended with a "Pass" status (Duration: 6.5930 Wasted Time: 0.2250).
+t=00043747ms: Step 2.2: Wait until Your cases  exists started    [MsgId: MMSG-205180]
+t=00043987ms: Step 2.2: Wait until Your cases  exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00043989ms: Step 2.3: Wait until Filters heading exists started    [MsgId: MMSG-205180]
+t=00044218ms: Step 2.3: Wait until Filters heading exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00044728ms: Step 2.4: Select TC.getParam("state") from State listbox started    [MsgId: MMSG-205180]
+t=00046802ms: Step 2.4: Select TC.getParam("state") from State listbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "ApplyFilter" started.
+t=00047312ms: Step 2.5: Click on Apply filter button started    [MsgId: MMSG-205180]
+t=00049949ms: Step 2.5: Click on Apply filter button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "ApplyFilter" ended with a "Pass" status (Duration: 2.6390 Wasted Time: 0.3740).
+t=00049954ms: Step 2.6: Verify Your cases's Visible Text contains Your cases started    [MsgId: MMSG-205180]
+t=00050191ms: Step 2.6: Verify Your cases's Visible Text contains Your cases successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00050200ms: Step 2: Function SelectCasesApplyFilter successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00050203ms: Step 1: Call Function Common.SelectCasesApplyFilter successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Select Case" started.
+t=00050713ms: Step 3: Click on First case in list link started    [MsgId: MMSG-205180]
+t=00053668ms: Step 3: Click on First case in list link successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "Select Case" ended with a "Pass" status (Duration: 2.9580 Wasted Time: 0.4330).
+t=00053672ms: Step 4: Call Function Common.CasesSelectAllTabs started    [MsgId: MMSG-205180]
+t=00053675ms: Step 4: Function CasesSelectAllTabs started    [MsgId: MMSG-205180]
+t=00053679ms: Step 4.2: Call Function Common.ReturnAllTabs started    [MsgId: MMSG-205180]
+t=00053680ms: Step 3: Function ReturnAllTabs started    [MsgId: MMSG-205180]
+t=00053683ms: Step 3.1: Evaluate JavaScript code // Get ALL the divs that...vascript code"); started    [MsgId: MMSG-205180]
+t=00053689ms: Warning -205179: The TC.log API is deprecated because it is synchronous. Use the asynchronous API TCA.log instead. For details, see https://admhelp.microfocus.com/tc/en/2021.0.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00053689ms: selectedTabs.length: 14    [MsgId: MMSG-205180]
+t=00053689ms: selectedTabs: Tasks    [MsgId: MMSG-205180]
+t=00053689ms: selectedTabs: Roles and access    [MsgId: MMSG-205180]
+t=00053689ms: selectedTabs: Summary    [MsgId: MMSG-205180]
+t=00053690ms: selectedTabs: Case Flags    [MsgId: MMSG-205180]
+t=00053691ms: selectedTabs: Application_    [MsgId: MMSG-205180]
+t=00053691ms: selectedTabs: Case documents    [MsgId: MMSG-205180]
+t=00053692ms: selectedTabs: History    [MsgId: MMSG-205180]
+t=00053692ms: selectedTabs: Confidential details    [MsgId: MMSG-205180]
+t=00053692ms: selectedTabs: Case Notes    [MsgId: MMSG-205180]
+t=00053692ms: selectedTabs: Messages    [MsgId: MMSG-205180]
+t=00053692ms: selectedTabs: Parties    [MsgId: MMSG-205180]
+t=00053692ms: selectedTabs: Linked cases    [MsgId: MMSG-205180]
+t=00053692ms: selectedTabs: Case File View    [MsgId: MMSG-205180]
+t=00053693ms: selectedTabs: Hearings    [MsgId: MMSG-205180]
+t=00053693ms: End of javascript code    [MsgId: MMSG-205180]
+t=00053900ms: Step 3.1: Evaluate JavaScript code // Get ALL the divs that...vascript code"); successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00053905ms: Step 3: Function ReturnAllTabs successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00053907ms: Step 4.2: Call Function Common.ReturnAllTabs successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00053909ms: Step 4.4: For (var i = 0; i < selectedTabs.length; i++) started    [MsgId: MMSG-205180]
+t=00053912ms: Step 4.4: For loop iteration number 1 started    [MsgId: MMSG-205180]
+t=00053916ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00053920ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00054430ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00054664ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2360 Wasted Time: 0.2250).
+t=00054669ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00055397ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00055411ms: Step 4.4: For loop iteration number 1 ended    [MsgId: MMSG-205180]
+t=00055414ms: Step 4.4: For loop iteration number 2 started    [MsgId: MMSG-205180]
+t=00055417ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00055421ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00055937ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00056170ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2350 Wasted Time: 0.2190).
+t=00056171ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00056884ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00056886ms: Step 4.4: For loop iteration number 2 ended    [MsgId: MMSG-205180]
+t=00056889ms: Step 4.4: For loop iteration number 3 started    [MsgId: MMSG-205180]
+t=00056892ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00056896ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00057415ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00057647ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2350 Wasted Time: 0.2150).
+t=00057650ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00058371ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00058382ms: Step 4.4: For loop iteration number 3 ended    [MsgId: MMSG-205180]
+t=00058385ms: Step 4.4: For loop iteration number 4 started    [MsgId: MMSG-205180]
+t=00058387ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00058391ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00058899ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00059132ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2340 Wasted Time: 0.2210).
+t=00059133ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00059937ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00059940ms: Step 4.4: For loop iteration number 4 ended    [MsgId: MMSG-205180]
+t=00059944ms: Step 4.4: For loop iteration number 5 started    [MsgId: MMSG-205180]
+t=00059948ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00059956ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00060462ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00060684ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2230 Wasted Time: 0.2130).
+t=00060688ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00061427ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00061431ms: Step 4.4: For loop iteration number 5 ended    [MsgId: MMSG-205180]
+t=00061436ms: Step 4.4: For loop iteration number 6 started    [MsgId: MMSG-205180]
+t=00061440ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00061948ms: Step 4.4.2.1: Click on scroll right arrow  started    [MsgId: MMSG-205180]
+t=00064523ms: Step 4.4.2.1: Click on scroll right arrow  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00064527ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00065033ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00065265ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2350 Wasted Time: 0.2200).
+t=00065269ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00065995ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00065998ms: Step 4.4: For loop iteration number 6 ended    [MsgId: MMSG-205180]
+t=00066001ms: Step 4.4: For loop iteration number 7 started    [MsgId: MMSG-205180]
+t=00066009ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00066013ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00066530ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00066755ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2260 Wasted Time: 0.2160).
+t=00066757ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00067499ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00067501ms: Step 4.4: For loop iteration number 7 ended    [MsgId: MMSG-205180]
+t=00067505ms: Step 4.4: For loop iteration number 8 started    [MsgId: MMSG-205180]
+t=00067509ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00067516ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00068032ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00068259ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2290 Wasted Time: 0.2130).
+t=00068264ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00068996ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00068998ms: Step 4.4: For loop iteration number 8 ended    [MsgId: MMSG-205180]
+t=00069000ms: Step 4.4: For loop iteration number 9 started    [MsgId: MMSG-205180]
+t=00069003ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00069006ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00069511ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00069734ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2230 Wasted Time: 0.2140).
+t=00069736ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00070452ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00070457ms: Step 4.4: For loop iteration number 9 ended    [MsgId: MMSG-205180]
+t=00070462ms: Step 4.4: For loop iteration number 10 started    [MsgId: MMSG-205180]
+t=00070465ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00070472ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00070984ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00071213ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2330 Wasted Time: 0.2190).
+t=00071217ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00071946ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00071948ms: Step 4.4: For loop iteration number 10 ended    [MsgId: MMSG-205180]
+t=00071951ms: Step 4.4: For loop iteration number 11 started    [MsgId: MMSG-205180]
+t=00071954ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00072468ms: Step 4.4.2.1: Click on scroll right arrow  started    [MsgId: MMSG-205180]
+t=00074709ms: Step 4.4.2.1: Click on scroll right arrow  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00074712ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00075220ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00075444ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2250 Wasted Time: 0.2150).
+t=00075453ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00076175ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00076178ms: Step 4.4: For loop iteration number 11 ended    [MsgId: MMSG-205180]
+t=00076183ms: Step 4.4: For loop iteration number 12 started    [MsgId: MMSG-205180]
+t=00076185ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00076198ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00076706ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00076939ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2350 Wasted Time: 0.2240).
+t=00076942ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00077652ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00077655ms: Step 4.4: For loop iteration number 12 ended    [MsgId: MMSG-205180]
+t=00077663ms: Step 4.4: For loop iteration number 13 started    [MsgId: MMSG-205180]
+t=00077665ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00077669ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00078175ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00078408ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2350 Wasted Time: 0.2250).
+t=00078415ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00079137ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00079143ms: Step 4.4: For loop iteration number 13 ended    [MsgId: MMSG-205180]
+t=00079144ms: Step 4.4: For loop iteration number 14 started    [MsgId: MMSG-205180]
+t=00079147ms: Step 4.4.2: If (i > 0 && i % 5 == 0) started    [MsgId: MMSG-205180]
+t=00079151ms: Step 4.4.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" started.
+t=00079669ms: Step 4.4.3: Click on selectedTabs tab started    [MsgId: MMSG-205180]
+t=00079894ms: Step 4.4.3: Click on selectedTabs tab successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SelectedTab" ended with a "Pass" status (Duration: 0.2270 Wasted Time: 0.2160).
+t=00079897ms: Step 4.4.4: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00080621ms: Step 4.4.4: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00080624ms: Step 4.4: For loop iteration number 14 ended    [MsgId: MMSG-205180]
+t=00080630ms: Step 4.4: For (var i = 0; i < selectedTabs.length; i++) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00080637ms: Step 4: Function CasesSelectAllTabs successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00080640ms: Step 4: Call Function Common.CasesSelectAllTabs successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00080641ms: Step 5: Call Function Common.SelectCaseFileViewPDF started    [MsgId: MMSG-205180]
+t=00080643ms: Step 7: Function SelectCaseFileViewPDF started    [MsgId: MMSG-205180]
+t=00080645ms: Step 7.1: Call Function Common.ReturnVisibleTabs started    [MsgId: MMSG-205180]
+t=00080646ms: Step 5: Function ReturnVisibleTabs started    [MsgId: MMSG-205180]
+t=00080649ms: Step 5.2: Evaluate JavaScript code // Get ALL the divs that...vascript code"); started    [MsgId: MMSG-205180]
+t=00080652ms: isCaseDocumentsVisible: true    [MsgId: MMSG-205180]
+t=00080652ms: isCaseFileViewVisible: true    [MsgId: MMSG-205180]
+t=00080652ms: isHearingsVisible: true    [MsgId: MMSG-205180]
+t=00080859ms: Step 5.2: Evaluate JavaScript code // Get ALL the divs that...vascript code"); successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00080863ms: Step 5: Function ReturnVisibleTabs successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00080865ms: Step 7.1: Call Function Common.ReturnVisibleTabs successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00080867ms: Step 7.2: If (isCaseFileViewVisible == true) started    [MsgId: MMSG-205180]
+Notify: Transaction "CaseFileViewTab" started.
+t=00081383ms: Step 7.2.2: Click on Case File View tab started    [MsgId: MMSG-205180]
+t=00082987ms: Step 7.2.2: Click on Case File View tab successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "CaseFileViewTab" ended with a "Pass" status (Duration: 1.6100 Wasted Time: 0.4320).
+t=00082995ms: Step 7.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00083001ms: Step 7: Function SelectCaseFileViewPDF successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00083003ms: Step 5: Call Function Common.SelectCaseFileViewPDF successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00083005ms: Step 6: Call Function Common.SelectHearings started    [MsgId: MMSG-205180]
+t=00083006ms: Step 8: Function SelectHearings started    [MsgId: MMSG-205180]
+t=00083009ms: Step 8.1: Call Function Common.ReturnVisibleTabs started    [MsgId: MMSG-205180]
+t=00083010ms: Step 5: Function ReturnVisibleTabs started    [MsgId: MMSG-205180]
+t=00083013ms: Step 5.2: Evaluate JavaScript code // Get ALL the divs that...vascript code"); started    [MsgId: MMSG-205180]
+t=00083017ms: isCaseDocumentsVisible: true    [MsgId: MMSG-205180]
+t=00083017ms: isCaseFileViewVisible: true    [MsgId: MMSG-205180]
+t=00083017ms: isHearingsVisible: true    [MsgId: MMSG-205180]
+t=00083221ms: Step 5.2: Evaluate JavaScript code // Get ALL the divs that...vascript code"); successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00083226ms: Step 5: Function ReturnVisibleTabs successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00083231ms: Step 8.1: Call Function Common.ReturnVisibleTabs successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00083235ms: Step 8.2: If (isHearingsVisible == true) started    [MsgId: MMSG-205180]
+t=00083748ms: Step 8.2.1: Click on scroll right arrow  started    [MsgId: MMSG-205180]
+t=00085986ms: Step 8.2.1: Click on scroll right arrow  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00085988ms: Step 8.2.2: Wait 500 milliseconds started    [MsgId: MMSG-205180]
+t=00086704ms: Step 8.2.2: Wait 500 milliseconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "HearingsTab" started.
+t=00087211ms: Step 8.2.3: Click on Hearings tab started    [MsgId: MMSG-205180]
+t=00089458ms: Step 8.2.3: Click on Hearings tab successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "HearingsTab" ended with a "Pass" status (Duration: 2.2520 Wasted Time: 0.3020).
+t=00089463ms: Step 8.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00089474ms: Step 8: Function SelectHearings successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00089476ms: Step 6: Call Function Common.SelectHearings successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00089478ms: Step 7: Call Function Common.AddCaseNote started    [MsgId: MMSG-205180]
+t=00089479ms: Step 9: Function AddCaseNote started    [MsgId: MMSG-205180]
+t=00089990ms: Step 9.1: Select Add a case note from Next step listbox started    [MsgId: MMSG-205180]
+t=00090316ms: Step 9.1: Select Add a case note from Next step listbox successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "AddCaseNoteDialog" started.
+t=00090833ms: Step 9.2: Click on Go button started    [MsgId: MMSG-205180]
+t=00096475ms: Step 9.2: Click on Go button successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "AddCaseNoteDialog" ended with a "Pass" status (Duration: 5.6530 Wasted Time: 0.4260).
+t=00096981ms: Step 9.3: Click on Subject textbox started    [MsgId: MMSG-205180]
+t=00097219ms: Step 9.3: Click on Subject textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00097733ms: Step 9.4: Type Performance test subject in Subject textbox started    [MsgId: MMSG-205180]
+t=00101197ms: Step 9.4: Type Performance test subject in Subject textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00101714ms: Step 9.5: Type Performance test case note in case noteAdd note detail,... textbox started    [MsgId: MMSG-205180]
+t=00105002ms: Step 9.5: Type Performance test case note in case noteAdd note detail,... textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00105520ms: Step 9.6: Click on Continue button started    [MsgId: MMSG-205180]
+t=00108101ms: Step 9.6: Click on Continue button successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "AddCaseNote" started.
+t=00108612ms: Step 9.7: Click on Save and continue button started    [MsgId: MMSG-205180]
+t=00114500ms: Step 9.7: Click on Save and continue button successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "AddCaseNote" ended with a "Pass" status (Duration: 5.8900 Wasted Time: 0.4220).
+Notify: Transaction "CaseNotes" started.
+t=00115004ms: Step 9.8: Click on Case Notes tab started    [MsgId: MMSG-205180]
+t=00115628ms: Step 9.8: Click on Case Notes tab successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "CaseNotes" ended with a "Pass" status (Duration: 0.6260 Wasted Time: 0.4420).
+t=00115645ms: Step 9: Function AddCaseNote successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00115648ms: Step 7: Call Function Common.AddCaseNote successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00115651ms: Step 8: Call Function Common.UploadScannedDocument started    [MsgId: MMSG-205180]
+t=00115656ms: Step 11: Function UploadScannedDocument started    [MsgId: MMSG-205180]
+t=00116174ms: Step 11.1: Select Attach scanned docs from Next step listbox started    [MsgId: MMSG-205180]
+t=00116213ms: Step 11.1: Select Attach scanned docs from Next step listbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "AttachedScanDocsDialog" started.
+t=00116721ms: Step 11.2: Click on Go button started    [MsgId: MMSG-205180]
+t=00121487ms: Step 11.2: Click on Go button successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "AttachedScanDocsDialog" ended with a "Pass" status (Duration: 4.7680 Wasted Time: 0.4180).
+Notify: Transaction "UploadDocument" started.
+t=00122002ms: Step 11.3: Set C:\Performance Test\Perf...est Document.pdf on Scanned document url... filebox started    [MsgId: MMSG-205180]
+t=00122988ms: Step 11.3: Set C:\Performance Test\Perf...est Document.pdf on Scanned document url... filebox successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "UploadDocument" ended with a "Pass" status (Duration: 0.9930 Wasted Time: 0.4420).
+t=00122995ms: Step 11.4: Wait 3 seconds started    [MsgId: MMSG-205180]
+t=00126208ms: Step 11.4: Wait 3 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00126718ms: Step 11.5: Click on File Name (Optional) textbox started    [MsgId: MMSG-205180]
+t=00129000ms: Step 11.5: Click on File Name (Optional) textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00129023ms: Step 11.6: Evaluate JavaScript code var currentdate = new Da...te.getSeconds(); started    [MsgId: MMSG-205180]
+t=00129247ms: Step 11.6: Evaluate JavaScript code var currentdate = new Da...te.getSeconds(); successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00129768ms: Step 11.7: Type datetime in File Name (Optional) textbox started    [MsgId: MMSG-205180]
+t=00134617ms: Step 11.7: Type Performance_test_4102023_152422 in File Name (Optional) textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00135135ms: Step 11.8: Click on Continue button started    [MsgId: MMSG-205180]
+t=00137895ms: Step 11.8: Click on Continue button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00138400ms: Step 11.9: Click on Yes  started    [MsgId: MMSG-205180]
+t=00138661ms: Step 11.9: Click on Yes  successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "SubmitScannedDocument" started.
+t=00139178ms: Step 11.10: Click on Submit button started    [MsgId: MMSG-205180]
+t=00145514ms: Step 11.10: Click on Submit button successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "SubmitScannedDocument" ended with a "Pass" status (Duration: 6.3410 Wasted Time: 0.4380).
+t=00146025ms: Step 11.11: Click on Case documents tab started    [MsgId: MMSG-205180]
+t=00147309ms: Step 11.11: Click on Case documents tab successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+t=00147319ms: Step 11: Function UploadScannedDocument successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00147324ms: Step 8: Call Function Common.UploadScannedDocument successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00147330ms: Step 9: Call Function Common.SelectCaseDocumentsPDF started    [MsgId: MMSG-205180]
+t=00147338ms: Step 6: Function SelectCaseDocumentsPDF started    [MsgId: MMSG-205180]
+t=00147348ms: Step 6.1: Call Function Common.ReturnVisibleTabs started    [MsgId: MMSG-205180]
+t=00147352ms: Step 5: Function ReturnVisibleTabs started    [MsgId: MMSG-205180]
+t=00147361ms: Step 5.2: Evaluate JavaScript code // Get ALL the divs that...vascript code"); started    [MsgId: MMSG-205180]
+t=00147370ms: isCaseDocumentsVisible: true    [MsgId: MMSG-205180]
+t=00147372ms: isCaseFileViewVisible: true    [MsgId: MMSG-205180]
+t=00147373ms: isHearingsVisible: true    [MsgId: MMSG-205180]
+t=00147587ms: Step 5.2: Evaluate JavaScript code // Get ALL the divs that...vascript code"); successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00147597ms: Step 5: Function ReturnVisibleTabs successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00147602ms: Step 6.1: Call Function Common.ReturnVisibleTabs successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00147610ms: Step 6.2: If (isCaseDocumentsVisible == true) started    [MsgId: MMSG-205180]
+Notify: Transaction "CaseDocumentsTab" started.
+t=00148131ms: Step 6.2.1: Click on Case documents tab started    [MsgId: MMSG-205180]
+t=00150422ms: Step 6.2.1: Click on Case documents tab successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "CaseDocumentsTab" ended with a "Pass" status (Duration: 2.2950 Wasted Time: 0.9310).
+t=00150445ms: Step 6.2.2: Wait 3 seconds started    [MsgId: MMSG-205180]
+t=00153670ms: Step 6.2.2: Wait 3 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00153675ms: Step 6.2.3: Wait until any pdf JavaScript link exists started    [MsgId: MMSG-205180]
+t=00153943ms: Step 6.2.3: Wait until any pdf JavaScript link exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "MediaViewer" started.
+t=00154457ms: Step 6.2.5: Click on Select first pdf JavaScript link started    [MsgId: MMSG-205180]
+t=00164814ms: Step 6.2.5: Click on Select first pdf JavaScript link successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "MediaViewer" ended with a "Pass" status (Duration: 10.3640 Wasted Time: 0.6080).
+t=00165319ms: Step 6.2.7: Activate tab #2 started    [MsgId: MMSG-205180]
+t=00167565ms: Step 6.2.7: Activate tab #2 successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00167570ms: Step 6.2.8: Wait 1 seconds started    [MsgId: MMSG-205180]
+t=00172645ms: Step 6.2.8: Wait 1 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00173161ms: Step 6.2.9: Close Tab active tab started    [MsgId: MMSG-205180]
+t=00176076ms: Step 6.2.9: Close Tab active tab successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00176083ms: Step 6.2.10: Wait 1 seconds started    [MsgId: MMSG-205180]
+t=00177302ms: Step 6.2.10: Wait 1 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00177820ms: Step 6.2.11: Activate tab #1 started    [MsgId: MMSG-205180]
+t=00180059ms: Step 6.2.11: Activate tab #1 successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00180066ms: Step 6.2: If (true) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00180076ms: Step 6: Function SelectCaseDocumentsPDF successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00180083ms: Step 9: Call Function Common.SelectCaseDocumentsPDF successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+t=00180194ms: Step 1: Call Function Common.SignOut started    [MsgId: MMSG-205180]
+t=00180200ms: Step 10: Function SignOut started    [MsgId: MMSG-205180]
+Notify: Transaction "SignOut" started.
+t=00180724ms: Step 10.2: Click on Sign out link started    [MsgId: MMSG-205180]
+t=00183574ms: Step 10.2: Click on Sign out link successfully completed with End Event "Object Exists"    [MsgId: MMSG-205180]
+Notify: Transaction "SignOut" ended with a "Pass" status (Duration: 2.8550 Wasted Time: 0.3450).
+t=00183585ms: Step 10: Function SignOut successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00183587ms: Step 1: Call Function Common.SignOut successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Vuser Terminated.
