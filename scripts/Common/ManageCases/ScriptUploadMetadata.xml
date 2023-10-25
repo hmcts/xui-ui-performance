@@ -36,8 +36,11 @@
     <FileEntry Name="default.cfg.bak" Filter="1" />
     <FileEntry Name="interactive_replay_Chromium.txt" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
+<<<<<<< HEAD
+=======
     <FileEntry Name="ManageCases.c.pickle" Filter="1" />
     <FileEntry Name="ManageCases.ci" Filter="1" />
+>>>>>>> 4688b10e11b0738bd0e8935cb4f5e9ed68ade9a5
     <FileEntry Name="ManageCases.prm.bak" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
