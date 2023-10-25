@@ -39,6 +39,7 @@
     <FileEntry Name="interactive_replay_Chromium.txt" Filter="1" />
     <FileEntry Name="interactive_replay_TruClientBrowser.txt" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="ManageCases.prm.bak" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrvi3a.911.log" Filter="1" />
     <FileEntry Name="mdrvSFs.305.log" Filter="1" />

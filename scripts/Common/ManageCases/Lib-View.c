@@ -48,7 +48,7 @@ Library_Common()
 		truclient_step("3.2", "Evaluate JavaScript code //TC.log('Starting custo...andomCaseIndex);", "snapshot=Common_3.2.inf");
 		/* Pick a random case link */
 		lr_start_transaction("Select Case");
-		truclient_step("3.4", "Click on First case in list link", "snapshot=Common_3.4.inf");
+		truclient_step("3.4", "Click on random case in list link", "snapshot=Common_3.4.inf");
 		lr_end_transaction("Select Case",0);
 	}
 	truclient_step("4", "Function ReturnAllTabs", "snapshot=Common_4.inf");
