@@ -66,7 +66,7 @@ Order="SignInPage__*delimiter*__SignIn__*delimiter*__Cases__*delimiter*__ApplyFi
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=result1
+LastReplayedRunName=
 ActiveRunName=
 [Transactions]
 SignInPage=
