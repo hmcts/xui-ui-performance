@@ -67,10 +67,11 @@ Library_Common()
 			{
 				truclient_step("5.4.2.1", "Click on scroll right arrow", "snapshot=Common_5.4.2.1.inf");
 			}
+			/* This needs to be improved as the 'end event' is not accurately capturing the load time. Will look to see if all tabs/names can be captured and used as an object/text check */
 			lr_start_transaction("SelectedTab");
-			truclient_step("5.4.3", "Click on selectedTabs tab", "snapshot=Common_5.4.3.inf");
+			truclient_step("5.4.4", "Click on selectedTabs tab", "snapshot=Common_5.4.4.inf");
 			lr_end_transaction("SelectedTab",0);
-			truclient_step("5.4.4", "Wait 500 milliseconds", "snapshot=Common_5.4.4.inf");
+			truclient_step("5.4.5", "Wait 500 milliseconds", "snapshot=Common_5.4.5.inf");
 		}
 	}
 	truclient_step("6", "Function ReturnVisibleTabs", "snapshot=Common_6.inf");
