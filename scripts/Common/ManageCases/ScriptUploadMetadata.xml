@@ -29,7 +29,9 @@
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
     <FileEntry Name="1400946440.idx" Filter="1" />
+    <FileEntry Name="166807369440.idx" Filter="1" />
     <FileEntry Name="183456843440.idx" Filter="1" />
+    <FileEntry Name="20789334440.idx" Filter="1" />
     <FileEntry Name="239039821440.idx" Filter="1" />
     <FileEntry Name="260360388440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
@@ -49,5 +51,7 @@
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
+    <FileEntry Name="results\" Filter="1" />
+    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
