@@ -113,14 +113,14 @@ Library_Common()
 			truclient_step("9.4.1", "Click on Add new button", "snapshot=Common_9.4.1.inf");
 			truclient_step("9.4.2", "Evaluate JavaScript code // capture the number of...) || []).length;", "snapshot=Common_9.4.2.inf");
 			lr_start_transaction("UploadDocument");
-			truclient_step("9.4.3", "Set C:\Performance Test\Perf...est Document.pdf on Scanned document url... filebox", "snapshot=Common_9.4.3.inf");
+			truclient_step("9.4.3", "Set C:\Git\xui-ui-performanc...nce_Test_1MB.pdf on Scanned document url... filebox", "snapshot=Common_9.4.3.inf");
 			lr_end_transaction("UploadDocument",0);
 			truclient_step("9.4.4", "Wait 3 seconds", "snapshot=Common_9.4.4.inf");
 			truclient_step("9.4.5", "Type datetime in File Name (Optional) textbox", "snapshot=Common_9.4.5.inf");
 			truclient_step("9.4.6", "Click on Continue button", "snapshot=Common_9.4.6.inf");
 			/* Else create a first attachment */
 			truclient_step("9.4.2", "Click on Add new button", "snapshot=Common_9.4.2.inf");
-			truclient_step("9.4.3", "Set C:\Performance Test\Perf...est Document.pdf on Scanned document url... filebox", "snapshot=Common_9.4.3.inf");
+			truclient_step("9.4.3", "Set C:\Git\xui-ui-performanc...nce_Test_1MB.pdf on Scanned document url... filebox", "snapshot=Common_9.4.3.inf");
 			truclient_step("9.4.4", "Type datetime in File Name (Optional) textbox", "snapshot=Common_9.4.4.inf");
 			truclient_step("9.4.5", "Click on Continue button", "snapshot=Common_9.4.5.inf");
 		}
@@ -181,7 +181,7 @@ Library_Common()
 		truclient_step("12.4", "Click on Other Documents columnheader", "snapshot=Common_12.4.inf");
 		truclient_step("12.5", "Click on Any Other Documents columnheader", "snapshot=Common_12.5.inf");
 		lr_start_transaction("CaseFileViewMediaViewer");
-		truclient_step("12.6", "Click on Performance Test Document... columnheader", "snapshot=Common_12.6.inf");
+		truclient_step("12.6", "Click on Performance_Test_1MB.pdf columnheader", "snapshot=Common_12.6.inf");
 		lr_end_transaction("CaseFileViewMediaViewer",0);
 	}
 	truclient_step("13", "Function SignOut", "snapshot=Common_13.inf");
