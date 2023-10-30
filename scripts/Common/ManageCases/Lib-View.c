@@ -171,11 +171,12 @@ Library_Common()
 		truclient_step("12.2", "Call Function Common.ReturnVisibleTabs", "snapshot=Common_12.2.inf");
 		truclient_step("12.3", "If ( isCaseFileViewVisible == true )", "snapshot=Common_12.3.inf");
 		{
-			/* Click on right arrow to bring tab into focus */
-			truclient_step("12.3.2", "Click on right arrow", "snapshot=Common_12.3.2.inf");
+			/* Click on right arrow twice to bring tab into focus */
+			truclient_step("12.3.2", "Wait 1 seconds", "snapshot=Common_12.3.2.inf");
+			truclient_step("12.3.3", "Click on right arrow", "snapshot=Common_12.3.3.inf");
 			/* Currently checks the tab exists and loads it. Need to build it out more to find a PDF and load it. */
 			lr_start_transaction("CaseFileViewTab");
-			truclient_step("12.3.4", "Click on Case File View tab", "snapshot=Common_12.3.4.inf");
+			truclient_step("12.3.5", "Click on Case File View tab", "snapshot=Common_12.3.5.inf");
 			lr_end_transaction("CaseFileViewTab",0);
 		}
 		truclient_step("12.4", "Click on Other Documents columnheader", "snapshot=Common_12.4.inf");
