@@ -1,0 +1,3592 @@
+<truLibrary engineVersion="2021.0.0.248" timestamp="Tue Nov 07 2023 16:49:42 GMT+0000 (Greenwich Mean Time)">
+<step type="library" stepId="step:{f32f0e3d-865f-31ba-4e48-a6a94894fa9e}" action="Common" level="43" arguments="{}" snapshotId="yxrlqoji"><step type="function" stepId="step:{3e114467-5b1b-4740-6098-4c30ff80927b}" action="SignIn" level="1" arguments="{}" snapshotId="ilfstpa" index="1" argsSchema="{}"><step type="block" stepId="step:{1eb446fe-6bba-c47e-1169-3c00bf73cb20}" action="internal" level="43" arguments="{}" snapshotId="zohwawl"><step type="util" stepId="step:{59f2401a-c129-d2b2-37e7-31f9bbe2e9c8}" action="Comment" level="1" arguments="{}" snapshotId="zsemwyo" index="1" comment="Signs a user in"/><step type="testObject" testObject="testObj:{00000000-0000-0000-0000-000000000001}" stepId="step:{28d72870-f899-1072-4dfe-747268562fae}" action="Navigate" level="1" arguments="{&quot;Location&quot;:{&quot;value&quot;:&quot;TC.getParam(\&quot;hostname\&quot;)&quot;,&quot;evalJavaScript&quot;:true}}" snapshotId="gqlqpybbf" index="2" recDuration="12" autoEndEventChrome="Step synchronous network completed" manualDuration="0" autoEndEventFF="Step synchronous network completed"/><step type="testObject" stepId="step:{71cabd92-6d47-ef60-0dec-131a864c6c87}" action="Verify" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;Sign in&quot;}}" snapshotId="uscxapx" index="3" testObject="testObj:{83e57cd6-e29a-9c5c-9377-c6857cc686f1}"/><step type="testObject" stepId="step:{aab73448-7afe-745f-966c-214668525045}" action="Verify" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;Reject additional cookies&quot;}}" snapshotId="izrrkauqq" index="4" testObject="testObj:{698ec180-dc29-1ff6-4ace-b02eef6402cb}"/><step type="testObject" testObject="testObj:{698ec180-dc29-1ff6-4ace-b02eef6402cb}" stepId="step:{d2dd7394-63d7-60d9-0821-e7ed3527271b}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:77},&quot;Y Coordinate&quot;:{&quot;value&quot;:9}}" snapshotId="ksjeciads" index="5" recDuration="24" autoEndEventChrome="Step network completed" manualDuration="0" autoEndEventFF="Action completed"/><step type="testObject" stepId="step:{f1d3f31d-54aa-1d0e-960b-0b41ce7b8ab7}" action="Verify" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;Hide this cookie message&quot;}}" snapshotId="bgxjfetip" index="6" testObject="testObj:{d7509684-6f02-dc92-bd49-da429aed373c}"/><step type="testObject" testObject="testObj:{d7509684-6f02-dc92-bd49-da429aed373c}" stepId="step:{7867f57f-e591-9690-f0c3-ec0e09b15376}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:91},&quot;Y Coordinate&quot;:{&quot;value&quot;:21}}" snapshotId="oefgszhe" index="7" recDuration="2" autoEndEventChrome="Step network completed" manualDuration="0" autoEndEventFF="Action completed"/><step type="testObject" testObject="testObj:{97370162-03b6-996b-78ae-983232149b1d}" stepId="step:{9b0576b7-2d63-7a23-03b2-c7dea15a9deb}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:17},&quot;Y Coordinate&quot;:{&quot;value&quot;:19}}" snapshotId="zhqwwbqgx" index="8" autoEndEventChrome="Action completed" manualDuration="0" autoEndEventFF="Action completed"/><step type="testObject" testObject="testObj:{3f76b3ec-db89-629d-ff8a-e77b210666ff}" stepId="step:{e99351ad-f6c5-337f-5e4d-5ad83a8cdb24}" action="Type" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;TC.getParam(\&quot;username\&quot;)&quot;,&quot;evalJavaScript&quot;:true}}" snapshotId="hdzpcbns" unfinalized="true" index="9" manualDuration="0" autoEndEventChrome="Action completed" autoEndEventFF="Action completed"/><step type="testObject" testObject="testObj:{644a2258-ca9b-6cee-29ad-7c131fc651e4}" stepId="step:{871a1163-34e2-0332-0008-1718da699183}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:233},&quot;Y Coordinate&quot;:{&quot;value&quot;:10}}" snapshotId="gjlhte" index="10" autoEndEventChrome="Step network completed" autoEndEventFF="Action completed"/><step type="testObject" testObject="testObj:{644a2258-ca9b-6cee-29ad-7c131fc651e4}" stepId="step:{49c90d34-25b5-cfee-6dec-95f4fbc827da}" action="Type" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;Testing123&quot;}}" snapshotId="qluzfzvj" unfinalized="true" index="11" recDuration="7" autoEndEventChrome="Action completed" manualDuration="0" autoEndEventFF="Action completed"/><step type="testObject" testObject="testObj:{f469438a-0e37-8c2a-18ea-0f4b7de21840}" stepId="step:{2d435fd6-5205-a71b-10af-ea34300266f7}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:42},&quot;Y Coordinate&quot;:{&quot;value&quot;:17}}" snapshotId="eyazawm" index="12" recDuration="15" autoEndEventChrome="Step network completed" manualDuration="0" endEvent="Object Exists" endEventArgs="{&quot;objectId&quot;:&quot;testObj:{4fa19b7a-b532-4e96-bafd-58ea76843ae4}&quot;}"/><step type="testObject" stepId="step:{c225dde6-9e7f-7f81-a72c-cbc872cb7378}" action="Verify" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;Reject analytics cookies&quot;}}" snapshotId="kmmfgckwb" index="13" testObject="testObj:{b1eb9528-8372-84e2-4fc8-b80a76b83099}"/><step type="testObject" stepId="step:{232da15b-a6b9-abbb-85f2-f57f6e8d94c0}" action="Wait" level="1" arguments="{}" snapshotId="zrkmsvmkk" index="14" testObject="testObj:{b1eb9528-8372-84e2-4fc8-b80a76b83099}"/><step type="testObject" testObject="testObj:{b1eb9528-8372-84e2-4fc8-b80a76b83099}" stepId="step:{decbac0a-45e6-d004-d724-9a3b2936a6a8}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:160},&quot;Y Coordinate&quot;:{&quot;value&quot;:4}}" snapshotId="kuxjsfvza" index="15" autoEndEventChrome="Document Loaded" manualDuration="0" autoEndEventFF="Step synchronous network completed"/><step type="testObject" stepId="step:{409174e8-88e2-de9c-c10a-c99eed85e5a8}" action="Verify" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;Case list&quot;}}" snapshotId="gupkdmbk" index="16" testObject="testObj:{90fae021-0edb-6120-b078-a9fb0e427bf1}"/><step type="util" stepId="step:{9ba9816c-5324-aaf7-997c-3468640c890c}" action="Comment" level="1" arguments="{}" snapshotId="mxskugltp" index="17" comment="Adding a temporary delay here to account for the time it takes to show the &quot;Sorry, there is a problem with the service&quot; message."/><step type="util" stepId="step:{6d6800d4-2899-b7ff-350c-95079a3b73f9}" action="Wait" level="1" arguments="{&quot;Interval&quot;:{&quot;value&quot;:&quot;6&quot;}}" snapshotId="dooimxt" index="18" disabled="true"/></step></step><step type="function" stepId="step:{af0a5b5e-f82a-8287-1107-f8e165a590de}" action="AttachScannedDocsDialog" level="1" arguments="{}" snapshotId="fveyvxmo" index="2" argsSchema="{}"><step type="block" stepId="step:{f2ed2569-3614-95d6-cdb5-139097a8f694}" action="internal" level="43" arguments="{}" snapshotId="dcvcjj"><step type="alternative" stepId="step:{d2a7ab1d-5ff1-9fc9-385f-5ba4f285d608}" action="Select" level="1" arguments="{}" snapshotId="bwxbef" activeStep="0" index="1"><step type="testObject" testObject="testObj:{1b6e4a0d-8ecc-3fbb-6dd0-5398c8ac2aac}" stepId="step:{f6b170cd-263b-db72-6fc5-63f8d199be04}" action="Select" level="43" arguments="{&quot;Text&quot;:{&quot;value&quot;:&quot;Attach scanned docs&quot;}}" snapshotId="kflle" unfinalized="true" autoEndEventChrome="Action completed" manualDuration="0"/><step type="testObject" testObject="testObj:{1b6e4a0d-8ecc-3fbb-6dd0-5398c8ac2aac}" stepId="step:{574d1bbe-9504-3b09-c844-d7b431beba59}" action="Select" level="43" arguments="{&quot;Ordinal&quot;:{&quot;value&quot;:15}}" snapshotId="utjbbb"/></step><step type="testObject" testObject="testObj:{f985fe66-2679-1344-f8ec-e39b34477c8a}" stepId="step:{be90a8b0-17a3-b1d4-dd41-ccb3265f453b}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:31},&quot;Y Coordinate&quot;:{&quot;value&quot;:8}}" snapshotId="brfmdyn" index="2" recDuration="17" autoEndEventChrome="Step network completed" manualDuration="0" endEvent="Object Exists" endEventArgs="{&quot;objectId&quot;:&quot;testObj:{e4dad869-8ac0-a71f-873d-9de2f0c863f3}&quot;}"/></step></step><step type="function" stepId="step:{45016a98-2a0c-1075-3db8-709cecff4d25}" action="AttachScannedDocument" level="1" arguments="{}" snapshotId="gdmewgka" index="3" argsSchema="{}"><step type="block" stepId="step:{16a973cd-b41c-bd72-85ec-e21a48a28e96}" action="internal" level="43" arguments="{}" snapshotId="atbcirqf"><step type="callFunction" stepId="step:{38277c22-d792-5c88-253d-6829fafcf387}" action="" level="1" arguments="{}" snapshotId="epvvmps" libName="Common" funcName="AttachScannedDocsDialog" index="1"/><step type="util" stepId="step:{2bcbd0db-dd39-a9bf-5063-0908467a4ce1}" action="Evaluate JavaScript" level="1" arguments="{&quot;Code&quot;:{&quot;value&quot;:&quot;// create a string containing a timestamp\nvar currentdate = new Date();\nvar datetime = \&quot;Performance_test_\&quot; + currentdate.getDate() + (currentdate.getMonth()+1) + currentdate.getFullYear() + \&quot;_\&quot; + currentdate.getHours() + currentdate.getMinutes();&quot;}}" snapshotId="herzzkqu" index="2"/><step type="testObject" testObject="testObj:{74bffec5-5cf6-9843-a93d-03f5c9ed23ae}" stepId="step:{3c52a7d5-ac62-e3ac-133d-cf45e7730625}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:60},&quot;Y Coordinate&quot;:{&quot;value&quot;:16}}" snapshotId="tlbuguyyz" index="3" recDuration="13" autoEndEventChrome="Action completed" manualDuration="0"/><step type="util" stepId="step:{06a6af10-bede-db48-5de1-810063a5a1fd}" action="Evaluate JavaScript" level="1" arguments="{&quot;Code&quot;:{&quot;value&quot;:&quot;// capture the number of occurrences of \&quot;Scanned Records\&quot;\nvar bodyText = document.body.innerText;\n//var searchTerm = \&quot;Scanned Records\&quot;;\nvar searchTerm = \&quot;Scanned Documents\&quot;;\nvar searchRegex = new RegExp(searchTerm, \&quot;g\&quot;);\nvar scannedRecordsCount = (bodyText.match(searchRegex) || []).length;\nTC.log(\&quot;scannedRecordsCount: \&quot; + scannedRecordsCount);&quot;}}" snapshotId="jaxle" index="4"/><step type="alternative" stepId="step:{33ced232-70ce-5688-be11-e25cb212b4bf}" action="Select" level="1" arguments="{}" snapshotId="mzhzk" activeStep="0" index="5"><step type="testObject" testObject="testObj:{a9d3aa2f-1e9e-e724-309f-cb52c8e4ac54}" stepId="step:{d3aacc5a-11f9-fccd-a63f-d209ed2f9810}" action="Select" level="43" arguments="{&quot;Text&quot;:{&quot;value&quot;:&quot;Other&quot;}}" snapshotId="ffjuozis" unfinalized="true" autoEndEventChrome="Step network completed" manualDuration="0"/><step type="testObject" testObject="testObj:{a9d3aa2f-1e9e-e724-309f-cb52c8e4ac54}" stepId="step:{75857a20-568d-d688-88d7-c74872e66465}" action="Select" level="43" arguments="{&quot;Ordinal&quot;:{&quot;value&quot;:15}}" snapshotId="leqkxjq"/></step><step type="testObject" testObject="testObj:{18a5e328-4ec4-5c1a-71b7-1bb186fc3ca0}" stepId="step:{de788fa8-5320-24bf-ca44-b5d39e2d78a2}" action="Set" level="1" arguments="{&quot;Path&quot;:{&quot;value&quot;:&quot;C:\\Git\\xui-ui-performance\\Scripts\\Data\\Performance_Test_1MB.pdf&quot;}}" snapshotId="ipntmps" index="6" recDuration="3" manualDuration="0" autoEndEventChrome="Step network completed"/><step type="testObject" testObject="testObj:{fad1ac9a-bc3d-8b79-86c2-49c12e83c63e}" stepId="step:{7f37d710-0352-032b-f40c-777082581874}" action="Type" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;1&quot;}}" snapshotId="gfuoywbvm" unfinalized="true" index="7" manualDuration="0" autoEndEventChrome="Action completed"/><step type="testObject" testObject="testObj:{43674628-a1aa-b062-f109-82afa26bc879}" stepId="step:{efb9a60e-1c60-862c-861e-8637e6058418}" action="Type" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;1&quot;}}" snapshotId="whfetr" unfinalized="true" index="8" manualDuration="0" autoEndEventChrome="Action completed"/><step type="testObject" testObject="testObj:{66aa38c2-09bb-99f7-6132-5251bfb061ec}" stepId="step:{314292bd-b7f0-ae80-ea64-1b8b1cec6d88}" action="Type" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;01&quot;}}" snapshotId="nbkmieyaw" unfinalized="true" index="9" manualDuration="0" autoEndEventChrome="Action completed"/><step type="testObject" testObject="testObj:{17ace864-a154-ed61-52ec-a2fc624e452c}" stepId="step:{8be99b8e-d103-1053-0c0d-d4ddb518c44d}" action="Type" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;01&quot;}}" snapshotId="pfqdtj" unfinalized="true" index="10" manualDuration="0" autoEndEventChrome="Action completed"/><step type="testObject" testObject="testObj:{5b98d2bf-c1ea-770f-0575-81bacb9911db}" stepId="step:{0f1f0a99-9bb5-f670-b269-6ca71bb81297}" action="Type" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;2021&quot;}}" snapshotId="gzkrcipzw" unfinalized="true" index="11" recDuration="7" manualDuration="0" autoEndEventChrome="Action completed"/><step type="testObject" testObject="testObj:{52f49254-44d5-6e6d-96e9-16e30f4db14c}" stepId="step:{a6323a13-f234-130d-0110-9355159a6e7b}" action="Type" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;1&quot;}}" snapshotId="dbmuqmlvt" unfinalized="true" index="12" manualDuration="0" autoEndEventChrome="Action completed"/><step type="testObject" testObject="testObj:{c846c939-94f6-828e-ccd4-f29229e857c4}" stepId="step:{bd6c8b24-9911-8569-2d81-cf54dbf3ea55}" action="Type" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;1&quot;}}" snapshotId="tdvdfea" unfinalized="true" index="13" recDuration="2" manualDuration="0" autoEndEventChrome="Action completed"/><step type="testObject" testObject="testObj:{679bab70-b511-4363-bef6-fa30a5bbfb1a}" stepId="step:{159f1c1b-c1d3-ec5f-7f39-929c16f86463}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:32},&quot;Y Coordinate&quot;:{&quot;value&quot;:21}}" snapshotId="hgzkmnrzh" index="14" autoEndEventChrome="Step network completed"/><step type="testObject" testObject="testObj:{8e475c26-bf31-2295-db0d-1c210cefd9ae}" stepId="step:{bcf4812f-93e1-bd2d-8bf2-dbd445667594}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:29},&quot;Y Coordinate&quot;:{&quot;value&quot;:13}}" snapshotId="pppiwrki" index="15" autoEndEventChrome="Step network completed"/><step type="testObject" testObject="testObj:{9ed33e07-eff0-398c-4f67-ece8ab5a0038}" stepId="step:{683fd09f-a964-e800-4aec-5b518deace2b}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:46},&quot;Y Coordinate&quot;:{&quot;value&quot;:33}}" snapshotId="cojeesu" index="16" autoEndEventChrome="Step network completed"/><step type="util" stepId="step:{921f90c3-7e86-e6de-d48f-492652294107}" action="Comment" level="1" arguments="{}" snapshotId="muuhuvh" index="17" comment="Previous code below" disabled="true"/><step type="testObject" testObject="testObj:{651b357f-9aca-4ec0-5c99-1a77fe26a196}" stepId="step:{ca1bc3f4-0546-75e4-eac8-e91e5847e6bd}" action="Set" level="1" arguments="{&quot;Path&quot;:{&quot;value&quot;:&quot;C:\\Git\\xui-ui-performance\\Scripts\\Data\\Performance_Test_1MB.pdf&quot;}}" snapshotId="xnbyd" index="18" recDuration="15" autoEndEventChrome="Step network completed" manualDuration="0" endEvent="Object Exists" endEventArgs="{&quot;objectId&quot;:&quot;testObj:{651b357f-9aca-4ec0-5c99-1a77fe26a196}&quot;}" disabled="true"/><step type="util" stepId="step:{364866ac-6c28-7e86-9727-55eb10d8fa57}" action="Wait" level="1" arguments="{}" snapshotId="qldtszbu" index="19" disabled="true"/><step type="testObject" testObject="testObj:{7f6bc2b8-cbd4-cc1b-0a41-39fc301125c6}" stepId="step:{bf5e61d4-3c0b-7e48-62cf-e2da8265fa9f}" action="Type" level="1" arguments="{&quot;Value&quot;:{&quot;value&quot;:&quot;datetime&quot;,&quot;evalJavaScript&quot;:true},&quot;Typing Interval&quot;:{}}" snapshotId="ermbjnep" unfinalized="true" index="20" recDuration="20" autoEndEventChrome="Action completed" manualDuration="0" disabled="true"/><step type="testObject" testObject="testObj:{bcfb4020-f002-92fa-c69d-fec12be0ddbf}" stepId="step:{ec9d09cc-4882-6542-2b72-39950254cbbc}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:57},&quot;Y Coordinate&quot;:{&quot;value&quot;:29}}" snapshotId="vfcnmbeog" index="21" recDuration="2" autoEndEventChrome="Step network completed" manualDuration="0" disabled="true"/><step type="testObject" testObject="testObj:{d470637f-5752-219d-bc2f-349cbb17dad2}" stepId="step:{d14f3b26-d119-c61f-308d-2aae63c1106a}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:18},&quot;Y Coordinate&quot;:{&quot;value&quot;:15}}" snapshotId="lggcw" index="22" autoEndEventChrome="Action completed" disabled="true"/><step type="testObject" testObject="testObj:{29e7f557-e402-578a-071c-fe60cd4ab0f8}" stepId="step:{0a1f7888-349b-ff5d-da6d-2fba2913477a}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:41},&quot;Y Coordinate&quot;:{&quot;value&quot;:20}}" snapshotId="ceqiygah" index="23" recDuration="11" autoEndEventChrome="Step network completed" manualDuration="0" endEvent="Object Exists" endEventArgs="{&quot;objectId&quot;:&quot;testObj:{f2e8f9d5-3af2-b891-f13b-bf34653092bb}&quot;}" disabled="true"/><step type="testObject" testObject="testObj:{8defee81-631f-6126-414a-db7c28c537f5}" stepId="step:{c6f42244-6ba9-6495-a5bb-882166fc4f85}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:64},&quot;Y Coordinate&quot;:{&quot;value&quot;:7}}" snapshotId="psebpghn" index="24" autoEndEventChrome="Step network completed" manualDuration="0" endEvent="Object Exists" endEventArgs="{&quot;objectId&quot;:&quot;testObj:{ca7a7406-ebbb-dc4a-15f8-aa09e470b4cb}&quot;}" disabled="true"/></step></step><step type="function" stepId="step:{75fcf778-61ba-a3ed-c58c-d5d878a718d7}" action="SignOut" level="1" arguments="{}" snapshotId="jnkfjazw" index="4"><step type="block" stepId="step:{3faa773e-03a4-a268-f859-71006acc714e}" action="internal" level="43" arguments="{}" snapshotId="ajwnm"><step type="util" stepId="step:{bcca529b-714d-5a00-8e28-676c11ef7604}" action="Comment" level="1" arguments="{}" snapshotId="aohmevwqp" index="1" comment="Signs a user out"/><step type="alternative" stepId="step:{def64031-c7b8-8bcc-71cc-1dde069792a5}" action="Click" level="1" arguments="{}" snapshotId="ygfqqmvl" activeStep="0" index="2"><step type="testObject" testObject="testObj:{4fa19b7a-b532-4e96-bafd-58ea76843ae4}" stepId="step:{626897cf-8b50-0f0c-913d-8057954e0247}" action="Click" level="43" arguments="{&quot;X Coordinate&quot;:{&quot;value&quot;:17},&quot;Y Coordinate&quot;:{&quot;value&quot;:13}}" snapshotId="fvlvrqzio" autoEndEventChrome="Document Loaded" manualDuration="0" endEvent="Object Exists" endEventArgs="{&quot;objectId&quot;:&quot;testObj:{83e57cd6-e29a-9c5c-9377-c6857cc686f1}&quot;}"/><step type="testObject" testObject="testObj:{3505d6fd-e8f4-0146-4141-2e079faef562}" stepId="step:{657567ef-c32f-0360-abfa-ac01fb412758}" action="Select" level="43" arguments="{&quot;Ordinal&quot;:{&quot;value&quot;:1},&quot;Inner Object&quot;:{&quot;value&quot;:&quot;testObj:{4fa19b7a-b532-4e96-bafd-58ea76843ae4}&quot;}}" snapshotId="lczxvxzx"/><step type="testObject" testObject="testObj:{3505d6fd-e8f4-0146-4141-2e079faef562}" stepId="step:{e3ed152c-2074-57a5-5248-68b0ceef4017}" action="Select" level="43" arguments="{&quot;Text&quot;:{&quot;value&quot;:&quot;Sign out&quot;}}" snapshotId="rxqpef"/><step type="testObject" testObject="testObj:{3505d6fd-e8f4-0146-4141-2e079faef562}" stepId="step:{7b81e4a2-e3f4-521c-2f11-4743f2ff484d}" action="Select" level="43" arguments="{&quot;Ordinal&quot;:{&quot;value&quot;:1}}" snapshotId="ykojkpd"/></step></step></step></step>
+<testObjects><testObject testObjId="testObj:{00000000-0000-0000-0000-000000000001}" platform="web" manualName="browser"><roles><role>browser</role></roles><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{83e57cd6-e29a-9c5c-9377-c6857cc686f1}" platform="web" autoName="Sign in" manualName="Sign in"><roles><role>element</role><role>heading</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//h1[text()=\"Sign in\"])[1]",
+	"suggestions":["(//h1[text()=\"Sign in\"])[1]","(//h1[@id=\"skiplinktarget\"])[1]","(//h1[@id=\"skiplinktarget\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//h1[text()=\\\"Sign in\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.666766,
+"contextObj":"testObj:{f20e60cf-9b14-bfa7-06fc-b3f0121e7a60}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"tagName","value":"H1","score":0.01},
+		{"id":"id","value":{"id":"skiplinktarget","isValidWord":true},"score":0.5},
+		{"id":"class","value":"heading-large","score":0.15},
+		{"id":"text","value":{"tagName":"H1","prefix":"Sign in"},"score":0.2}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 1,
+				"maxObjsPerElector": 20000,
+				"total": {
+						"leaf": null,
+						"tagName": 1,
+						"id": 1,
+						"class": 1,
+						"text": 1
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		},
+		"testObj:{f20e60cf-9b14-bfa7-06fc-b3f0121e7a60}": {
+				"totalObjs": 1,
+				"maxObjsPerElector": 20000,
+				"total": {
+						"leaf": null,
+						"tagName": 1,
+						"id": 1,
+						"class": 1,
+						"text": 1
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"H1"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Sign in"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 1,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{698ec180-dc29-1ff6-4ace-b02eef6402cb}" platform="web" autoName="Reject additional cookies"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\"\n                    Reject additional cookies\n                \"])[1]",
+	"suggestions":["(//button[text()=\"\n                    Reject additional cookies\n                \"])[1]","(//button[@id=\"cookie-reject-submit\"])[1]","(//button[@id=\"cookie-reject-submit\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\"\\n                    Reject additional cookies\\n                \\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.85686085,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"id","value":{"id":"cookie-reject-submit","isValidWord":true},"score":0.5},
+		{"id":"name","value":{"name":"cookies","isValidWord":true},"score":0.3},
+		{"id":"class","value":"govuk-button govuk-p-size-override","score":0.15},
+		{"id":"text","value":{"text":"Reject additional cookies","tagName":"BUTTON"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 17,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 4,
+						"id": 1,
+						"name": 2,
+						"class": 15,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.31838181615000005,
+				"totalCandidates": 2
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"cookies"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Reject additional cookies"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 4,
+						"name": 2,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{d7509684-6f02-dc92-bd49-da429aed373c}" platform="web" autoName="Hide this cookie message"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\"\n                        Hide this  \"])[1]",
+	"suggestions":["(//button[text()=\"\n                        Hide this  \"])[1]","(//button[@id=\"cookie-reject-all-success-banner-hide\"])[1]","(//button[@id=\"cookie-reject-all-success-banner-hide\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\"\\n                        Hide this  \\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.8364124,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"id","value":{"id":"cookie-reject-all-success-banner-hide","isValidWord":true},"score":0.5},
+		{"id":"name","value":{"name":"hide-rejected","isValidWord":false},"score":0.2},
+		{"id":"class","value":"govuk-button govuk-p-size-override","score":0.15},
+		{"id":"text","value":{"text":"Hide this cookie message","tagName":"BUTTON"},"score":0.4},
+		{"id":"leaf","value":false,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 17,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 4,
+						"id": 1,
+						"name": 1,
+						"class": 15,
+						"text": 2,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.33930355361873993,
+				"totalCandidates": 2
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"hide-rejected"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Hide this cookie message"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 4,
+						"name": 1,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{97370162-03b6-996b-78ae-983232149b1d}" platform="web" autoName="Email address"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"text\" and @name=\"username\"])[1]",
+	"suggestions":["(//input[@type=\"text\" and @name=\"username\"])[1]","(//input[@id=\"username\"])[1]","(//input[@id=\"username\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"text\\\" and @name=\\\"username\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.848908675,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"username","isValidWord":true},"score":0.5},
+		{"id":"name","value":{"name":"username","isValidWord":true},"score":0.3},
+		{"id":"class","value":"form-control","score":0.15},
+		{"id":"label","value":"Email address","score":0.4},
+		{"id":"input/type","value":"text","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 8,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 7,
+						"id": 1,
+						"name": 1,
+						"class": 2,
+						"label": 1,
+						"input/type": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"username"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Email address"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"text"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 7,
+						"name": 1,
+						"label": 1,
+						"input/type": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{3f76b3ec-db89-629d-ff8a-e77b210666ff}" platform="web" autoName="Email address" manualName="Email address"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"text\" and @name=\"username\"])[1]",
+	"suggestions":["(//input[@type=\"text\" and @name=\"username\"])[1]","(//input[@id=\"username\"])[1]","(//input[@id=\"username\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"text\\\" and @name=\\\"username\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.848908675,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"username","isValidWord":true},"score":0.5},
+		{"id":"name","value":{"name":"username","isValidWord":true},"score":0.3},
+		{"id":"class","value":"form-control","score":0.15},
+		{"id":"label","value":"Email address","score":0.4},
+		{"id":"input/type","value":"text","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 8,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 7,
+						"id": 1,
+						"name": 1,
+						"class": 2,
+						"label": 1,
+						"input/type": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"username"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Email address"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"text"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 7,
+						"name": 1,
+						"label": 1,
+						"input/type": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{644a2258-ca9b-6cee-29ad-7c131fc651e4}" platform="web" autoName="Password"><roles><role>element</role><role>focusable</role><role>textbox</role><role>passwordbox</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"password\" and @name=\"password\"])[1]",
+	"suggestions":["(//input[@type=\"password\" and @name=\"password\"])[1]","(//input[@id=\"password\"])[1]","(//input[@id=\"password\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"password\\\" and @name=\\\"password\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.848908675,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"password","isValidWord":true},"score":0.5},
+		{"id":"name","value":{"name":"password","isValidWord":true},"score":0.3},
+		{"id":"class","value":"form-control","score":0.15},
+		{"id":"label","value":"Password","score":0.4},
+		{"id":"input/type","value":"password","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 8,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 7,
+						"id": 1,
+						"name": 1,
+						"class": 2,
+						"label": 1,
+						"input/type": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"password"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Password"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"password"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 7,
+						"name": 1,
+						"label": 1,
+						"input/type": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{f469438a-0e37-8c2a-18ea-0f4b7de21840}" platform="web" autoName="Sign in"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"submit\" and @name=\"save\" and @value=\"Sign in\"])[1]",
+	"suggestions":["(//input[@type=\"submit\" and @name=\"save\" and @value=\"Sign in\"])[1]","(//form[@id=\"authorizeCommand\"]/div[1]/div[4]/input[1])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"submit\\\" and @name=\\\"save\\\" and @value=\\\"Sign in\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.6827082174999999,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1},
+		{"id":"name","value":{"name":"save","isValidWord":true},"score":0.3},
+		{"id":"class","value":"button","score":0.15},
+		{"id":"input/type","value":"submit","score":0.05},
+		{"id":"input/button/value","value":"Sign in","score":0.3},
+		{"id":"tagName","value":"INPUT","score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 7,
+				"maxObjsPerElector": 200,
+				"total": {
+						"leaf": null,
+						"position": null,
+						"name": 1,
+						"class": 1,
+						"input/type": 1,
+						"input/button/value": 1,
+						"tagName": 7
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"save"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"submit"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/button/value",
+			"args":[
+				{"op":"property", "args":"input/button/value"},
+				{"op": "value", "args":"Sign in"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 7,
+						"name": 1,
+						"input/type": 1,
+						"input/button/value": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{4fa19b7a-b532-4e96-bafd-58ea76843ae4}" platform="web" autoName="Sign out"><roles><role>element</role><role>focusable</role><role>link</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//a[text()=\" Sign out \"])[1]",
+	"suggestions":["(//a[text()=\" Sign out \"])[1]","(/html/body/exui-root/exui-search-form/exui-app-header/exui-header/header/div/exui-hmcts-global-header/div/div/div[2]/nav/ul/li/a)[1]"],
+	"jsSuggestion":"evalXPath(\"(//a[text()=\\\" Sign out \\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.500149,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"A","score":0.01},
+		{"id":"class","value":"hmcts-header__navigation-link","score":0.15},
+		{"id":"text","value":{"text":"Sign out","tagName":"A"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 16,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 16,
+						"class": 1,
+						"text": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"A"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Sign out"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 16,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{b1eb9528-8372-84e2-4fc8-b80a76b83099}" platform="web" autoName="Reject analytics cookies"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\" Reject analytics cookies \"])[1]",
+	"suggestions":["(//button[text()=\" Reject analytics cookies \"])[1]","(/html/body/exui-root/xuilib-cookie-banner/div/div/div[2]/button[2])[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\" Reject analytics cookies \\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.7137217,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1},
+		{"id":"text","value":{"text":"Reject analytics cookies","tagName":"BUTTON"},"score":0.4},
+		{"id":"name","value":{"name":"cookies","isValidWord":true},"score":0.3},
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"class","value":"govuk-button","score":0.15}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 3,
+				"maxObjsPerElector": 200,
+				"total": {
+						"leaf": null,
+						"position": null,
+						"text": 1,
+						"name": 2,
+						"tagName": 3,
+						"class": 3
+				},
+				"secondaryScore": 0.522864271305,
+				"totalCandidates": 3
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"cookies"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Reject analytics cookies"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 3,
+						"name": 2,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{90fae021-0edb-6120-b078-a9fb0e427bf1}" platform="web" autoName="Case list" manualName="Case list"><roles><role>element</role><role>focusable</role><role>link</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//a[text()=\" Case list \"])[1]",
+	"suggestions":["(//a[text()=\" Case list \"])[1]","(/html/body/exui-root/exui-service-down/exui-app-header/exui-header/header/div/exui-hmcts-global-header/nav/div/div[1]/nav/ul/li[2]/a)[1]"],
+	"jsSuggestion":"evalXPath(\"(//a[text()=\\\" Case list \\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.6501043,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"A","score":0.01},
+		{"id":"class","value":"hmcts-primary-navigation__link","score":0.15},
+		{"id":"text","value":{"text":"Case list","tagName":"A"},"score":0.4},
+		{"id":"a/href","value":{"url":"/cases","protocol":"https:","host":"manage-case.perftest.platform.hmcts.net","pathname":"/cases","search":""},"score":0.30000000000000004},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 16,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 16,
+						"class": 5,
+						"text": 1,
+						"a/href": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0.12306719036842108,
+				"totalCandidates": 5
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"A"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Case list"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 16,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{1b6e4a0d-8ecc-3fbb-6dd0-5398c8ac2aac}" platform="web" autoName="Next step"><roles><role>element</role><role>focusable</role><role>listbox</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//select[@id=\"next-step\"])[1]",
+	"suggestions":["(//select[@id=\"next-step\"])[1]","(//select[@id=\"next-step\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//select[@id=\\\"next-step\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.8068757500000001,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"SELECT","score":0.1},
+		{"id":"id","value":{"id":"next-step","isValidWord":true},"score":0.5},
+		{"id":"class","value":"form-control ccd-dropdown EventTrigger-empty ng-pristine ng-invalid ng-touched","score":0.15},
+		{"id":"label","value":"Next step","score":0.4},
+		{"id":"leaf","value":false,"score":0.01},
+		{"id":"style/background-image","value":{"bkImg":"https://manage-case.perftest.platform.hmcts.net/dropdown-arrow.ab94ad46fa9ff3c4fc47.PNG"},"score":0.15}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 11,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 1,
+						"id": 1,
+						"class": 11,
+						"label": 1,
+						"leaf": null,
+						"style/background-image": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"SELECT"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Next step"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 1,
+						"label": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{getItems:function() {
+                    return Array.prototype.slice.call(this.object.options, 0);
+                },
+selectItem:function(index) {
+                    var option = this.object.options[index];
+                    if (this.object.multiple) TC_NS.Mouse.down(option);
+                    (function() {
+                        // Retake the option in case the option which get from outer function is released
+                        // by the browser (because we are calling callAsync)
+                        var option = this.object.options[index];
+                        this.object.scrollTop = option.offsetTop - this.object.options[0].offsetTop;
+                        if (this.object.multiple) {
+                            TC_NS.Mouse.move(option);
+                            TC_NS.Mouse.up(option);
+                        }
+                        (function() {
+                            if (this.object.selectedIndex != index) {
+                                if (!Element.hasFocus(this.object)) this.object.focus();
+                                this.object.selectedIndex = index;
+                                var evt = this.object.ownerDocument.createEvent("Event");
+                                evt.initEvent("change", true, true);
+                                TC_NS.Mouse.dispatchEvent(evt, this.object);
+                                try {
+                                    this.object.blur();
+                                } catch (ex) {}
+                            }
+                            this.endExecute(TC_NS.TestObject.RETCODE_SUCCEEDED);
+                        }.callAsync(this));
+                    }.callAsync(this));
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{f985fe66-2679-1344-f8ec-e39b34477c8a}" platform="web" autoName="Go"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\"Go\"])[1]",
+	"suggestions":["(//button[text()=\"Go\"])[1]","(/html/body/exui-root/exui-case-home/div/exui-case-details-home/exui-case-viewer-container/ccd-case-viewer/div/ccd-case-full-access-view/div[1]/div[2]/ccd-event-trigger/form/button)[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\"Go\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.591031,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"class","value":"button","score":0.15},
+		{"id":"text","value":{"text":"Go","tagName":"BUTTON"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 2,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 2,
+						"class": 1,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.31838181615000005,
+				"totalCandidates": 2
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Go"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 2,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{e4dad869-8ac0-a71f-873d-9de2f0c863f3}" platform="web" autoName="Add new"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\"Add new\"])[1]",
+	"suggestions":["(//button[text()=\"Add new\"])[1]","(//div[@id=\"scannedDocuments\"]/div/button[1])[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\"Add new\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.591031,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"class","value":"button write-collection-add-item__top","score":0.15},
+		{"id":"text","value":{"text":"Add new","tagName":"BUTTON"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 7,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 7,
+						"class": 6,
+						"text": 2,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.59102508969,
+				"similarPrimaryScore": 0.59102508969,
+				"similarSecondaryScore": 0.31838181615000005,
+				"similarTotal": 2,
+				"similarOrdinal": 1,
+				"totalCandidates": 7
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Add new"}
+			]
+			},
+			{"op":"contained",
+			"active":true,
+			"descriptor":"class",
+			"args":[
+				{"op":"property", "args":"class"},
+				{"op": "value", "args":["button","write-collection-add-item__top"]}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 7,
+						"text": 2,
+						"class": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{74bffec5-5cf6-9843-a93d-03f5c9ed23ae}" platform="web" autoName="Add new"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\"Add new\"])[2]",
+	"suggestions":["(//button[text()=\"Add new\"])[2]","(//div[@id=\"scannedDocuments\"]/div/button[2])[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\"Add new\\\"])[2]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.591031,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"class","value":"button write-collection-add-item__bottom ng-star-inserted","score":0.15},
+		{"id":"text","value":{"text":"Add new","tagName":"BUTTON"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 72,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 7,
+						"class": 71,
+						"text": 2,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.59102508969,
+				"similarPrimaryScore": 0.59102508969,
+				"similarSecondaryScore": 0.31838181615000005,
+				"similarTotal": 2,
+				"similarOrdinal": 2,
+				"totalCandidates": 7
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Add new"}
+			]
+			},
+			{"op":"contained",
+			"active":true,
+			"descriptor":"class",
+			"args":[
+				{"op":"property", "args":"class"},
+				{"op": "value", "args":["button","write-collection-add-item__bottom","ng-star-inserted"]}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 7,
+						"text": 2,
+						"class": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{a9d3aa2f-1e9e-e724-309f-cb52c8e4ac54}" platform="web" autoName="Document Type" manualName="Document Type"><roles><role>element</role><role>focusable</role><role>listbox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//div[@id=\"scannedDocuments\"]/div/div/div[2]/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[1]/div/ccd-write-fixed-list-field/div/select)[1]",
+	"suggestions":["(//div[@id=\"scannedDocuments\"]/div/div/div[2]/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[1]/div/ccd-write-fixed-list-field/div/select)[1]","(//select[@id=\"scannedDocuments_1_type\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//div[@id=\\\"scannedDocuments\\\"]/div/div/div[2]/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[1]/div/ccd-write-fixed-list-field/div/select)[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.681913,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"label","value":"Document Type","score":0.4},
+		{"id":"tagName","value":"SELECT","score":0.1},
+		{"id":"id","value":{"id":"scannedDocuments_1_type","isValidWord":true},"score":0.3},
+		{"id":"class","value":"form-control ccd-dropdown bottom-30 ng-untouched ng-pristine ng-invalid","score":0.15},
+		{"id":"leaf","value":false,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 96,
+				"maxObjsPerElector": 200,
+				"total": {
+						"label": 1,
+						"tagName": 2,
+						"id": 2,
+						"class": 96,
+						"leaf": null
+				},
+				"secondaryScore": 0.68190618087,
+				"similarPrimaryScore": 0.68190618087,
+				"similarSecondaryScore": 0,
+				"similarTotal": 2,
+				"similarOrdinal": 2,
+				"totalCandidates": 2
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"SELECT"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Document Type"}
+			]
+			},
+			{"op":"contained",
+			"active":true,
+			"descriptor":"class",
+			"args":[
+				{"op":"property", "args":"class"},
+				{"op": "value", "args":["form-control","ccd-dropdown","bottom-30","ng-untouched","ng-pristine","ng-invalid"]}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 2,
+						"label": 2,
+						"class": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//div[@id=\\\"scannedDocuments\\\"]/div/div/div[\" + (scannedRecordsCount - 1) + \"]/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[1]/div/ccd-write-fixed-list-field/div/select)[1]\");"
+}
+}]]></ident></idents><methods><![CDATA[{getItems:function() {
+                    return Array.prototype.slice.call(this.object.options, 0);
+                },
+selectItem:function(index) {
+                    var option = this.object.options[index];
+                    if (this.object.multiple) TC_NS.Mouse.down(option);
+                    (function() {
+                        // Retake the option in case the option which get from outer function is released
+                        // by the browser (because we are calling callAsync)
+                        var option = this.object.options[index];
+                        this.object.scrollTop = option.offsetTop - this.object.options[0].offsetTop;
+                        if (this.object.multiple) {
+                            TC_NS.Mouse.move(option);
+                            TC_NS.Mouse.up(option);
+                        }
+                        (function() {
+                            if (this.object.selectedIndex != index) {
+                                if (!Element.hasFocus(this.object)) this.object.focus();
+                                this.object.selectedIndex = index;
+                                var evt = this.object.ownerDocument.createEvent("Event");
+                                evt.initEvent("change", true, true);
+                                TC_NS.Mouse.dispatchEvent(evt, this.object);
+                                try {
+                                    this.object.blur();
+                                } catch (ex) {}
+                            }
+                            this.endExecute(TC_NS.TestObject.RETCODE_SUCCEEDED);
+                        }.callAsync(this));
+                    }.callAsync(this));
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{18a5e328-4ec4-5c1a-71b7-1bb186fc3ca0}" platform="web" autoName="Original document URL" manualName="Original document URL"><roles><role>element</role><role>focusable</role><role>filebox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"file\"])[7]",
+	"suggestions":["(//input[@type=\"file\"])[7]","(//div[@id=\"scannedDocuments\"]/div/div/div[4]/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[2]/div/ccd-write-document-field/div[1]/div[2]/input)[1]","(//input[@id=\"scannedDocuments_3_url\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"file\\\"])[7]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.6546484,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"scannedDocuments_3_url","isValidWord":false},"score":0.2},
+		{"id":"class","value":"form-control bottom-30","score":0.15},
+		{"id":"label","value":"Original document URL","score":0.4},
+		{"id":"input/type","value":"file","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 193,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 89,
+						"id": 4,
+						"class": 112,
+						"label": 1,
+						"input/type": 8,
+						"leaf": null
+				},
+				"secondaryScore": 0.654641853516,
+				"similarPrimaryScore": 0.654641853516,
+				"similarSecondaryScore": 0.20057299425000003,
+				"similarTotal": 4,
+				"similarOrdinal": 4,
+				"totalCandidates": 8
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Original document URL"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"file"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"customAttribute",
+			"args":[
+				{"op":"property", "args":"hp_tc_filebox_identifier381"},
+				{"op": "value", "args":"true"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 89,
+						"label": 4,
+						"input/type": 4,
+						"customAttribute": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//input[@type=\\\"file\\\" and @id=\\\"scannedDocuments_\" + (scannedRecordsCount - 2) + \"_url\\\"])\");"
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{fad1ac9a-bc3d-8b79-86c2-49c12e83c63e}" platform="web" autoName="Document Control Number"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"text\"])[38]",
+	"suggestions":["(//input[@type=\"text\"])[38]","(//div[@id=\"scannedDocuments\"]/div/div/div[4]/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[4]/div/ccd-write-text-field/div/input)[1]","(//input[@id=\"scannedDocuments_3_controlNumber\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"text\\\"])[38]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.6978173500000001,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"scannedDocuments_3_controlNumber","isValidWord":true},"score":0.3},
+		{"id":"class","value":"form-control bottom-30 ng-untouched ng-pristine ng-invalid","score":0.15},
+		{"id":"label","value":"Document Control Number","score":0.4},
+		{"id":"input/type","value":"text","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 316,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 89,
+						"id": 4,
+						"class": 186,
+						"label": 1,
+						"input/type": 49,
+						"leaf": null
+				},
+				"secondaryScore": 0.6978103718265002,
+				"similarPrimaryScore": 0.6978103718265002,
+				"similarSecondaryScore": 0,
+				"similarTotal": 4,
+				"similarOrdinal": 4,
+				"totalCandidates": 4
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Document Control Number"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"text"}
+			]
+			},
+			{"op":"contained",
+			"active":true,
+			"descriptor":"class",
+			"args":[
+				{"op":"property", "args":"class"},
+				{"op": "value", "args":["form-control","bottom-30","ng-untouched","ng-pristine","ng-invalid"]}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 89,
+						"label": 4,
+						"input/type": 4,
+						"class": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//input[@id=\\\"scannedDocuments_\" + (scannedRecordsCount - 2) + \"_controlNumber\\\"])\");"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{43674628-a1aa-b062-f109-82afa26bc879}" platform="web" autoName="File Name" manualName="File Name"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"text\"])[39]",
+	"suggestions":["(//input[@type=\"text\"])[39]","(//div[@id=\"scannedDocuments\"]/div/div/div[4]/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[5]/div/ccd-write-text-field/div/input)[1]","(//input[@id=\"scannedDocuments_3_fileName\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"text\\\"])[39]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.6978173500000001,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"scannedDocuments_3_fileName","isValidWord":true},"score":0.3},
+		{"id":"class","value":"form-control bottom-30 ng-untouched ng-pristine ng-invalid","score":0.15},
+		{"id":"label","value":"File Name","score":0.4},
+		{"id":"input/type","value":"text","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 316,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 89,
+						"id": 4,
+						"class": 186,
+						"label": 1,
+						"input/type": 49,
+						"leaf": null
+				},
+				"secondaryScore": 0.6978103718265002,
+				"similarPrimaryScore": 0.6978103718265002,
+				"similarSecondaryScore": 0,
+				"similarTotal": 4,
+				"similarOrdinal": 4,
+				"totalCandidates": 4
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"File Name"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"text"}
+			]
+			},
+			{"op":"contained",
+			"active":true,
+			"descriptor":"class",
+			"args":[
+				{"op":"property", "args":"class"},
+				{"op": "value", "args":["form-control","bottom-30","ng-untouched","ng-pristine","ng-invalid"]}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 89,
+						"label": 4,
+						"input/type": 4,
+						"class": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//input[@id=\\\"scannedDocuments_\" + (scannedRecordsCount - 2) + \"_fileName\\\"])\");"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{66aa38c2-09bb-99f7-6132-5251bfb061ec}" platform="web" autoName="Day"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"text\" and @name=\"scannedDate-day\"])[4]",
+	"suggestions":["(//input[@type=\"text\" and @name=\"scannedDate-day\"])[4]","(//input[@id=\"scannedDate-day\"])[4]","(//input[@id=\"scannedDate-day\"])[4]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"text\\\" and @name=\\\"scannedDate-day\\\"])[4]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.848908675,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"scannedDate-day","isValidWord":true},"score":0.5},
+		{"id":"name","value":{"name":"scannedDate-day","isValidWord":true},"score":0.3},
+		{"id":"class","value":"form-control","score":0.15},
+		{"id":"label","value":"Day","score":0.4},
+		{"id":"input/type","value":"text","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 214,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 89,
+						"id": 1,
+						"name": 4,
+						"class": 92,
+						"label": 1,
+						"input/type": 49,
+						"leaf": null
+				},
+				"secondaryScore": 0.84890018591325,
+				"similarPrimaryScore": 0.84890018591325,
+				"similarSecondaryScore": 0.1552049058610569,
+				"similarTotal": 4,
+				"similarOrdinal": 4,
+				"totalCandidates": 8
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"scannedDate-day"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Day"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"text"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"customAttribute",
+			"args":[
+				{"op":"property", "args":"hp_tc_filebox_identifier385"},
+				{"op": "value", "args":"true"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 89,
+						"name": 4,
+						"label": 4,
+						"input/type": 4,
+						"customAttribute": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//input[@type=\\\"text\\\" and @name=\\\"scannedDate-day\\\"])[\" + (scannedRecordsCount - 1) + \"]\");"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{17ace864-a154-ed61-52ec-a2fc624e452c}" platform="web" autoName="Month"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"text\" and @name=\"scannedDate-month\"])[4]",
+	"suggestions":["(//input[@type=\"text\" and @name=\"scannedDate-month\"])[4]","(//input[@id=\"scannedDate-month\"])[4]","(//input[@id=\"scannedDate-month\"])[4]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"text\\\" and @name=\\\"scannedDate-month\\\"])[4]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.848908675,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"scannedDate-month","isValidWord":true},"score":0.5},
+		{"id":"name","value":{"name":"scannedDate-month","isValidWord":true},"score":0.3},
+		{"id":"class","value":"form-control govuk-input--error","score":0.15},
+		{"id":"label","value":"Month","score":0.4},
+		{"id":"input/type","value":"text","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 214,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 89,
+						"id": 1,
+						"name": 4,
+						"class": 92,
+						"label": 1,
+						"input/type": 49,
+						"leaf": null
+				},
+				"secondaryScore": 0.84890018591325,
+				"similarPrimaryScore": 0.84890018591325,
+				"similarSecondaryScore": 0.1552049058610569,
+				"similarTotal": 4,
+				"similarOrdinal": 4,
+				"totalCandidates": 8
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"scannedDate-month"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Month"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"text"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"customAttribute",
+			"args":[
+				{"op":"property", "args":"hp_tc_filebox_identifier386"},
+				{"op": "value", "args":"true"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 89,
+						"name": 4,
+						"label": 4,
+						"input/type": 4,
+						"customAttribute": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//input[@type=\\\"text\\\" and @name=\\\"scannedDate-month\\\"])[\" + (scannedRecordsCount - 1) + \"]\");"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{5b98d2bf-c1ea-770f-0575-81bacb9911db}" platform="web" autoName="Year"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"text\" and @name=\"scannedDate-year\"])[4]",
+	"suggestions":["(//input[@type=\"text\" and @name=\"scannedDate-year\"])[4]","(//input[@id=\"scannedDate-year\"])[4]","(//input[@id=\"scannedDate-year\"])[4]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"text\\\" and @name=\\\"scannedDate-year\\\"])[4]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.848908675,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"scannedDate-year","isValidWord":true},"score":0.5},
+		{"id":"name","value":{"name":"scannedDate-year","isValidWord":true},"score":0.3},
+		{"id":"class","value":"form-control govuk-input--error","score":0.15},
+		{"id":"label","value":"Year","score":0.4},
+		{"id":"input/type","value":"text","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 214,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 89,
+						"id": 1,
+						"name": 4,
+						"class": 92,
+						"label": 1,
+						"input/type": 49,
+						"leaf": null
+				},
+				"secondaryScore": 0.84890018591325,
+				"similarPrimaryScore": 0.84890018591325,
+				"similarSecondaryScore": 0.1552049058610569,
+				"similarTotal": 4,
+				"similarOrdinal": 4,
+				"totalCandidates": 8
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"scannedDate-year"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Year"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"text"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"customAttribute",
+			"args":[
+				{"op":"property", "args":"hp_tc_filebox_identifier387"},
+				{"op": "value", "args":"true"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 89,
+						"name": 4,
+						"label": 4,
+						"input/type": 4,
+						"customAttribute": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//input[@type=\\\"text\\\" and @name=\\\"scannedDate-year\\\"])[\" + (scannedRecordsCount - 1) + \"]\");"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{52f49254-44d5-6e6d-96e9-16e30f4db14c}" platform="web" autoName="Exception Record Referenc..."><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"text\"])[43]",
+	"suggestions":["(//input[@type=\"text\"])[43]","(//div[@id=\"scannedDocuments\"]/div/div/div[4]/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[7]/div/ccd-write-text-field/div/input)[1]","(//input[@id=\"scannedDocuments_3_exceptionRecordReference\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"text\\\"])[43]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.6978173500000001,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"scannedDocuments_3_exceptionRecordReference","isValidWord":true},"score":0.3},
+		{"id":"class","value":"form-control bottom-30 ng-untouched ng-pristine ng-invalid","score":0.15},
+		{"id":"label","value":"Exception Record Reference","score":0.4},
+		{"id":"input/type","value":"text","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 316,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 89,
+						"id": 4,
+						"class": 186,
+						"label": 1,
+						"input/type": 49,
+						"leaf": null
+				},
+				"secondaryScore": 0.6978103718265002,
+				"similarPrimaryScore": 0.6978103718265002,
+				"similarSecondaryScore": 0,
+				"similarTotal": 4,
+				"similarOrdinal": 4,
+				"totalCandidates": 4
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Exception Record Reference"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"text"}
+			]
+			},
+			{"op":"contained",
+			"active":true,
+			"descriptor":"class",
+			"args":[
+				{"op":"property", "args":"class"},
+				{"op": "value", "args":["form-control","bottom-30","ng-untouched","ng-pristine","ng-invalid"]}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 89,
+						"label": 4,
+						"input/type": 4,
+						"class": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//input[@id=\\\"scannedDocuments_\" + (scannedRecordsCount - 2) + \"_exceptionRecordReference\\\"])\");"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{c846c939-94f6-828e-ccd4-f29229e857c4}" platform="web" autoName="Document Subtype"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"text\"])[44]",
+	"suggestions":["(//input[@type=\"text\"])[44]","(//div[@id=\"scannedDocuments\"]/div/div/div[4]/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[8]/div/ccd-write-text-field/div/input)[1]","(//input[@id=\"scannedDocuments_3_subtype\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"text\\\"])[44]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.6546483999999999,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"label","value":"Document Subtype","score":0.4},
+		{"id":"id","value":{"id":"scannedDocuments_3_subtype","isValidWord":false},"score":0.2},
+		{"id":"input/type","value":"text","score":0.05},
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"class","value":"form-control bottom-30 ng-untouched ng-pristine ng-invalid","score":0.15},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 226,
+				"maxObjsPerElector": 200,
+				"total": {
+						"label": 1,
+						"id": 4,
+						"input/type": 49,
+						"tagName": 89,
+						"class": 186,
+						"leaf": null
+				},
+				"secondaryScore": 0.6546418535159999,
+				"similarPrimaryScore": 0.6546418535159999,
+				"similarSecondaryScore": 0.20057299425000003,
+				"similarTotal": 4,
+				"similarOrdinal": 4,
+				"totalCandidates": 49
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Document Subtype"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"text"}
+			]
+			},
+			{"op":"contained",
+			"active":true,
+			"descriptor":"class",
+			"args":[
+				{"op":"property", "args":"class"},
+				{"op": "value", "args":["form-control","bottom-30","ng-untouched","ng-pristine","ng-invalid"]}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 89,
+						"label": 4,
+						"input/type": 4,
+						"class": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//input[@id=\\\"scannedDocuments_\" + (scannedRecordsCount - 2) + \"_subtype\\\"])\");"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{679bab70-b511-4363-bef6-fa30a5bbfb1a}" platform="web" autoName="Continue"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\"Continue\"])[1]",
+	"suggestions":["(//button[text()=\"Continue\"])[1]","(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-page/div/form/div/button[2])[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\"Continue\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.591031,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"class","value":"button","score":0.15},
+		{"id":"text","value":{"text":"Continue","tagName":"BUTTON"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 17,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 17,
+						"class": 16,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.31838181615000005,
+				"totalCandidates": 17
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Continue"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 17,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{8e475c26-bf31-2295-db0d-1c210cefd9ae}" platform="web" autoName="Submit"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\"Submit\"])[1]",
+	"suggestions":["(//button[text()=\"Submit\"])[1]","(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-page/div/form/div/button[2])[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\"Submit\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.591031,
+"contextObj":"testObj:{cccdcb85-4fea-9258-fce0-cbd3d814ffa9}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"class","value":"button","score":0.15},
+		{"id":"text","value":{"text":"Submit","tagName":"BUTTON"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 3,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 3,
+						"class": 2,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.31838181615000005,
+				"totalCandidates": 3
+		},
+		"testObj:{cccdcb85-4fea-9258-fce0-cbd3d814ffa9}": {
+				"totalObjs": 2,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 2,
+						"class": 2,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.31838181615000005,
+				"totalCandidates": 2
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Submit"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 3,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{9ed33e07-eff0-398c-4f67-ece8ab5a0038}" platform="web" autoName="Submit"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\"Submit\"])[1]",
+	"suggestions":["(//button[text()=\"Submit\"])[1]","(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-submit/div/form/div/button[2])[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\"Submit\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.591031,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"class","value":"button","score":0.15},
+		{"id":"text","value":{"text":"Submit","tagName":"BUTTON"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 3,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 3,
+						"class": 2,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.31838181615000005,
+				"totalCandidates": 3
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Submit"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 3,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{651b357f-9aca-4ec0-5c99-1a77fe26a196}" platform="web" autoName="Scanned document url..."><roles><role>element</role><role>focusable</role><role>filebox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"file\"])[1]",
+	"suggestions":["(//input[@type=\"file\"])[1]","(//div[@id=\"scannedDocuments\"]/div/div/div/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[4]/div/ccd-write-document-field/div[1]/div[2]/input)[1]","(//input[@id=\"scannedDocuments_0_url\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"file\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.6546484,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"id","value":{"id":"scannedDocuments_0_url","isValidWord":false},"score":0.2},
+		{"id":"class","value":"form-control bottom-30","score":0.15},
+		{"id":"label","value":"Scanned document url (Optional)","score":0.4},
+		{"id":"input/type","value":"file","score":0.05},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 38,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 18,
+						"id": 1,
+						"class": 21,
+						"label": 1,
+						"input/type": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Scanned document url (Optional)"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"file"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 18,
+						"label": 1,
+						"input/type": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//input[@type=\\\"file\\\"])[\" + scannedRecordsCount + \"]\");"
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{7f6bc2b8-cbd4-cc1b-0a41-39fc301125c6}" platform="web" autoName="File Name (Optional)" manualName="File Name (Optional)"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="JavaScript"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//input[@type=\"text\"])[4]",
+	"suggestions":["(//input[@type=\"text\"])[4]","(//div[@id=\"scannedDocuments\"]/div/div/div/ccd-field-write/div/ccd-write-complex-type-field/div/fieldset/ccd-field-write[6]/div/ccd-write-text-field/div/input)[1]","(//input[@id=\"scannedDocuments_0_fileName\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//input[@type=\\\"text\\\"])[4]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.69781735,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"id","value":{"id":"scannedDocuments_0_fileName","isValidWord":true},"score":0.3},
+		{"id":"label","value":"File Name (Optional)","score":0.4},
+		{"id":"input/type","value":"text","score":0.05},
+		{"id":"tagName","value":"INPUT","score":0.1},
+		{"id":"class","value":"form-control bottom-30 ng-valid ng-touched ng-dirty ng-untouched ng-pristine","score":0.15}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 68,
+				"maxObjsPerElector": 200,
+				"total": {
+						"leaf": null,
+						"id": 1,
+						"label": 1,
+						"input/type": 11,
+						"tagName": 18,
+						"class": 41
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"INPUT"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"File Name (Optional)"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"input/type",
+			"args":[
+				{"op":"property", "args":"input/type"},
+				{"op": "value", "args":"text"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 18,
+						"label": 1,
+						"input/type": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"//TC.log(\"scannedRecordsCount: \" + scannedRecordsCount);\n\n// need to take off 1 due to 0 index naming\ndocument.getElementById(\"scannedDocuments_\" + (scannedRecordsCount - 1) + \"_fileName\");"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function() {
+                    return this.object.value;
+                },
+setValue:function(value) {
+                    this.object.value = value;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{bcfb4020-f002-92fa-c69d-fec12be0ddbf}" platform="web" autoName="Continue"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\"Continue\"])[1]",
+	"suggestions":["(//button[text()=\"Continue\"])[1]","(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-page/div/form/div/button[2])[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\"Continue\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.591031,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"class","value":"button","score":0.15},
+		{"id":"text","value":{"text":"Continue","tagName":"BUTTON"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 7,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 7,
+						"class": 6,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.31838181615000005,
+				"totalCandidates": 7
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Continue"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 7,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="JavaScript"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"evalXPath(\"(//button[text()=\\\"Continue\\\"])[1]\");"
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{d470637f-5752-219d-bc2f-349cbb17dad2}" platform="web" autoName="Yes"><roles><role>element</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//div[@id=\"evidenceHandled_radio\"]/div[1])[1]",
+	"suggestions":["(//div[@id=\"evidenceHandled_radio\"]/div[1])[1]"],
+	"jsSuggestion":"evalXPath(\"(//div[@id=\\\"evidenceHandled_radio\\\"]/div[1])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.5501341,
+"contextObj":"testObj:{fe21cde8-5053-8f25-07be-744fbd6aba8e}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"DIV","score":0.01},
+		{"id":"class","value":"multiple-choice selected ng-star-inserted","score":0.15},
+		{"id":"text","value":{"text":"Yes","tagName":"DIV"},"score":0.4},
+		{"id":"leaf","value":false,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 50,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 28,
+						"class": 24,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.25022099776500006,
+				"totalCandidates": 4
+		},
+		"testObj:{fe21cde8-5053-8f25-07be-744fbd6aba8e}": {
+				"totalObjs": 12,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 7,
+						"class": 7,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.25022099776500006,
+				"totalCandidates": 2
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"DIV"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Yes"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 28,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{29e7f557-e402-578a-071c-fe60cd4ab0f8}" platform="web" autoName="Submit"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//button[text()=\"Submit\"])[1]",
+	"suggestions":["(//button[text()=\"Submit\"])[1]","(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-page/div/form/div/button[2])[1]"],
+	"jsSuggestion":"evalXPath(\"(//button[text()=\\\"Submit\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.591031,
+"contextObj":"testObj:{fe21cde8-5053-8f25-07be-744fbd6aba8e}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"BUTTON","score":0.1},
+		{"id":"class","value":"button","score":0.15},
+		{"id":"text","value":{"text":"Submit","tagName":"BUTTON"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01},
+		{"id":"position","value":{"pos":"relative"},"score":0.1}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 3,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 3,
+						"class": 2,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.31838181615000005,
+				"totalCandidates": 3
+		},
+		"testObj:{fe21cde8-5053-8f25-07be-744fbd6aba8e}": {
+				"totalObjs": 2,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 2,
+						"class": 2,
+						"text": 1,
+						"leaf": null,
+						"position": null
+				},
+				"secondaryScore": 0.31838181615000005,
+				"totalCandidates": 2
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"BUTTON"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Submit"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 3,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{f2e8f9d5-3af2-b891-f13b-bf34653092bb}" platform="web" autoName="Next step"><roles><role>element</role><role>focusable</role><role>listbox</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//select[@id=\"next-step\"])[1]",
+	"suggestions":["(//select[@id=\"next-step\"])[1]","(//select[@id=\"next-step\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//select[@id=\\\"next-step\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.80687575,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"leaf","value":false,"score":0.01},
+		{"id":"style/background-image","value":{"bkImg":"https://manage-case.perftest.platform.hmcts.net/dropdown-arrow.ab94ad46fa9ff3c4fc47.PNG"},"score":0.15},
+		{"id":"tagName","value":"SELECT","score":0.1},
+		{"id":"id","value":{"id":"next-step","isValidWord":true},"score":0.5},
+		{"id":"label","value":"Next step","score":0.4},
+		{"id":"class","value":"form-control ccd-dropdown EventTrigger-empty ng-pristine ng-invalid ng-touched ng-untouched ng-dirty ng-valid","score":0.15}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 78,
+				"maxObjsPerElector": 200,
+				"total": {
+						"leaf": null,
+						"style/background-image": null,
+						"tagName": 1,
+						"id": 1,
+						"label": 1,
+						"class": 78
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"SELECT"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"label",
+			"args":[
+				{"op":"property", "args":"label"},
+				{"op": "value", "args":"Next step"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 1,
+						"label": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{getItems:function() {
+                    return Array.prototype.slice.call(this.object.options, 0);
+                },
+selectItem:function(index) {
+                    var option = this.object.options[index];
+                    if (this.object.multiple) TC_NS.Mouse.down(option);
+                    (function() {
+                        // Retake the option in case the option which get from outer function is released
+                        // by the browser (because we are calling callAsync)
+                        var option = this.object.options[index];
+                        this.object.scrollTop = option.offsetTop - this.object.options[0].offsetTop;
+                        if (this.object.multiple) {
+                            TC_NS.Mouse.move(option);
+                            TC_NS.Mouse.up(option);
+                        }
+                        (function() {
+                            if (this.object.selectedIndex != index) {
+                                if (!Element.hasFocus(this.object)) this.object.focus();
+                                this.object.selectedIndex = index;
+                                var evt = this.object.ownerDocument.createEvent("Event");
+                                evt.initEvent("change", true, true);
+                                TC_NS.Mouse.dispatchEvent(evt, this.object);
+                                try {
+                                    this.object.blur();
+                                } catch (ex) {}
+                            }
+                            this.endExecute(TC_NS.TestObject.RETCODE_SUCCEEDED);
+                        }.callAsync(this));
+                    }.callAsync(this));
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{8defee81-631f-6126-414a-db7c28c537f5}" platform="web" autoName="Case documents"><roles><role>element</role><role>tab</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//div[text()=\"Case documents\"])[1]",
+	"suggestions":["(//div[text()=\"Case documents\"])[1]","(/html/body/exui-root/exui-case-home/div/exui-case-details-home/exui-case-viewer-container/ccd-case-viewer/div/ccd-case-full-access-view/div[2]/div/mat-tab-group/mat-tab-header/div[2]/div/div/div[6]/div)[1]"],
+	"jsSuggestion":"evalXPath(\"(//div[text()=\\\"Case documents\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.500149,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"DIV","score":0.01},
+		{"id":"class","value":"mat-tab-label-content","score":0.15},
+		{"id":"text","value":{"text":"Case documents","tagName":"DIV"},"score":0.4},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 179,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 179,
+						"class": 14,
+						"text": 2,
+						"leaf": null
+				},
+				"secondaryScore": 0.17499825000000002,
+				"totalCandidates": 15
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"DIV"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Case documents"}
+			]
+			},
+			{"op":"contained",
+			"active":true,
+			"descriptor":"class",
+			"args":[
+				{"op":"property", "args":"class"},
+				{"op": "value", "args":["mat-tab-label-content"]}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 179,
+						"text": 2,
+						"class": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{ca7a7406-ebbb-dc4a-15f8-aa09e470b4cb}" platform="web" autoName="Performance Test 1MB.pdf"><roles><role>element</role><role>focusable</role><role>javascript_link</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//a[text()=\" Performance_Test_1MB.pdf\n\"])[1]",
+	"suggestions":["(//a[text()=\" Performance_Test_1MB.pdf\n\"])[1]","(//td[@id=\"case-viewer-field-read--scannedDocuments\"]/span/ccd-field-read/div/ccd-field-read-label/div/ccd-read-collection-field/table/tbody/tr/td/ccd-field-read/div/ccd-field-read-label/div/ccd-read-complex-field/ccd-read-complex-field-table/div/table/tbody/tr[2]/td/span/ccd-field-read/div/ccd-field-read-label/div/ccd-read-document-field/a)[1]"],
+	"jsSuggestion":"evalXPath(\"(//a[text()=\\\" Performance_Test_1MB.pdf\\n\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.6001192,
+"contextObj":"testObj:{14b640e4-c0e4-d2f4-bf25-7a4a949f7a44}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"A","score":0.01},
+		{"id":"class","value":"ng-star-inserted","score":0.15},
+		{"id":"text","value":{"text":"Performance_Test_MBpdf","tagName":"A"},"score":0.4},
+		{"id":"a/href","value":{"url":"javascript:void()","protocol":"javascript:","host":"","pathname":"/","search":""},"score":0.2},
+		{"id":"leaf","value":true,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 111,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 18,
+						"class": 95,
+						"text": 1,
+						"a/href": 3,
+						"leaf": null
+				},
+				"secondaryScore": 0.33352866468000003,
+				"totalCandidates": 3
+		},
+		"testObj:{14b640e4-c0e4-d2f4-bf25-7a4a949f7a44}": {
+				"totalObjs": 2,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 1,
+						"class": 2,
+						"text": 1,
+						"a/href": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"A"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Performance_Test_1MB.pdf"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 18,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{3505d6fd-e8f4-0146-4141-2e079faef562}" platform="web" fallbackName="listbox (2)"><roles><role>element</role><role>listbox</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(/html/body/exui-root/exui-search-form/exui-app-header/exui-header/header/div/exui-hmcts-global-header/div/div/div[2]/nav/ul)[1]",
+	"suggestions":["(/html/body/exui-root/exui-search-form/exui-app-header/exui-header/header/div/exui-hmcts-global-header/div/div/div[2]/nav/ul)[1]"],
+	"jsSuggestion":"evalXPath(\"(/html/body/exui-root/exui-search-form/exui-app-header/exui-header/header/div/exui-hmcts-global-header/div/div/div[2]/nav/ul)[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.500149,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{"id":"tagName","value":"UL","score":0.01},
+		{"id":"class","value":"hmcts-header__navigation-list","score":0.15},
+		{"id":"text","value":{"text":"Sign out","tagName":"UL"},"score":0.4},
+		{"id":"leaf","value":false,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 6,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 6,
+						"class": 1,
+						"text": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"UL"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Sign out"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 6,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{f20e60cf-9b14-bfa7-06fc-b3f0121e7a60}" platform="web" autoName="Sign in"><roles><role>element</role><role>form</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//form[@id=\"authorizeCommand\"])[1]",
+	"suggestions":["(//form[@id=\"authorizeCommand\"])[1]","(//form[@id=\"authorizeCommand\"])[1]"],
+	"jsSuggestion":"evalXPath(\"(//form[@id=\\\"authorizeCommand\\\"])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.7697656000000002,
+"implData":{
+	"ctxScore":0.6,
+	"electors":[
+		{"id":"tagName","value":"FORM","score":0.1},
+		{"id":"id","value":{"id":"authorizeCommand","isValidWord":true},"score":0.5},
+		{"id":"name","value":{"name":"loginForm","isValidWord":false},"score":0.2},
+		{"id":"class","value":"form","score":0.15},
+		{"id":"form/action","value":"/login?response_type=code&redirect_uri=https%A%F%Fxui-webapp-pr-.preview.platform.hmcts.net%Foauth%Fcallback&scope=profile%openid%roles%manage-user%create-user%search-user&state=FjeFMFPBJbkAelHYwnQduOCnihjcwvlZZCKw&client_id=xuiwebapp","score":0.2},
+		{"id":"form/method","value":"post","score":0.05},
+		{"id":"leaf","value":false,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 1,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 1,
+						"id": 1,
+						"name": 1,
+						"class": 1,
+						"form/action": 1,
+						"form/method": null,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0.6,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"FORM"}
+			]
+			},
+			{"op":"equalsIgnoreDigits",
+			"active":true,
+			"descriptor":"name",
+			"args":[
+				{"op":"property", "args":"name"},
+				{"op": "value", "args":"loginForm"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 1,
+						"name": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{cccdcb85-4fea-9258-fce0-cbd3d814ffa9}" platform="web" autoName="Submit"><roles><role>element</role><role>form</role><role>radiogroup</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-page/div/form)[1]",
+	"suggestions":["(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-page/div/form)[1]"],
+	"jsSuggestion":"evalXPath(\"(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-page/div/form)[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.54559,
+"implData":{
+	"ctxScore":0.6,
+	"electors":[
+		{"id":"tagName","value":"FORM","score":0.1},
+		{"id":"class","value":"form ng-star-inserted ng-touched ng-dirty ng-valid","score":0.15},
+		{"id":"text","value":{"text":"Further evidence handledYesNo Previous SubmitCancel","tagName":"FORM"},"score":0.4},
+		{"id":"leaf","value":false,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 38,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 2,
+						"class": 37,
+						"text": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0.0099999,
+				"totalCandidates": 2
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0.6,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"FORM"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Further evidence handledYesNo Previous SubmitCancel"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 2,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{getItems:function() {
+                    var inputs = TC_NS.find("xpath:descendant::input[@type='radio']", this.object),
+                        labels = [];
+                    for (var i = 0; i < inputs.length; i++) labels.push(TC_NS.find("css:label[for=" + JSON.stringify(inputs[i].id) + "]", Element.getRootNode(this.object))[0] || inputs[i]);
+                    return labels;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{fe21cde8-5053-8f25-07be-744fbd6aba8e}" platform="web" autoName="Submit"><roles><role>element</role><role>form</role><role>radiogroup</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-page/div/form)[1]",
+	"suggestions":["(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-page/div/form)[1]"],
+	"jsSuggestion":"evalXPath(\"(/html/body/exui-root/exui-case-home/div/exui-case-details-home/ccd-case-event-trigger/div/ccd-case-edit/ccd-case-edit-page/div/form)[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.54559,
+"implData":{
+	"ctxScore":0.6,
+	"electors":[
+		{"id":"tagName","value":"FORM","score":0.1},
+		{"id":"class","value":"form ng-untouched ng-pristine ng-valid ng-star-inserted","score":0.15},
+		{"id":"text","value":{"text":"Supplementary evidence handledYesNo Previous SubmitCancel","tagName":"FORM"},"score":0.4},
+		{"id":"leaf","value":false,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 28,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 2,
+						"class": 28,
+						"text": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0.24264757350000002,
+				"totalCandidates": 2
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0.6,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"FORM"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Supplementary evidence handledYesNo Previous SubmitCancel"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 2,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{getItems:function() {
+                    var inputs = TC_NS.find("xpath:descendant::input[@type='radio']", this.object),
+                        labels = [];
+                    for (var i = 0; i < inputs.length; i++) labels.push(TC_NS.find("css:label[for=" + JSON.stringify(inputs[i].id) + "]", Element.getRootNode(this.object))[0] || inputs[i]);
+                    return labels;
+                }
+}]]></methods></testObject><testObject testObjId="testObj:{14b640e4-c0e4-d2f4-bf25-7a4a949f7a44}" platform="web" autoName="Scanned document url"><roles><role>element</role></roles><idents active="Electors"><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"(//td[@id=\"case-viewer-field-read--scannedDocuments\"]/span/ccd-field-read/div/ccd-field-read-label/div/ccd-read-collection-field/table/tbody/tr/td/ccd-field-read/div/ccd-field-read-label/div/ccd-read-complex-field/ccd-read-complex-field-table/div/table/tbody/tr[2])[1]",
+	"suggestions":["(//td[@id=\"case-viewer-field-read--scannedDocuments\"]/span/ccd-field-read/div/ccd-field-read-label/div/ccd-read-collection-field/table/tbody/tr/td/ccd-field-read/div/ccd-field-read-label/div/ccd-read-complex-field/ccd-read-complex-field-table/div/table/tbody/tr[2])[1]"],
+	"jsSuggestion":"evalXPath(\"(//td[@id=\\\"case-viewer-field-read--scannedDocuments\\\"]/span/ccd-field-read/div/ccd-field-read-label/div/ccd-read-collection-field/table/tbody/tr/td/ccd-field-read/div/ccd-field-read-label/div/ccd-read-complex-field/ccd-read-complex-field-table/div/table/tbody/tr[2])[1]\");"
+	
+}
+}]]></ident><ident type="Electors"><![CDATA[{
+"primaryScore":0.54432775,
+"implData":{
+	"ctxScore":0.2,
+	"electors":[
+		{"id":"tagName","value":"TR","score":0.05},
+		{"id":"class","value":"complex-panel-simple-field ng-star-inserted","score":0.15},
+		{"id":"text","value":{"text":"Scanned document url Performance_Test_MBpdf","tagName":"TR"},"score":0.4},
+		{"id":"tr/cols","value":1,"score":0.05},
+		{"id":"leaf","value":false,"score":0.01}
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 95,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 6,
+						"class": 95,
+						"text": 1,
+						"tr/cols": 6,
+						"leaf": null
+				},
+				"secondaryScore": 0.2405438445375,
+				"totalCandidates": 6
+		}
+}
+}
+}]]></ident><ident type="Descriptors"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"ctxScore":0.2,
+	"userModified":false,
+	"expression":
+		{"op":"and",
+		"active":true,
+		"args":[
+			{"op":"equalsIgnoreCase",
+			"active":true,
+			"descriptor":"tagName",
+			"args":[
+				{"op":"property", "args":"tagName"},
+				{"op": "value", "args":"TR"}
+			]
+			},
+			{"op":"equals",
+			"active":true,
+			"descriptor":"text",
+			"args":[
+				{"op":"property", "args":"text"},
+				{"op": "value", "args":"Scanned document url Performance_Test_1MB.pdf"}
+			]
+			}
+		]
+		},
+	"secondaryData":{
+		"default": {
+				"maxObjsPerDescriptor": 200,
+				"total": {
+						"tagName": 6,
+						"text": 1
+				},
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject></testObjects>
+<transactions><transaction name="SignInPage"><vertex type="start" progressType="Step started" step="step:{28d72870-f899-1072-4dfe-747268562fae}"/><vertex type="end" progressType="After step ended" step="step:{28d72870-f899-1072-4dfe-747268562fae}"/></transaction><transaction name="SignIn"><vertex type="start" progressType="Step started" step="step:{2d435fd6-5205-a71b-10af-ea34300266f7}"/><vertex type="end" progressType="After step ended" step="step:{2d435fd6-5205-a71b-10af-ea34300266f7}"/></transaction><transaction name="SignOut"><vertex type="start" progressType="Step started" step="step:{def64031-c7b8-8bcc-71cc-1dde069792a5}"/><vertex type="end" progressType="After step ended" step="step:{def64031-c7b8-8bcc-71cc-1dde069792a5}"/></transaction><transaction name="AttachedScanDocsDialog"><vertex type="start" progressType="Step started" step="step:{be90a8b0-17a3-b1d4-dd41-ccb3265f453b}"/><vertex type="end" progressType="After step ended" step="step:{be90a8b0-17a3-b1d4-dd41-ccb3265f453b}"/></transaction><transaction name="UploadDocument"><vertex type="start" progressType="Step started" step="step:{ca1bc3f4-0546-75e4-eac8-e91e5847e6bd}"/><vertex type="end" progressType="After step ended" step="step:{ca1bc3f4-0546-75e4-eac8-e91e5847e6bd}"/></transaction><transaction name="SubmitScannedDocument"><vertex type="start" progressType="Step started" step="step:{0a1f7888-349b-ff5d-da6d-2fba2913477a}"/><vertex type="end" progressType="After step ended" step="step:{0a1f7888-349b-ff5d-da6d-2fba2913477a}"/></transaction></transactions>
+</truLibrary>
