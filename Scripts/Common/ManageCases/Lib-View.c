@@ -8,7 +8,7 @@ Library_Common()
 	{
 		/* Signs a user in */
 		lr_start_transaction("SignInPage");
-		truclient_step("1.2", "Navigate to 'https://manage-case.per...form.hmcts.net/'", "snapshot=Common_1.2.inf");
+		truclient_step("1.2", "Navigate to TC.getParam('hostname')", "snapshot=Common_1.2.inf");
 		lr_end_transaction("SignInPage",0);
 		truclient_step("1.3", "Verify Sign in 's Visible Text contains Sign in", "snapshot=Common_1.3.inf");
 		truclient_step("1.4", "Verify Reject additional cookies 's Visible Text contains Reject additional cookies", "snapshot=Common_1.4.inf");
