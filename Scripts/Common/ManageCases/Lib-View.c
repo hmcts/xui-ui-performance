@@ -186,11 +186,37 @@ Library_Common()
 		truclient_step("12.6", "Click on Performance_Test_1MB.pdf columnheader", "snapshot=Common_12.6.inf");
 		lr_end_transaction("CaseFileViewMediaViewer",0);
 	}
-	truclient_step("13", "Function SignOut", "snapshot=Common_13.inf");
+	truclient_step("13", "Function SearchCaseReference", "snapshot=Common_13.inf");
+	{
+		lr_start_transaction("SearchDialog");
+		truclient_step("13.1", "Click on Search link", "snapshot=Common_13.1.inf");
+		lr_end_transaction("SearchDialog",0);
+		truclient_step("13.2", "Type TC.getParam('caseReference') in 16 digit case reference textbox", "snapshot=Common_13.2.inf");
+		lr_start_transaction("SearchCaseReference");
+		truclient_step("13.3", "Click on Search button", "snapshot=Common_13.3.inf");
+		lr_end_transaction("SearchCaseReference",0);
+	}
+	truclient_step("14", "Function NavigateMyWork", "snapshot=Common_14.inf");
+	{
+		lr_start_transaction("MyWorkMyTasks");
+		truclient_step("14.1", "Click on My work link", "snapshot=Common_14.1.inf");
+		lr_end_transaction("MyWorkMyTasks",0);
+		lr_start_transaction("MyWorkAvailableTasks");
+		truclient_step("14.2", "Click on Available tasks link", "snapshot=Common_14.2.inf");
+		lr_end_transaction("MyWorkAvailableTasks",0);
+		lr_start_transaction("MyWorkMyCases");
+		truclient_step("14.3", "Click on My cases link", "snapshot=Common_14.3.inf");
+		lr_end_transaction("MyWorkMyCases",0);
+		lr_start_transaction("MyWorkMyAccess");
+		truclient_step("14.4", "Click on My access link", "snapshot=Common_14.4.inf");
+		lr_end_transaction("MyWorkMyAccess",0);
+		truclient_step("14.5", "Click on My tasks link", "snapshot=Common_14.5.inf");
+	}
+	truclient_step("15", "Function SignOut", "snapshot=Common_15.inf");
 	{
 		/* Signs a user out */
 		lr_start_transaction("SignOut");
-		truclient_step("13.2", "Click on Sign out link", "snapshot=Common_13.2.inf");
+		truclient_step("15.2", "Click on Sign out link", "snapshot=Common_15.2.inf");
 		lr_end_transaction("SignOut",0);
 	}
 

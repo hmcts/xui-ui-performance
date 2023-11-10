@@ -66,8 +66,8 @@ Order="SignInPage__*delimiter*__SignIn__*delimiter*__AttachedScanDocsDialog__*de
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=
-ActiveRunName=
+LastReplayedRunName=result1
+ActiveRunName=result1
 [Transactions]
 SignInPage=
 SignIn=
