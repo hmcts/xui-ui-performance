@@ -62,7 +62,7 @@ Action=1
 Lib-View=1
 vuser_end=1
 [TransactionsOrder]
-Order="SignInPage__*delimiter*__SignIn__*delimiter*__Cases__*delimiter*__ApplyFilter__*delimiter*__Select Case__*delimiter*__SelectedTab__*delimiter*__AddCaseNoteDialog__*delimiter*__AddCaseNote__*delimiter*__CaseNotes__*delimiter*__AttachedScanDocsDialog__*delimiter*__UploadDocument__*delimiter*__SubmitScannedDocument__*delimiter*__HearingsTab__*delimiter*__CaseDocumentsTab__*delimiter*__CaseDocumentsMediaViewer__*delimiter*__CaseFileViewTab__*delimiter*__CaseFileViewMediaViewer__*delimiter*__SignOut"
+Order="SignInPage__*delimiter*__SignIn__*delimiter*__Cases__*delimiter*__ApplyFilter__*delimiter*__Select Case__*delimiter*__SelectedTab__*delimiter*__AddCaseNoteDialog__*delimiter*__AddCaseNote__*delimiter*__CaseNotes__*delimiter*__AttachedScanDocsDialog__*delimiter*__UploadDocument__*delimiter*__SubmitScannedDocument__*delimiter*__HearingsTab__*delimiter*__CaseDocumentsTab__*delimiter*__CaseDocumentsMediaViewer__*delimiter*__CaseFileViewTab__*delimiter*__CaseFileViewMediaViewer__*delimiter*__MyWorkMyCases__*delimiter*__SignOut__*delimiter*__MyWorkMyTasks__*delimiter*__SearchDialog__*delimiter*__SearchCaseReference__*delimiter*__MyWorkAvailableTasks__*delimiter*__MyWorkMyAccess"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -86,4 +86,10 @@ CaseDocumentsTab=
 CaseDocumentsMediaViewer=
 CaseFileViewTab=
 CaseFileViewMediaViewer=
+MyWorkMyCases=
 SignOut=
+MyWorkMyTasks=
+SearchDialog=
+SearchCaseReference=
+MyWorkAvailableTasks=
+MyWorkMyAccess=
