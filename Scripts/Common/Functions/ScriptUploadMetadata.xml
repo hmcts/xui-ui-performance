@@ -26,12 +26,21 @@
     <FileEntry Name="user_modified_perfs.json" Filter="2" />
     <FileEntry Name="TCIEAuthenticationFilters.ini" Filter="2" />
     <FileEntry Name="username.dat" Filter="2" />
+    <FileEntry Name="combined_Functions.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
+    <FileEntry Name="129751358440.idx" Filter="1" />
+    <FileEntry Name="168802533440.idx" Filter="1" />
+    <FileEntry Name="219068450440.idx" Filter="1" />
+    <FileEntry Name="254290201440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="default.cfg.bak" Filter="1" />
+    <FileEntry Name="Functions.c.pickle" Filter="1" />
+    <FileEntry Name="Functions.ci" Filter="1" />
+    <FileEntry Name="Functions.prm.bak" Filter="1" />
     <FileEntry Name="interactive_replay_Chromium.txt" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="ManageCases.prm.bak" Filter="1" />
