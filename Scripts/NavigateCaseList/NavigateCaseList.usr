@@ -62,7 +62,7 @@ Action=1
 Lib-View=1
 vuser_end=1
 [TransactionsOrder]
-Order="SignInPage__*delimiter*__SignIn__*delimiter*__Cases__*delimiter*__ApplyFilter__*delimiter*__Select Case__*delimiter*__AddCaseNoteDialog__*delimiter*__AddCaseNote__*delimiter*__CaseNotes__*delimiter*__AttachedScanDocsDialog__*delimiter*__UploadDocument__*delimiter*__SubmitScannedDocument__*delimiter*__CaseDocumentsTab__*delimiter*__CaseDocumentsMediaViewer__*delimiter*__CaseFileViewTab__*delimiter*__CaseFileViewMediaViewer__*delimiter*__SearchDialog__*delimiter*__SearchCaseReference__*delimiter*__SignOut"
+Order="SignInPage__*delimiter*__SignIn__*delimiter*__Cases__*delimiter*__NavigateCaseListCases__*delimiter*__ApplyFilter__*delimiter*__Select Case__*delimiter*__AddCaseNoteDialog__*delimiter*__AddCaseNote__*delimiter*__CaseNotes__*delimiter*__AttachedScanDocsDialog__*delimiter*__UploadDocument__*delimiter*__SubmitScannedDocument__*delimiter*__CaseDocumentsTab__*delimiter*__CaseDocumentsMediaViewer__*delimiter*__CaseFileViewTab__*delimiter*__CaseFileViewMediaViewer__*delimiter*__SearchDialog__*delimiter*__SearchCaseReference__*delimiter*__SignOut"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -72,6 +72,7 @@ ActiveRunName=
 SignInPage=
 SignIn=
 Cases=
+NavigateCaseListCases=
 ApplyFilter=
 "Select Case"=
 AddCaseNoteDialog=
