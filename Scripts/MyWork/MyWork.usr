@@ -62,7 +62,7 @@ Action=1
 Lib-View=1
 vuser_end=1
 [TransactionsOrder]
-Order="MyWork__*delimiter*__MyWorkApplyFilter_01__*delimiter*__MyWorkApplyFilter_02__*delimiter*__SortByDueDate_01__*delimiter*__SortByDueDate_02__*delimiter*__AssignToMe__*delimiter*__MyTasks__*delimiter*__UnassignDialog__*delimiter*__Unassign__*delimiter*__SignInPage__*delimiter*__SignIn__*delimiter*__Cases__*delimiter*__ApplyFilter__*delimiter*__Select Case__*delimiter*__SelectedTab__*delimiter*__AddCaseNoteDialog__*delimiter*__AddCaseNote__*delimiter*__CaseNotes__*delimiter*__AttachedScanDocsDialog__*delimiter*__UploadDocument__*delimiter*__SubmitScannedDocument__*delimiter*__HearingsTab__*delimiter*__CaseDocumentsTab__*delimiter*__CaseDocumentsMediaViewer__*delimiter*__CaseFileViewTab__*delimiter*__CaseFileViewMediaViewer__*delimiter*__SearchDialog__*delimiter*__SearchCaseReference__*delimiter*__MyWorkMyTasks__*delimiter*__MyWorkAvailableTasks__*delimiter*__MyWorkMyCases__*delimiter*__MyWorkMyAccess__*delimiter*__SignOut"
+Order="MyWork__*delimiter*__MyWorkApplyFilter_01__*delimiter*__MyWorkApplyFilter_02__*delimiter*__SortByDueDate_01__*delimiter*__SortByDueDate_02__*delimiter*__AssignToMe__*delimiter*__MyTasks__*delimiter*__UnassignDialog__*delimiter*__Unassign__*delimiter*__SignInPage__*delimiter*__SignIn__*delimiter*__SignOut"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -80,25 +80,4 @@ UnassignDialog=
 Unassign=
 SignInPage=
 SignIn=
-Cases=
-ApplyFilter=
-"Select Case"=
-SelectedTab=
-AddCaseNoteDialog=
-AddCaseNote=
-CaseNotes=
-AttachedScanDocsDialog=
-UploadDocument=
-SubmitScannedDocument=
-HearingsTab=
-CaseDocumentsTab=
-CaseDocumentsMediaViewer=
-CaseFileViewTab=
-CaseFileViewMediaViewer=
-SearchDialog=
-SearchCaseReference=
-MyWorkMyTasks=
-MyWorkAvailableTasks=
-MyWorkMyCases=
-MyWorkMyAccess=
 SignOut=

@@ -31,9 +31,13 @@
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
     <FileEntry Name="149297181440.idx" Filter="1" />
+    <FileEntry Name="14929718144_ECl.543.idx" Filter="1" />
     <FileEntry Name="17017407440.idx" Filter="1" />
+    <FileEntry Name="1701740744_Uou.546.idx" Filter="1" />
     <FileEntry Name="200917795440.idx" Filter="1" />
+    <FileEntry Name="20091779544_NRm.545.idx" Filter="1" />
     <FileEntry Name="35289137440.idx" Filter="1" />
+    <FileEntry Name="3528913744_pHt.544.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -42,6 +46,8 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="ManageCases.prm.bak" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv7qU.403.log" Filter="1" />
+    <FileEntry Name="mdrvGM0.285.log" Filter="1" />
     <FileEntry Name="mdrvmMP.317.log" Filter="1" />
     <FileEntry Name="mdrvNCX.865.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />

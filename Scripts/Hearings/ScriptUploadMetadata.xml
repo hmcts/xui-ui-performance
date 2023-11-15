@@ -31,9 +31,17 @@
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
     <FileEntry Name="168852809440.idx" Filter="1" />
+    <FileEntry Name="16885280944_jJ0.164.idx" Filter="1" />
+    <FileEntry Name="16885280944_WHP.612.idx" Filter="1" />
     <FileEntry Name="211411542440.idx" Filter="1" />
+    <FileEntry Name="21141154244_gP8.165.idx" Filter="1" />
+    <FileEntry Name="21141154244_qkM.613.idx" Filter="1" />
     <FileEntry Name="7182045440.idx" Filter="1" />
+    <FileEntry Name="718204544_7ks.163.idx" Filter="1" />
+    <FileEntry Name="718204544_B1w.611.idx" Filter="1" />
     <FileEntry Name="8630142440.idx" Filter="1" />
+    <FileEntry Name="863014244_qoh.614.idx" Filter="1" />
+    <FileEntry Name="863014244_QSo.166.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -42,12 +50,15 @@
     <FileEntry Name="HearingRequest.prm.bak" Filter="1" />
     <FileEntry Name="Hearings.c.pickle" Filter="1" />
     <FileEntry Name="Hearings.ci" Filter="1" />
+    <FileEntry Name="Hearings.prm.bak" Filter="1" />
     <FileEntry Name="interactive_replay_Chromium.txt" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="ManageCases.prm.bak" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv6dv.81.log" Filter="1" />
     <FileEntry Name="mdrvmMP.317.log" Filter="1" />
     <FileEntry Name="mdrvNCX.865.log" Filter="1" />
+    <FileEntry Name="mdrvpZK.247.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
