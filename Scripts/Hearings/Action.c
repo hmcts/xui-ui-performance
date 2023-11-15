@@ -1,0 +1,48 @@
+//   *****************************************************************************************************************************************
+//   ****   PLEASE NOTE: This is a READ-ONLY representation of the actual script. For editing please press the "Develop Script" button.   ****
+//   *****************************************************************************************************************************************
+
+Action()
+{
+	truclient_step("1", "Call Function Common.SelectCasesApplyFilter", "snapshot=Action_1.inf");
+	truclient_step("2", "Call Function Common.SelectRandomCase", "snapshot=Action_2.inf");
+	truclient_step("3", "Call Function Common.SelectHearings", "snapshot=Action_3.inf");
+	truclient_step("4", "RequestHearing", "snapshot=Action_4.inf");
+	{
+		lr_start_transaction("RequestHearingStart");
+		truclient_step("4.1", "Click on Request a hearing JavaScript link", "snapshot=Action_4.1.inf");
+		lr_end_transaction("RequestHearingStart",0);
+		truclient_step("4.2", "Click on Continue button", "snapshot=Action_4.2.inf");
+		truclient_step("4.3", "Click on Custody Cell listitem", "snapshot=Action_4.3.inf");
+		truclient_step("4.4", "Click on Continue button", "snapshot=Action_4.4.inf");
+		truclient_step("4.5", "Click on Finding of Fact listitem", "snapshot=Action_4.5.inf");
+		truclient_step("4.6", "Click on Continue button", "snapshot=Action_4.6.inf");
+		truclient_step("4.7", "Click on In Person", "snapshot=Action_4.7.inf");
+		truclient_step("4.8", "Select In Person from Perf Test listbox", "snapshot=Action_4.8.inf");
+		truclient_step("4.9", "Select In Person from SolFirst SolLast listbox", "snapshot=Action_4.9.inf");
+		truclient_step("4.10", "Select In Person from Test Person listbox", "snapshot=Action_4.10.inf");
+		truclient_step("4.11", "Type 3 in How many people will... textbox", "snapshot=Action_4.11.inf");
+		truclient_step("4.12", "Click on Continue button", "snapshot=Action_4.12.inf");
+		truclient_step("4.13", "Click on Continue button", "snapshot=Action_4.13.inf");
+		truclient_step("4.14", "Click on No", "snapshot=Action_4.14.inf");
+		truclient_step("4.15", "Click on Circuit Judge listitem", "snapshot=Action_4.15.inf");
+		truclient_step("4.16", "Click on Continue button", "snapshot=Action_4.16.inf");
+		truclient_step("4.17", "Type 30 in Minutes textbox", "snapshot=Action_4.17.inf");
+		truclient_step("4.18", "Click on No", "snapshot=Action_4.18.inf");
+		truclient_step("4.19", "Click on Continue button", "snapshot=Action_4.19.inf");
+		truclient_step("4.20", "Click on Continue button", "snapshot=Action_4.20.inf");
+		truclient_step("4.21", "Type performance_test in Request a hearing for... textbox", "snapshot=Action_4.21.inf");
+		truclient_step("4.22", "Click on Continue button", "snapshot=Action_4.22.inf");
+		lr_start_transaction("HearingRequestSubmitted");
+		truclient_step("4.23", "Click on Submit request button", "snapshot=Action_4.23.inf");
+		lr_end_transaction("HearingRequestSubmitted",0);
+		lr_start_transaction("Hearings");
+		truclient_step("4.24", "Click on view the status of this... link", "snapshot=Action_4.24.inf");
+		lr_end_transaction("Hearings",0);
+		lr_start_transaction("ViewHearing");
+		truclient_step("4.25", "Click on View or edit JavaScript link", "snapshot=Action_4.25.inf");
+		lr_end_transaction("ViewHearing",0);
+	}
+
+	return 0;
+}
