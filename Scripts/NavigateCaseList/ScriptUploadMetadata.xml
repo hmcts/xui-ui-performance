@@ -31,9 +31,25 @@
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
     <FileEntry Name="106837361440.idx" Filter="1" />
+    <FileEntry Name="10683736144_dHi.399.idx" Filter="1" />
+    <FileEntry Name="10683736144_j7h.323.idx" Filter="1" />
+    <FileEntry Name="10683736144_JnE.513.idx" Filter="1" />
+    <FileEntry Name="10683736144_NQl.949.idx" Filter="1" />
     <FileEntry Name="147784444440.idx" Filter="1" />
+    <FileEntry Name="14778444444_GhP.950.idx" Filter="1" />
+    <FileEntry Name="14778444444_pAD.514.idx" Filter="1" />
+    <FileEntry Name="14778444444_pIc.400.idx" Filter="1" />
+    <FileEntry Name="14778444444_zr6.324.idx" Filter="1" />
     <FileEntry Name="240317717440.idx" Filter="1" />
+    <FileEntry Name="24031771744_54q.511.idx" Filter="1" />
+    <FileEntry Name="24031771744_elI.321.idx" Filter="1" />
+    <FileEntry Name="24031771744_Mgg.397.idx" Filter="1" />
+    <FileEntry Name="24031771744_xpR.947.idx" Filter="1" />
     <FileEntry Name="38685540440.idx" Filter="1" />
+    <FileEntry Name="3868554044_ftS.322.idx" Filter="1" />
+    <FileEntry Name="3868554044_orF.398.idx" Filter="1" />
+    <FileEntry Name="3868554044_R0h.948.idx" Filter="1" />
+    <FileEntry Name="3868554044_zyG.512.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -42,16 +58,21 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="ManageCases.prm.bak" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv6Te.599.log" Filter="1" />
     <FileEntry Name="mdrvmMP.317.log" Filter="1" />
     <FileEntry Name="mdrvNCX.865.log" Filter="1" />
+    <FileEntry Name="mdrvuuh.111.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NavigateCaseList.c.pickle" Filter="1" />
     <FileEntry Name="NavigateCaseList.ci" Filter="1" />
+    <FileEntry Name="NavigateCaseList.prm.bak" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
+    <FileEntry Name="results\" Filter="1" />
+    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

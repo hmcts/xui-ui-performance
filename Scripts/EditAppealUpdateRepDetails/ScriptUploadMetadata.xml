@@ -61,6 +61,7 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="ManageCases.prm.bak" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvgt3.925.log" Filter="1" />
     <FileEntry Name="mdrvmMP.317.log" Filter="1" />
     <FileEntry Name="mdrvNCX.865.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
