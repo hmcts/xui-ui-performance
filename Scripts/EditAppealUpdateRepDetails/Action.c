@@ -10,10 +10,11 @@ Action()
 		truclient_step("1.1", "Navigate to https://manage-case.perf....hmcts.net/cases", "snapshot=Action_1.1.inf");
 		lr_end_transaction("EditAppealCaseList",0);
 		truclient_step("1.2", "Click on Case list link", "snapshot=Action_1.2.inf");
-		truclient_step("1.3", "Select Awaiting respondent evidence from State listbox", "snapshot=Action_1.3.inf");
-		truclient_step("1.4", "Click on Apply filter button", "snapshot=Action_1.4.inf");
-		truclient_step("1.5", "Wait 3 seconds", "snapshot=Action_1.5.inf");
-		truclient_step("1.6", "Click on RP/84564/2022 link", "snapshot=Action_1.6.inf");
+		truclient_step("1.3", "Select Appeal* master from Case type listbox", "snapshot=Action_1.3.inf");
+		truclient_step("1.4", "Select Awaiting respondent evidence from State listbox", "snapshot=Action_1.4.inf");
+		truclient_step("1.5", "Click on Apply filter button", "snapshot=Action_1.5.inf");
+		truclient_step("1.6", "Wait 3 seconds", "snapshot=Action_1.6.inf");
+		truclient_step("1.7", "Click on RP/84564/2022 link", "snapshot=Action_1.7.inf");
 	}
 	truclient_step("2", "Evaluate JavaScript code // create a string conta...te.getMinutes();", "snapshot=Action_2.inf");
 	truclient_step("3", "Update Representative Details", "snapshot=Action_3.inf");
