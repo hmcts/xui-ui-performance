@@ -31,15 +31,27 @@
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
     <FileEntry Name="168852809440.idx" Filter="1" />
+    <FileEntry Name="16885280944_fsA.338.idx" Filter="1" />
     <FileEntry Name="16885280944_jJ0.164.idx" Filter="1" />
+    <FileEntry Name="16885280944_oXc.104.idx" Filter="1" />
     <FileEntry Name="16885280944_WHP.612.idx" Filter="1" />
+    <FileEntry Name="16885280944_YXB.614.idx" Filter="1" />
     <FileEntry Name="211411542440.idx" Filter="1" />
+    <FileEntry Name="21141154244_5gr.339.idx" Filter="1" />
     <FileEntry Name="21141154244_gP8.165.idx" Filter="1" />
     <FileEntry Name="21141154244_qkM.613.idx" Filter="1" />
+    <FileEntry Name="21141154244_vRt.615.idx" Filter="1" />
+    <FileEntry Name="21141154244_W3K.105.idx" Filter="1" />
     <FileEntry Name="7182045440.idx" Filter="1" />
     <FileEntry Name="718204544_7ks.163.idx" Filter="1" />
     <FileEntry Name="718204544_B1w.611.idx" Filter="1" />
+    <FileEntry Name="718204544_ByX.613.idx" Filter="1" />
+    <FileEntry Name="718204544_i5c.103.idx" Filter="1" />
+    <FileEntry Name="718204544_x5A.337.idx" Filter="1" />
     <FileEntry Name="8630142440.idx" Filter="1" />
+    <FileEntry Name="863014244_01p.340.idx" Filter="1" />
+    <FileEntry Name="863014244_bb3.106.idx" Filter="1" />
+    <FileEntry Name="863014244_i5Z.616.idx" Filter="1" />
     <FileEntry Name="863014244_qoh.614.idx" Filter="1" />
     <FileEntry Name="863014244_QSo.166.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
@@ -66,7 +78,5 @@
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
-    <FileEntry Name="results\" Filter="1" />
-    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
