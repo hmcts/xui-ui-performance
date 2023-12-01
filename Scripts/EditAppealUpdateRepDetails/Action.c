@@ -6,9 +6,9 @@ Action()
 {
 	truclient_step("1", "Select Case", "snapshot=Action_1.inf");
 	{
-		lr_start_transaction("EditAppealCaseList");
+		lr_start_transaction("XUI01_005_EditAppealCaseList");
 		truclient_step("1.1", "Navigate to https://manage-case.perf....hmcts.net/cases", "snapshot=Action_1.1.inf");
-		lr_end_transaction("EditAppealCaseList",0);
+		lr_end_transaction("XUI01_005_EditAppealCaseList",0);
 		truclient_step("1.2", "Click on Case list link", "snapshot=Action_1.2.inf");
 		truclient_step("1.3", "Select Bail* master from Case type listbox", "snapshot=Action_1.3.inf");
 		truclient_step("1.4", "Select Appeal* DIAC-132 from Case type listbox", "snapshot=Action_1.4.inf");
