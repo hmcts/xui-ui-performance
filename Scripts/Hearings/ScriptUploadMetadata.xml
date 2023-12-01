@@ -31,29 +31,45 @@
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
     <FileEntry Name="168852809440.idx" Filter="1" />
+    <FileEntry Name="16885280944_0Eq.764.idx" Filter="1" />
     <FileEntry Name="16885280944_fsA.338.idx" Filter="1" />
+    <FileEntry Name="16885280944_H6o.258.idx" Filter="1" />
     <FileEntry Name="16885280944_jJ0.164.idx" Filter="1" />
     <FileEntry Name="16885280944_oXc.104.idx" Filter="1" />
+    <FileEntry Name="16885280944_RRj.44.idx" Filter="1" />
+    <FileEntry Name="16885280944_SG8.894.idx" Filter="1" />
     <FileEntry Name="16885280944_WHP.612.idx" Filter="1" />
     <FileEntry Name="16885280944_YXB.614.idx" Filter="1" />
     <FileEntry Name="211411542440.idx" Filter="1" />
+    <FileEntry Name="21141154244_561.765.idx" Filter="1" />
     <FileEntry Name="21141154244_5gr.339.idx" Filter="1" />
+    <FileEntry Name="21141154244_6N6.895.idx" Filter="1" />
+    <FileEntry Name="21141154244_BXx.259.idx" Filter="1" />
     <FileEntry Name="21141154244_gP8.165.idx" Filter="1" />
+    <FileEntry Name="21141154244_Mqt.45.idx" Filter="1" />
     <FileEntry Name="21141154244_qkM.613.idx" Filter="1" />
     <FileEntry Name="21141154244_vRt.615.idx" Filter="1" />
     <FileEntry Name="21141154244_W3K.105.idx" Filter="1" />
     <FileEntry Name="7182045440.idx" Filter="1" />
+    <FileEntry Name="718204544_5VH.893.idx" Filter="1" />
     <FileEntry Name="718204544_7ks.163.idx" Filter="1" />
     <FileEntry Name="718204544_B1w.611.idx" Filter="1" />
     <FileEntry Name="718204544_ByX.613.idx" Filter="1" />
+    <FileEntry Name="718204544_EkN.257.idx" Filter="1" />
     <FileEntry Name="718204544_i5c.103.idx" Filter="1" />
+    <FileEntry Name="718204544_ISr.43.idx" Filter="1" />
+    <FileEntry Name="718204544_q9O.763.idx" Filter="1" />
     <FileEntry Name="718204544_x5A.337.idx" Filter="1" />
     <FileEntry Name="8630142440.idx" Filter="1" />
     <FileEntry Name="863014244_01p.340.idx" Filter="1" />
+    <FileEntry Name="863014244_arH.766.idx" Filter="1" />
     <FileEntry Name="863014244_bb3.106.idx" Filter="1" />
+    <FileEntry Name="863014244_eFh.896.idx" Filter="1" />
+    <FileEntry Name="863014244_FeR.260.idx" Filter="1" />
     <FileEntry Name="863014244_i5Z.616.idx" Filter="1" />
     <FileEntry Name="863014244_qoh.614.idx" Filter="1" />
     <FileEntry Name="863014244_QSo.166.idx" Filter="1" />
+    <FileEntry Name="863014244_Vzq.46.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -68,6 +84,7 @@
     <FileEntry Name="ManageCases.prm.bak" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv6dv.81.log" Filter="1" />
+    <FileEntry Name="mdrvGn3.335.log" Filter="1" />
     <FileEntry Name="mdrvmMP.317.log" Filter="1" />
     <FileEntry Name="mdrvNCX.865.log" Filter="1" />
     <FileEntry Name="mdrvpZK.247.log" Filter="1" />
@@ -78,5 +95,7 @@
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
+    <FileEntry Name="results\" Filter="1" />
+    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
