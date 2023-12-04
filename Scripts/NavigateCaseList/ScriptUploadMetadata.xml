@@ -36,6 +36,7 @@
     <FileEntry Name="10683736144_8OB.509.idx" Filter="1" />
     <FileEntry Name="10683736144_9PR.721.idx" Filter="1" />
     <FileEntry Name="10683736144_dHi.399.idx" Filter="1" />
+    <FileEntry Name="10683736144_DYS.727.idx" Filter="1" />
     <FileEntry Name="10683736144_hqC.70.idx" Filter="1" />
     <FileEntry Name="10683736144_IX8.95.idx" Filter="1" />
     <FileEntry Name="10683736144_j7h.323.idx" Filter="1" />
@@ -46,6 +47,7 @@
     <FileEntry Name="10683736144_pxT.99.idx" Filter="1" />
     <FileEntry Name="10683736144_rmc.69.idx" Filter="1" />
     <FileEntry Name="147784444440.idx" Filter="1" />
+    <FileEntry Name="14778444444_5In.728.idx" Filter="1" />
     <FileEntry Name="14778444444_80v.96.idx" Filter="1" />
     <FileEntry Name="14778444444_eRj.48.idx" Filter="1" />
     <FileEntry Name="14778444444_GhP.950.idx" Filter="1" />
@@ -72,6 +74,7 @@
     <FileEntry Name="24031771744_lEn.369.idx" Filter="1" />
     <FileEntry Name="24031771744_Mgg.397.idx" Filter="1" />
     <FileEntry Name="24031771744_ScA.67.idx" Filter="1" />
+    <FileEntry Name="24031771744_Tmp.725.idx" Filter="1" />
     <FileEntry Name="24031771744_UEh.97.idx" Filter="1" />
     <FileEntry Name="24031771744_VjS.93.idx" Filter="1" />
     <FileEntry Name="24031771744_xpR.947.idx" Filter="1" />
@@ -79,6 +82,7 @@
     <FileEntry Name="3868554044_9aX.98.idx" Filter="1" />
     <FileEntry Name="3868554044_d2P.508.idx" Filter="1" />
     <FileEntry Name="3868554044_dJA.890.idx" Filter="1" />
+    <FileEntry Name="3868554044_FEA.726.idx" Filter="1" />
     <FileEntry Name="3868554044_ftS.322.idx" Filter="1" />
     <FileEntry Name="3868554044_gK8.94.idx" Filter="1" />
     <FileEntry Name="3868554044_il7.68.idx" Filter="1" />
@@ -113,7 +117,5 @@
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
-    <FileEntry Name="results\" Filter="1" />
-    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

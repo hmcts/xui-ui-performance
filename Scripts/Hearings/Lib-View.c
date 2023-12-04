@@ -31,16 +31,17 @@ Library_Common()
 	}
 	truclient_step("2", "Function SelectCasesApplyFilter", "snapshot=Common_2.inf");
 	{
-		lr_start_transaction("XUI02_010_Cases");
 		truclient_step("2.1", "Click on Case list link", "snapshot=Common_2.1.inf");
+		lr_start_transaction("XUI02_010_Cases");
+		truclient_step("2.2", "Navigate to https://manage-case.perf....hmcts.net/cases", "snapshot=Common_2.2.inf");
 		lr_end_transaction("XUI02_010_Cases",0);
-		truclient_step("2.2", "Wait until Your cases exists", "snapshot=Common_2.2.inf");
-		truclient_step("2.3", "Wait until Filters heading exists", "snapshot=Common_2.3.inf");
-		truclient_step("2.4", "Select TC.getParam('state') from State listbox", "snapshot=Common_2.4.inf");
+		truclient_step("2.3", "Wait until Your cases exists", "snapshot=Common_2.3.inf");
+		truclient_step("2.4", "Wait until Filters heading exists", "snapshot=Common_2.4.inf");
+		truclient_step("2.5", "Select TC.getParam('state') from State listbox", "snapshot=Common_2.5.inf");
 		lr_start_transaction("XUI02_020_ApplyFilter");
-		truclient_step("2.5", "Click on Apply filter button", "snapshot=Common_2.5.inf");
+		truclient_step("2.6", "Click on Apply filter button", "snapshot=Common_2.6.inf");
 		lr_end_transaction("XUI02_020_ApplyFilter",0);
-		truclient_step("2.6", "Verify Your cases 's Visible Text contains Your cases", "snapshot=Common_2.6.inf");
+		truclient_step("2.7", "Verify Your cases 's Visible Text contains Your cases", "snapshot=Common_2.7.inf");
 	}
 	truclient_step("3", "Function SelectRandomCase", "snapshot=Common_3.inf");
 	{
