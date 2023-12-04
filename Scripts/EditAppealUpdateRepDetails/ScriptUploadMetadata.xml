@@ -45,6 +45,7 @@
     <FileEntry Name="23292282444_kjd.423.idx" Filter="1" />
     <FileEntry Name="23292282444_mKv.217.idx" Filter="1" />
     <FileEntry Name="23292282444_NjJ.335.idx" Filter="1" />
+    <FileEntry Name="23292282444_Up3.193.idx" Filter="1" />
     <FileEntry Name="23292282444_WLr.801.idx" Filter="1" />
     <FileEntry Name="23292282444_YAR.47.idx" Filter="1" />
     <FileEntry Name="23292282444_yM3.865.idx" Filter="1" />
@@ -84,6 +85,7 @@
     <FileEntry Name="3328775544_MVF.12.idx" Filter="1" />
     <FileEntry Name="3328775544_O11.802.idx" Filter="1" />
     <FileEntry Name="3328775544_OI8.500.idx" Filter="1" />
+    <FileEntry Name="3328775544_tJb.194.idx" Filter="1" />
     <FileEntry Name="3328775544_WzM.510.idx" Filter="1" />
     <FileEntry Name="3328775544_x8x.903.idx" Filter="1" />
     <FileEntry Name="3328775544_xKt.106.idx" Filter="1" />
@@ -112,7 +114,5 @@
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
-    <FileEntry Name="results\" Filter="1" />
-    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
