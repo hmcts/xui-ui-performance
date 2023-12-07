@@ -32,6 +32,12 @@
     <FileEntry Name="profiles\" Filter="2" />
     <FileEntry Name="129751358440.idx" Filter="1" />
     <FileEntry Name="168802533440.idx" Filter="1" />
+    <FileEntry Name="16880253344_5Or.941.idx" Filter="1" />
+    <FileEntry Name="16880253344_8s7.161.idx" Filter="1" />
+    <FileEntry Name="16880253344_aaT.653.idx" Filter="1" />
+    <FileEntry Name="16880253344_Mh9.157.idx" Filter="1" />
+    <FileEntry Name="16880253344_SL0.65.idx" Filter="1" />
+    <FileEntry Name="16880253344_YYs.595.idx" Filter="1" />
     <FileEntry Name="219068450440.idx" Filter="1" />
     <FileEntry Name="254290201440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
@@ -54,7 +60,5 @@
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
-    <FileEntry Name="results\" Filter="1" />
-    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
