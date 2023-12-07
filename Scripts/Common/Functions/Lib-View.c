@@ -180,8 +180,8 @@ Library_Common()
 			truclient_step("12.3.5", "Click on Case File View tab", "snapshot=Common_12.3.5.inf");
 			lr_end_transaction("CaseFileViewTab",0);
 		}
-		truclient_step("12.4", "Click on Other Documents columnheader", "snapshot=Common_12.4.inf");
-		truclient_step("12.5", "Click on Any Other Documents columnheader", "snapshot=Common_12.5.inf");
+		truclient_step("12.4", "Click on Documents to be reviewed columnheader", "snapshot=Common_12.4.inf");
+		truclient_step("12.5", "Click on Bulk scan uploaded columnheader", "snapshot=Common_12.5.inf");
 		lr_start_transaction("CaseFileViewMediaViewer");
 		truclient_step("12.6", "Click on Performance_Test_1MB.pdf columnheader", "snapshot=Common_12.6.inf");
 		lr_end_transaction("CaseFileViewMediaViewer",0);
