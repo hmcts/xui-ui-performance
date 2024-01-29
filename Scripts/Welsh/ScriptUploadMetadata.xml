@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VugenScriptMetadata>
-  <ScriptName>Functions</ScriptName>
+  <ScriptName>Welsh</ScriptName>
   <Protocol>TruClient - Web</Protocol>
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
@@ -9,10 +9,10 @@
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>
-    <FileEntry Name="Functions.usr" Filter="4" />
+    <FileEntry Name="Welsh.usr" Filter="4" />
     <FileEntry Name="default.cfg" Filter="4" />
     <FileEntry Name="default.usp" Filter="4" />
-    <FileEntry Name="Functions.prm" Filter="2" />
+    <FileEntry Name="Welsh.prm" Filter="2" />
     <FileEntry Name="C-functions.c" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="JS-functions.js" Filter="2" />
@@ -26,30 +26,18 @@
     <FileEntry Name="user_modified_perfs.json" Filter="2" />
     <FileEntry Name="TCIEAuthenticationFilters.ini" Filter="2" />
     <FileEntry Name="username.dat" Filter="2" />
-    <FileEntry Name="combined_Functions.c" Filter="2" />
+    <FileEntry Name="combined_Welsh.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
-    <FileEntry Name="129751358440.idx" Filter="1" />
-    <FileEntry Name="168802533440.idx" Filter="1" />
-    <FileEntry Name="16880253344_5Or.941.idx" Filter="1" />
-    <FileEntry Name="16880253344_7kB.931.idx" Filter="1" />
-    <FileEntry Name="16880253344_8s7.161.idx" Filter="1" />
-    <FileEntry Name="16880253344_aaT.653.idx" Filter="1" />
-    <FileEntry Name="16880253344_bcx.245.idx" Filter="1" />
-    <FileEntry Name="16880253344_fuP.505.idx" Filter="1" />
-    <FileEntry Name="16880253344_j0E.145.idx" Filter="1" />
-    <FileEntry Name="16880253344_Mh9.157.idx" Filter="1" />
-    <FileEntry Name="16880253344_SL0.65.idx" Filter="1" />
-    <FileEntry Name="16880253344_YYs.595.idx" Filter="1" />
-    <FileEntry Name="219068450440.idx" Filter="1" />
-    <FileEntry Name="254290201440.idx" Filter="1" />
+    <FileEntry Name="140406372440.idx" Filter="1" />
+    <FileEntry Name="142982503440.idx" Filter="1" />
+    <FileEntry Name="210793999440.idx" Filter="1" />
+    <FileEntry Name="223645089440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="default.cfg.bak" Filter="1" />
-    <FileEntry Name="Functions.c.pickle" Filter="1" />
-    <FileEntry Name="Functions.ci" Filter="1" />
     <FileEntry Name="Functions.prm.bak" Filter="1" />
     <FileEntry Name="interactive_replay_Chromium.txt" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
@@ -63,6 +51,10 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="Welsh.c.pickle" Filter="1" />
+    <FileEntry Name="Welsh.ci" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
+    <FileEntry Name="results\" Filter="1" />
+    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
