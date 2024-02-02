@@ -4,7 +4,7 @@
 
 Action()
 {
-	/* Resize to improve object recognition - temp change */
+	/* Resize to improve object recognition */
 	truclient_step("2", "Resize browser window to 1680 px / 1050 px", "snapshot=Action_2.inf");
 	truclient_step("3", "Call Function Common.SignIn", "snapshot=Action_3.inf");
 	truclient_step("4", "WelshTranslation", "snapshot=Action_4.inf");
