@@ -4,9 +4,5 @@
 
 vuser_init()
 {
-	/* Resize to improve object recognition */
-	truclient_step("2", "Resize browser window to 1680 px / 1050 px", "snapshot=Init_2.inf");
-	truclient_step("3", "Call Function Common.SignIn", "snapshot=Init_3.inf");
-
 	return 0;
 }

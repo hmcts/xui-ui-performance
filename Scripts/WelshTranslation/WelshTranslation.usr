@@ -3,7 +3,7 @@ Type=TruClientWeb
 DefaultCfg=default.cfg
 MajorVersion=2021
 MinorVersion=0
-ParameterFile=Welsh.prm
+ParameterFile=WelshTranslation.prm
 GlobalParameterFile=
 NewFunctionHeader=1
 LastActiveAction=Action
@@ -53,7 +53,7 @@ Lib-View=1
 vuser_end=0
 [Modified Actions]
 vuser_init=0
-Action=0
+Action=1
 Lib-View=0
 vuser_end=0
 [Replayed Actions]

@@ -4,7 +4,5 @@
 
 vuser_end()
 {
-	truclient_step("1", "Call Function Common.SignOut", "snapshot=End_1.inf");
-
 	return 0;
 }
