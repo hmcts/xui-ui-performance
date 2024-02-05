@@ -32,9 +32,9 @@ Library_Common()
 	truclient_step("2", "Function SelectCasesApplyFilter", "snapshot=Common_2.inf");
 	{
 		lr_start_transaction("Cases");
-		truclient_step("2.1", "Click on Case list link", "snapshot=Common_2.1.inf");
+		truclient_step("2.1", "Click on Rhestr achos link", "snapshot=Common_2.1.inf");
 		lr_end_transaction("Cases",0);
-		truclient_step("2.2", "Wait until Your cases exists", "snapshot=Common_2.2.inf");
+		truclient_step("2.2", "Wait until Rhestr achos heading exists", "snapshot=Common_2.2.inf");
 		truclient_step("2.3", "Wait until Filters heading exists", "snapshot=Common_2.3.inf");
 		truclient_step("2.4", "Select TC.getParam('state') from State listbox", "snapshot=Common_2.4.inf");
 		lr_start_transaction("ApplyFilter");
