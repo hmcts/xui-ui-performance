@@ -22,7 +22,7 @@ Hosts=1
 Scripts=1
 Groups=1
 Vusers=4
-Tranzactions=6
+Tranzactions=4
 Rendezvous=0
 Result_file=C:\Performance Test\Results\WelshTranslationApplicationTab_r001\WelshTranslationApplicationTab_r001.lrr
 ResCleanName=WelshTranslationApplicationTab_r001
@@ -190,16 +190,16 @@ HostSettingsEnableTerminal=0
 
 {TestChief
 
-{welshtranslation_1_1
-UiName=welshtranslation_1_1
+{welshtranslation_1_1_1
+UiName=welshtranslation_1_1_1
 Type=1
 SubType=TruClientWeb
 ScriptType=14
-Path=C:\Git\xui-ui-performance\Scripts\WelshTranslationApplicationTab\WelshTranslationApplicationTab.usr
+Path=C:\Git\xui-ui-performance\Scripts\WelshTranslationApplicationTab_01\WelshTranslationApplicationTab_01.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=0\r\nIncludeFiltersInList=\r\n[General]\r\nAccessVTSPortByQueryString=0\r\nAutomaticTransactions=0\r\nDefaultRunLogic=uspfZQ.964\r\nUseThreads=1\r\nVTSHTTPAccessPort=80\r\nVTSHTTPSAccessPort=443\r\n[Log]\r\nAutoLog=0\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nLogOptions=LogDisabled\r\nMsgClassData=1\r\nMsgClassFull=1\r\nMsgClassParameters=1\r\n[ModemSpeed]\r\nCustomModemSpeed=\r\nEnableCustomModemSpeed=0\r\nEnableModemSpeed=0\r\nModemSpeed=\r\nModemSpeedDownload=\r\nModemSpeedDownloadAndUpload=128000\r\nModemSpeedMode=1\r\nModemSpeedUpload=\r\n[ThinkTime]\r\nOptions=RECORDED\r\n[TruClient]\r\nActionOnError=1\r\nAddingPlugin=0\r\nAlwaysEnableNetTimeout=1\r\nApplyInnerWinSize=0\r\nApplyWinSizeByUser=0\r\nApplyWinSizeInteractive=0\r\nAutoConfigURL=\r\nAutomaticTransactions=0\r\nBrowserName=Chromium\r\nCloseCodedServerWhenFinish=1\r\nComponentBreakdown=0\r\nconfig.snapshot_dir=\r\nCustomizeKeepAliveTimeout=0\r\nCustomUserAgent=\r\nDnsCacheEntries=20\r\nDnsCacheTimeout=1800\r\nEnableChromiumLog=0\r\nEnableDynamicAUTView=0\r\nEnableHttp1_1=1\r\nEnableNegotiate=0\r\nEnforcementVersion=edge\r\nEvalJavaScriptTimeout=20\r\nExceptionProxyOverride=\r\nFlushInternalLog=1\r\nFlushUserLog=0\r\nFTPProxyServer=\r\nHTTPProxyServer=\r\nIncludeTimestampsInUserLog=1\r\nKeepAliveTimeout=60000\r\nLocalProxyOverride=0\r\nLogAutError=0\r\nLogAutNonError=0\r\nLogErrorsWarningsOnlyInStandard=0\r\nLogHttpRequestBody=0\r\nLogHttpRequestHeaders=0\r\nLogHttpResponseBody=0\r\nLogHttpResponseHeaders=0\r\nLogHttpTrace=0\r\nLogNTLM=0\r\nLogSSL=0\r\nMaxCodedActionsOnASingleServerOverTime=500\r\nMaxCodedWorkersPerNode=25\r\nMdrvPriorityInLoad=0\r\nMeasurementLevel=3\r\nMinSecureProtocol=0\r\nMinTimeApplyWaitStep=0\r\nMinTimeEnableRandom=0\r\nMinTimeEnableRandomLimit=0\r\nMinTimeRandomHigh=150\r\nMinTimeRandomLimitValue=3\r\nMinTimeRandomLow=50\r\nNannyAlwaysRestart=0\r\nNannyMaxMemGrowthAfterStable=0\r\nNannyMinIterBeforeRestart=0\r\nNannyMinMemDiffEstToStable=0\r\nNannyNeverRestart=0\r\nNannyRestartRetries=3\r\nNannyRestartTimeout=300000\r\nNetworkEndThreshold=150\r\nNotSameProxyForAll=0\r\nObjectTimeout=20\r\nOmitCatchStepErrors=0\r\nPaintWindowsInLoad=0\r\nPPIExplicitLoadedDlls=mozcrt19,nspr4\r\nProxyEnable=0\r\nProxyHttp1.1=1\r\nProxyOverride=\r\nProxyServer=\r\nProxyType=0\r\nReplaySnapshotsMode=2\r\nReportBreakdownInterval=4000\r\nResetReplayState=0\r\nRunAsAService=0\r\nRunCodedWithNodeInteractive=1\r\nRunCodedWithNodeLoad=0\r\nSaveCodedServerLogFile=0\r\nSecureProtocols=168\r\nSecureProxyServer=\r\nServerInfoTimeout=60000\r\nShowCodedServerWindow=0\r\nSimulateNewUser=1\r\nSnapshotsWatermark=1\r\nSocksProxyServer=\r\nStartRenderSnapshotsInterval=100\r\nStepPacingInterval=500\r\nStepTimeout=180\r\nSupportOption1=\r\nSupportOption2=\r\nSupportOption3=\r\nSupportOption4=\r\nSupportOption5=\r\nSyncMode5=3\r\nTC2WebServerPort=-1\r\nTC2WebServerUrl=\r\nTCIEInjectionCheckRequestHeader=1\r\nTCIEInjectionCheckResponse=0\r\nTCIEInjectionStrategy=1\r\nTCIEInputModel=system\r\nTypingInterval=100\r\nUseOIA=0\r\nUseRecordedDuration=0\r\nUserLogInteractive=0\r\nUserLogLineLength=4000\r\nUseSSL2=0\r\nUseSSL3=1\r\nUseTLS1=1\r\nUseTls1_0=1\r\nUseTls1_1=0\r\nUseTls1_2=0\r\nWindowHeight=1024\r\nWindowHeightInteractive=1051\r\nWindowWidth=1280\r\nWindowWidthInteractive=1682\r\nWriteMdrvLog=1\r\n[TruClientEx]\r\nAllowPipelining=0\r\nAllowPipeliningProxy=0\r\nAllowPipeliningSSL=0\r\nCacheImgSize=5242880\r\nCacheMemoryCap=-1\r\ndevice=\r\nMaxPersistConnsProxy=8\r\nMaxPersistConnsServer=6\r\nMaxTotalConns=30\r\nMaxTotalConnsServer=15\r\nNetworkBufCache=32768\r\nPipeliningMaxReqs=4\r\nTCPSendBuf=131072\r\nUserAgent=\r\n
-ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=Profile Actions\r\nProfile Actions name=vuser_init,Lib-View,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicEndRoot\r\nMercIniTreeSons=vuser_end\r\nName=End\r\nRunLogicActionOrder=vuser_end\r\nRunLogicActionType=VuserEnd\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicRunMode=Sequential\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather=RunLogicEndRoot\r\nMercIniTreeSectionName=vuser_end\r\nName=vuser_end\r\nRunLogicActionType=VuserEnd\r\nRunLogicObjectKind=Action\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicErrorHandlerRoot\r\nMercIniTreeSons=vuser_errorhandler\r\nName=ErrorHandler\r\nRunLogicActionOrder=vuser_errorhandler\r\nRunLogicActionType=VuserErrorHandler\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicRunMode=Sequential\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather=RunLogicErrorHandlerRoot\r\nMercIniTreeSectionName=vuser_errorhandler\r\nName=vuser_errorhandler\r\nRunLogicActionType=VuserErrorHandler\r\nRunLogicObjectKind=Action\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicInitRoot\r\nMercIniTreeSons=vuser_init\r\nName=Init\r\nRunLogicActionOrder=vuser_init\r\nRunLogicActionType=VuserInit\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicRunMode=Sequential\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather=RunLogicInitRoot\r\nMercIniTreeSectionName=vuser_init\r\nName=vuser_init\r\nRunLogicActionType=VuserInit\r\nRunLogicObjectKind=Action\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicRunRoot\r\nMercIniTreeSons=Action\r\nName=Run\r\nRunLogicActionOrder=Action\r\nRunLogicActionType=VuserRun\r\nRunLogicAfterPaceMax=90\r\nRunLogicAfterPaceMin=60\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicPaceConstAfterTime=60\r\nRunLogicPaceConstTime=45\r\nRunLogicPaceType=Const\r\nRunLogicRandomPaceMax=90\r\nRunLogicRandomPaceMin=60\r\nRunLogicRunMode=Sequential\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather=RunLogicRunRoot\r\nMercIniTreeSectionName=Action\r\nName=Action\r\nRunLogicActionType=VuserRun\r\nRunLogicObjectKind=Action\r\n
+Config=[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=0\r\nIncludeFiltersInList=\r\n[General]\r\nAccessVTSPortByQueryString=0\r\nAutomaticTransactions=0\r\nDefaultRunLogic=uspe8L.458\r\nUseThreads=1\r\nVTSHTTPAccessPort=80\r\nVTSHTTPSAccessPort=443\r\n[Log]\r\nAutoLog=0\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nLogOptions=LogDisabled\r\nMsgClassData=1\r\nMsgClassFull=1\r\nMsgClassParameters=1\r\n[ModemSpeed]\r\nCustomModemSpeed=\r\nEnableCustomModemSpeed=0\r\nEnableModemSpeed=0\r\nModemSpeed=\r\nModemSpeedDownload=\r\nModemSpeedDownloadAndUpload=128000\r\nModemSpeedMode=1\r\nModemSpeedUpload=\r\n[ThinkTime]\r\nOptions=RECORDED\r\n[TruClient]\r\nActionOnError=1\r\nAddingPlugin=0\r\nAlwaysEnableNetTimeout=1\r\nApplyInnerWinSize=0\r\nApplyWinSizeByUser=0\r\nApplyWinSizeInteractive=0\r\nAutoConfigURL=\r\nAutomaticTransactions=0\r\nBrowserName=Chromium\r\nCloseCodedServerWhenFinish=1\r\nComponentBreakdown=0\r\nconfig.snapshot_dir=\r\nCustomizeKeepAliveTimeout=0\r\nCustomUserAgent=\r\nDnsCacheEntries=20\r\nDnsCacheTimeout=1800\r\nEnableChromiumLog=0\r\nEnableDynamicAUTView=0\r\nEnableHttp1_1=1\r\nEnableNegotiate=0\r\nEnforcementVersion=edge\r\nEvalJavaScriptTimeout=20\r\nExceptionProxyOverride=\r\nFlushInternalLog=1\r\nFlushUserLog=0\r\nFTPProxyServer=\r\nHTTPProxyServer=\r\nIncludeTimestampsInUserLog=1\r\nKeepAliveTimeout=60000\r\nLocalProxyOverride=0\r\nLogAutError=0\r\nLogAutNonError=0\r\nLogErrorsWarningsOnlyInStandard=0\r\nLogHttpRequestBody=0\r\nLogHttpRequestHeaders=0\r\nLogHttpResponseBody=0\r\nLogHttpResponseHeaders=0\r\nLogHttpTrace=0\r\nLogNTLM=0\r\nLogSSL=0\r\nMaxCodedActionsOnASingleServerOverTime=500\r\nMaxCodedWorkersPerNode=25\r\nMdrvPriorityInLoad=0\r\nMeasurementLevel=3\r\nMinSecureProtocol=0\r\nMinTimeApplyWaitStep=0\r\nMinTimeEnableRandom=0\r\nMinTimeEnableRandomLimit=0\r\nMinTimeRandomHigh=150\r\nMinTimeRandomLimitValue=3\r\nMinTimeRandomLow=50\r\nNannyAlwaysRestart=0\r\nNannyMaxMemGrowthAfterStable=0\r\nNannyMinIterBeforeRestart=0\r\nNannyMinMemDiffEstToStable=0\r\nNannyNeverRestart=0\r\nNannyRestartRetries=3\r\nNannyRestartTimeout=300000\r\nNetworkEndThreshold=150\r\nNotSameProxyForAll=0\r\nObjectTimeout=20\r\nOmitCatchStepErrors=0\r\nPaintWindowsInLoad=0\r\nPPIExplicitLoadedDlls=mozcrt19,nspr4\r\nProxyEnable=0\r\nProxyHttp1.1=1\r\nProxyOverride=\r\nProxyServer=\r\nProxyType=0\r\nReplaySnapshotsMode=2\r\nReportBreakdownInterval=4000\r\nResetReplayState=0\r\nRunAsAService=0\r\nRunCodedWithNodeInteractive=1\r\nRunCodedWithNodeLoad=0\r\nSaveCodedServerLogFile=0\r\nSecureProtocols=168\r\nSecureProxyServer=\r\nServerInfoTimeout=60000\r\nShowCodedServerWindow=0\r\nSimulateNewUser=1\r\nSnapshotsWatermark=1\r\nSocksProxyServer=\r\nStartRenderSnapshotsInterval=100\r\nStepPacingInterval=500\r\nStepTimeout=180\r\nSupportOption1=\r\nSupportOption2=\r\nSupportOption3=\r\nSupportOption4=\r\nSupportOption5=\r\nSyncMode5=3\r\nTC2WebServerPort=-1\r\nTC2WebServerUrl=\r\nTCIEInjectionCheckRequestHeader=1\r\nTCIEInjectionCheckResponse=0\r\nTCIEInjectionStrategy=1\r\nTCIEInputModel=system\r\nTypingInterval=100\r\nUseOIA=0\r\nUseRecordedDuration=0\r\nUserLogInteractive=0\r\nUserLogLineLength=4000\r\nUseSSL2=0\r\nUseSSL3=1\r\nUseTLS1=1\r\nUseTls1_0=1\r\nUseTls1_1=0\r\nUseTls1_2=0\r\nWindowHeight=1024\r\nWindowHeightInteractive=1051\r\nWindowWidth=1280\r\nWindowWidthInteractive=1682\r\nWriteMdrvLog=1\r\n[TruClientEx]\r\nAllowPipelining=0\r\nAllowPipeliningProxy=0\r\nAllowPipeliningSSL=0\r\nCacheImgSize=5242880\r\nCacheMemoryCap=-1\r\ndevice=\r\nMaxPersistConnsProxy=8\r\nMaxPersistConnsServer=6\r\nMaxTotalConns=30\r\nMaxTotalConnsServer=15\r\nNetworkBufCache=32768\r\nPipeliningMaxReqs=4\r\nTCPSendBuf=131072\r\nUserAgent=\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=Profile Actions\r\nProfile Actions name=vuser_init,Lib-View,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicEndRoot\r\nMercIniTreeSons=vuser_end\r\nName=End\r\nRunLogicActionOrder=vuser_end\r\nRunLogicActionType=VuserEnd\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicRunMode=Sequential\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather=RunLogicEndRoot\r\nMercIniTreeSectionName=vuser_end\r\nName=vuser_end\r\nRunLogicActionType=VuserEnd\r\nRunLogicObjectKind=Action\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicErrorHandlerRoot\r\nMercIniTreeSons=vuser_errorhandler\r\nName=ErrorHandler\r\nRunLogicActionOrder=vuser_errorhandler\r\nRunLogicActionType=VuserErrorHandler\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicRunMode=Sequential\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather=RunLogicErrorHandlerRoot\r\nMercIniTreeSectionName=vuser_errorhandler\r\nName=vuser_errorhandler\r\nRunLogicActionType=VuserErrorHandler\r\nRunLogicObjectKind=Action\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicInitRoot\r\nMercIniTreeSons=vuser_init\r\nName=Init\r\nRunLogicActionOrder=vuser_init\r\nRunLogicActionType=VuserInit\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicRunMode=Sequential\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather=RunLogicInitRoot\r\nMercIniTreeSectionName=vuser_init\r\nName=vuser_init\r\nRunLogicActionType=VuserInit\r\nRunLogicObjectKind=Action\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicRunRoot\r\nMercIniTreeSons=Action\r\nName=Run\r\nRunLogicActionOrder=Action\r\nRunLogicActionType=VuserRun\r\nRunLogicAfterPaceMax=90\r\nRunLogicAfterPaceMin=60\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicPaceConstAfterTime=60\r\nRunLogicPaceConstTime=60\r\nRunLogicPaceType=Asap\r\nRunLogicRandomPaceMax=90\r\nRunLogicRandomPaceMin=60\r\nRunLogicRunMode=Sequential\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather=RunLogicRunRoot\r\nMercIniTreeSectionName=Action\r\nName=Action\r\nRunLogicActionType=VuserRun\r\nRunLogicObjectKind=Action\r\n
 Param=
 TDPath=
 TDServer=
@@ -208,31 +208,42 @@ Platform=All
 AstraSubType=0
 Trans=CaseFileViewTab
 Trans=010_SignInPage
-Trans=MyWorkMyCases
 Trans=CaseFileViewMediaViewer
-Trans=MyWorkMyTasks
+Trans=150_SelectLanguageInterpreter
+Trans=MyWorkMyCases
+Trans=090_DogfennauAchosTab
 Trans=CaseDocumentsTab
+Trans=MyWorkMyTasks
 Trans=040_Cases
 Trans=200_SignOut
+Trans=130_RequestSupport
+Trans=080_SupportTab
 Trans=SelectedTab
-Trans=050_ApplyFilter
 Trans=HearingsTab
+Trans=170_RequestDetails
+Trans=050_ApplyFilter
 Trans=CaseDocumentsMediaViewer
+Trans=160_SelectLanguage
 Trans=MyWorkMyAccess
-Trans=SubmitScannedDocument
+Trans=140_SelectPerson
 Trans=MyWorkAvailableTasks
+Trans=SubmitScannedDocument
 Trans=CaseNotes
+Trans=110_ServiceRequestTab
 Trans=AttachedScanDocsDialog
 Trans=AddCaseNote
-Trans=070_ApplicationTab
 Trans=190_TranslateToEnglish
+Trans=180_SubmitSupportRequest
+Trans=070_ApplicationTab
 Trans=020_SignIn
+Trans=100_HanesTab
 Trans=AddCaseNoteDialog
-Trans=SearchCaseReference
 Trans=030_TranslateToWelsh
+Trans=SearchCaseReference
+Trans=120_PartiesTab
 Trans=UploadDocument
-Trans=SearchDialog
 Trans=060_SelectCase
+Trans=SearchDialog
 }
 }
 
@@ -241,31 +252,31 @@ Trans=060_SelectCase
 {welshtranslationapplicationtab
 
 {8
-5=welshtranslation_1_1
+5=welshtranslation_1_1_1
 9=localhost
 SEED_NUM=0
 }
 
 {7
-5=welshtranslation_1_1
+5=welshtranslation_1_1_1
 9=localhost
 SEED_NUM=0
 }
 
 {6
-5=welshtranslation_1_1
+5=welshtranslation_1_1_1
 9=localhost
 SEED_NUM=0
 }
 
 {5
-5=welshtranslation_1_1
+5=welshtranslation_1_1_1
 9=localhost
 SEED_NUM=0
 }
 
 {ChiefSettings
-5=welshtranslation_1_1
+5=welshtranslation_1_1_1
 9=localhost
 GroupParam=
 Enabled=1
@@ -555,14 +566,14 @@ Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
 MeasurementCount=4
-Measurement_0=|||34|||0|||1|||Not_In_Use|||0|||-1|||es_tr_runtime_vusers
-MeasurementFullPath_0="Error"
-Measurement_1=|||17|||0|||1|||Not_In_Use|||0|||-1|||es_tr_runtime_vusers
-MeasurementFullPath_1="Running"
-Measurement_2=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_runtime_vusers
-MeasurementFullPath_2="Ready"
-Measurement_3=|||18|||0|||1|||Not_In_Use|||0|||-1|||es_tr_runtime_vusers
-MeasurementFullPath_3="Finished"
+Measurement_0=|||17|||0|||1|||Not_In_Use|||0|||-1|||es_tr_runtime_vusers
+MeasurementFullPath_0="Running"
+Measurement_1=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_runtime_vusers
+MeasurementFullPath_1="Ready"
+Measurement_2=|||18|||0|||1|||Not_In_Use|||0|||-1|||es_tr_runtime_vusers
+MeasurementFullPath_2="Finished"
+Measurement_3=|||34|||0|||1|||Not_In_Use|||0|||-1|||es_tr_runtime_vusers
+MeasurementFullPath_3="Error"
 Description=Displays the number of Vusers that executed Vuser scripts, and their status, during each second of a load test. This graph is useful for determining the Vuser load on your server at any given moment.
 [7]
 MeasurementsDelimiter=|||
@@ -641,8 +652,8 @@ Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
 MeasurementCount=1
-Measurement_0=|||2|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_0="welshtranslation_1_1:Action:-1"
+Measurement_0=|||6|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_0="welshtranslation_1_1_1:Action:-1"
 Description=Displays details about the number of errors that accrue during each second of the scenario or session step run.
 [9]
 MeasurementsDelimiter=|||
@@ -682,8 +693,8 @@ Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
 MeasurementCount=1
-Measurement_0=|||23|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_0="welshtranslation_1_1:Action:-1"
+Measurement_0=|||9|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_0="welshtranslation_1_1_1:Action:-1"
 Description=Displays details about the number of Vusers that generate errors during scenario or session step execution.
 [10]
 MeasurementsDelimiter=|||
@@ -878,19 +889,13 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=6
-Measurement_0=|||24|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementCount=3
+Measurement_0=|||24|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
 MeasurementFullPath_0="010_SignInPage"
-Measurement_1=|||20|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+Measurement_1=|||20|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
 MeasurementFullPath_1="020_SignIn"
-Measurement_2=|||15|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+Measurement_2=|||15|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
 MeasurementFullPath_2="030_TranslateToWelsh"
-Measurement_3=|||23|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_3="070_ApplicationTab"
-Measurement_4=|||26|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_4="190_TranslateToEnglish"
-Measurement_5=|||24|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_5="200_SignOut"
 Description=Displays the average time taken to perform transactions during each second of the load test. This graph helps you determine whether the performance of the server is within acceptable minimum and maximum transaction performance time ranges defined for your system.
 [15]
 MeasurementsDelimiter=|||
@@ -968,19 +973,13 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=6
+MeasurementCount=3
 Measurement_0=|||23|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_0="010_SignInPage"
 Measurement_1=|||10|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_1="020_SignIn"
 Measurement_2=|||14|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_2="030_TranslateToWelsh"
-Measurement_3=|||11|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_3="070_ApplicationTab"
-Measurement_4=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_4="190_TranslateToEnglish"
-Measurement_5=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_5="200_SignOut"
 Description=Displays the number of successful transactions performed during each second of a load test. This graph helps you determine the actual transaction load on your system at any given moment.
 [17]
 MeasurementsDelimiter=|||
@@ -1058,7 +1057,9 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=0
+MeasurementCount=1
+Measurement_0=|||13|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_0="040_Cases"
 Description=Displays the number of unsuccessful transactions performed during each second of a load test.
 [19]
 MeasurementsDelimiter=|||
@@ -1220,19 +1221,13 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=6
+MeasurementCount=3
 Measurement_0=|||33|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
 MeasurementFullPath_0="010_SignInPage"
 Measurement_1=|||23|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
 MeasurementFullPath_1="020_SignIn"
 Measurement_2=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
 MeasurementFullPath_2="030_TranslateToWelsh"
-Measurement_3=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_3="070_ApplicationTab"
-Measurement_4=|||22|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_4="190_TranslateToEnglish"
-Measurement_5=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_5="200_SignOut"
 Description=Total Pass transaction graph
 [23]
 MeasurementsDelimiter=|||
@@ -1272,7 +1267,9 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=0
+MeasurementCount=1
+Measurement_0=|||29|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_0="040_Cases"
 Description=Trans/Sec (FAIL)
 [24]
 MeasurementsDelimiter=|||
@@ -1395,7 +1392,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=7
+MeasurementCount=4
 Measurement_0=|||0|||0|||1|||Not_In_Use|||0|||-1|||Http_and_hit_per_sec_for_offline
 MeasurementFullPath_0="HTTP_200"
 Measurement_1=|||2|||0|||1|||Not_In_Use|||0|||-1|||Http_and_hit_per_sec_for_offline
@@ -1404,12 +1401,6 @@ Measurement_2=|||34|||0|||1|||Not_In_Use|||0|||-1|||Http_and_hit_per_sec_for_off
 MeasurementFullPath_2="HTTP_202"
 Measurement_3=|||20|||0|||1|||Not_In_Use|||0|||-1|||Http_and_hit_per_sec_for_offline
 MeasurementFullPath_3="HTTP_403"
-Measurement_4=|||26|||0|||1|||Not_In_Use|||0|||-1|||Http_and_hit_per_sec_for_offline
-MeasurementFullPath_4="HTTP_204"
-Measurement_5=|||16|||0|||1|||Not_In_Use|||0|||-1|||Http_and_hit_per_sec_for_offline
-MeasurementFullPath_5="HTTP_401"
-Measurement_6=|||25|||0|||1|||Not_In_Use|||0|||-1|||Http_and_hit_per_sec_for_offline
-MeasurementFullPath_6="HTTP_304"
 Description=Displays the number of hits made on the Web server by Vusers during each second of the load test. This graph helps you evaluate the amount of load Vusers generate, in terms of the number of hits.
 [27]
 MeasurementsDelimiter=|||
@@ -1530,7 +1521,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=7
+MeasurementCount=4
 Measurement_0=|||23|||0|||1|||Not_In_Use|||0|||-1|||HTTP_RC
 MeasurementFullPath_0="HTTP_200"
 Measurement_1=|||9|||0|||1|||Not_In_Use|||0|||-1|||HTTP_RC
@@ -1539,12 +1530,6 @@ Measurement_2=|||1|||0|||1|||Not_In_Use|||0|||-1|||HTTP_RC
 MeasurementFullPath_2="HTTP_202"
 Measurement_3=|||2|||0|||1|||Not_In_Use|||0|||-1|||HTTP_RC
 MeasurementFullPath_3="HTTP_403"
-Measurement_4=|||14|||0|||1|||Not_In_Use|||0|||-1|||HTTP_RC
-MeasurementFullPath_4="HTTP_204"
-Measurement_5=|||18|||0|||1|||Not_In_Use|||0|||-1|||HTTP_RC
-MeasurementFullPath_5="HTTP_401"
-Measurement_6=|||1|||0|||1|||Not_In_Use|||0|||-1|||HTTP_RC
-MeasurementFullPath_6="HTTP_304"
 Description=Displays the number of the different HTTP status codes returned from the Web server during each second of the load test.
 [30]
 MeasurementsDelimiter=|||
@@ -2056,187 +2041,27 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=90
+MeasurementCount=10
 Measurement_0=|||19|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
 MeasurementFullPath_0="DOM Interactive [https://manage-case.perftest.platform.hmcts.net/]"
-Measurement_1=|||4|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_1="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Tu6D45CxB_DYkpoquQxae2x7eRYiQF2oAaqZpat3XtM&nonce=NnWip-5suu1VODBn0G8oqv0sjhzgWb9ztXf8z0meRQk&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_1=|||20|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
+MeasurementFullPath_1="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=9zBp8EuO4C5ainGvzH97to_o6f6czbjmbr6ydPsM_-Q&nonce=_0SJpdnQQjgoxV6kaeRYKWH_HWTW4y1ciub8jCOlmPE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
 Measurement_2=|||17|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
 MeasurementFullPath_2="DOM Interactive [https://manage-case.perftest.platform.hmcts.net/cases]"
-Measurement_3=|||11|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_3="DOM Interactive [https://manage-case.perftest.platform.hmcts.net/cases/case-details/1706796305958082#Tasks]"
-Measurement_4=|||31|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_4="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=4x1oDtfx4riuYrlt2p79Kd_3McEV2xvBqyGgFDon9P4&nonce=RvarzafmffBA3j4CIEHJrojU_KYCI-LNJr8KtNbkHeY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_5=|||27|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_5="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=29AlwUxZDk6-B7-n-bjaSN4CJ4TtixkG-6j7rstyj4Q&nonce=4P_plEaKltQCbhudiToSwi_0etJ6ZI7J-g7309Fgy0s&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_6=|||13|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_6="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=u_DMbliJXgztVlB7KE5p-78Q0-9xBFiGlUdAfB58-5o&nonce=mGtDalrUe0k-P144W9ErGWYCPUHXtI0TDVzoE9iVvfQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_7=|||34|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_7="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=AF1JrnLwzkqTbzl5XeFC84Uj7bEUu-uHzi5TL4apc88&nonce=b5P-cAd7stuPY0tIiXAJTmSn802pnIjXAIA-hpJZWNY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_8=|||33|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_8="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=g-9bxXV1W2iEpuM4RWHz3RfSCOqRVkcJql5ETkOnjEg&nonce=KleNCRbVKGUa_qPfoUQzwg4xB2KGayLWZqmxEUyolXU&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_9=|||23|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_9="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=CrY0ymG2eZ8uyoZeciK2Qte2OGB5lggqdIFcMyvdQnE&nonce=xc-WNOW-L3LIsBGVc_YkKyai-43dNDodOpL-3_U0wIg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_10=|||8|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_10="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=4v87cCrzR-StF_pmCJT2zB2M8R6gJ485KhoT5YYWX8g&nonce=M_qLAqZEj20qRK0cKiE96Q_SMZH_t5v8mRMGSKbbUIE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_11=|||15|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_11="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=LxWBcBx7Z265ck7BfLR4U2BuA0G7-Mj6m6K72F8h-o4&nonce=eupVNk6bjmq1hp8E4UtXp0fPCZlZu9tpEZhFcmsb84k&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_12=|||33|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_12="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=WfWNUmKG8SLNyGivrdZ6LwxzHxToWD5wp-uEJJoAcn4&nonce=vJkbOOFL34z_Q-ng1eAizLMV1xvWoxHn4q9gYI2Hq-g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_13=|||33|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_13="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=xY7INhWOurdk5zvvVjbQXfINe5vNcD8mxLtqTe450QE&nonce=09H-N6xgNQyvMt4FnuEWIb0Zv9FvYDkmZDKMfIcjcjE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_14=|||16|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_14="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=JCyAS02ArZRXpGZTgAaqECfRQT-A0GVV6z1X7cf0GMU&nonce=swcM_aONrHafHnWQBWYshlPabKvxVK4qBiD_bGX-WcA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_15=|||12|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_15="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=5qARCVfvkRNuN1hjmwhmiP68l5ODFZvLCZpMzO3ZXqc&nonce=EVS-8Vbs-2j4tJ_YpO21VYE5qQhRnyaDQw9u6qpkc6M&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_16=|||6|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_16="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=G8AWGuQUAWmi_dm9CGy3nnK6bIcPmlWTsY5JkwYfbwo&nonce=7OHBBQ9Tgr1it07qMuaEJNKcv5W-1xeqI4r8I1x-k4U&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_17=|||5|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_17="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fgO5npnao2QbPTFo5RJq88J2sDi415dxf8hrhJ1vLTg&nonce=jO_iUpBF0J4hH0cGFRW2L92kw9bphmRnAcoV-drvDIg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_18=|||29|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_18="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=iJix_HG37VeMDxrBa2kBkD7EdTnh0VswzxK87P13tP4&nonce=ds1ocnOjae-JRh0n0Olpkdz4aK7cmVJ9SpooBLe0cqg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_19=|||2|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_19="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=jMIzoqRfgAnA9u69av5ZZprNCzGenUjmOtujQqS0NBQ&nonce=NhTfY6bDZz_ApnMYtT5N7Vollv1payHBmx4VqEls7Yw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_20=|||14|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_20="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=D1vXnP3JXV7JmFLsr1DWW9E02WWFSWAWXve3nKjd5Kc&nonce=MKHrK7D9S7LdWpNoTD75ml11kkWfGAjL9tWo4SMzaas&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_21=|||3|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_21="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=1eZyUnYhe2HRIimVjHHhNsoi2RjXjaR3eUXOltgaVlA&nonce=-CFNS6j7hAPbqWIRz2k2SJBA49Df-GbJ5AgzvhwVvk4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_22=|||14|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_22="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=IOcTcqaCm_VAgVkGPXxmBlI9RIMDmd0LVqW8KtpLzis&nonce=Lb9iBv_CeLsdAOmsY5_bmj4R75pxyyEOxGWrwAlHbXQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_23=|||7|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_23="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=HPTir4mTzwc8Mvsl_QY-B8W_5SL3r0nvu6DXTYTwucs&nonce=SkyG1xAMj3nohrXaq4dEMvvpKzIp98_OxyShUVgvGf4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_24=|||22|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_24="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=s5-ETKbMQOJ5O2H1BW0s_sq46kYKY84JlQkaJyPl3rQ&nonce=EZJ96M__-_Vx0VigWfNPVW5YNxANCkNOCrNKPzY9xNY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_25=|||1|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_25="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=bbq1rdsFjyo1BRKuNKNxZCOIHsj05f_B9Rir3zScHDQ&nonce=i2fkJhbTzwZNngVQcR_AEnfP19D7oOTZhtWdXt8G-Kc&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_26=|||7|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_26="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fNrGMv26pSMYkeoVhDIxy-uMjwj-05O1X-qu7bQDl3U&nonce=MQUzProvMKDkdKhMcHuQz8miguRODb2UQ5UkESDcu_E&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_27=|||6|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_27="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=lWBx2EpFcgACk8CRG59DGNDDctdwW2St4F_a1aHSh-E&nonce=5YOjaymt8jDQ8NP_hJ_EeD03yKaX92zlMoH6BQbLXCQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_28=|||30|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_28="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=WgfxBFyDEydYhXtrnenXWWPQbpdUlxzzfZrk61C-EuU&nonce=4sYPgbEI4kQ4qmP2OCAJt4TQbm94tKum5WdxI-V_Xw0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_29=|||14|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_29="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=2H3b6W5FEWZaWPCEZow4rw62jx0LPKCchJgZuJDaTks&nonce=IGTh6lbr0kaPZWvwXn_wNiMuLwqgkV5oRtLGesCEhB0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_30=|||17|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_30="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=U2aNvBPnI_ieZoVRvmuWOM24OB38iy2q9i9BvFq1Muc&nonce=mPUTZXl-Asx7vNulKkMmIpw2uMgs9x-E6jQqNXUHi04&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_31=|||4|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_31="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=42oOIPaUnhCMIEOXxugReozUnY-27RryymcCA5sF4nI&nonce=FQV-8RND40LhAtcHNV5wA_WQP3rJtjHSI60Bu5dhXtE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_32=|||5|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_32="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=EMYX6duhjOM_GqchLfY4asO1QOSkpgcSwQYkP8dwOio&nonce=FPAAs53TkysTK7X9F0l80aCklxXnYzbDzDeyz6qqavI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_33=|||3|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_33="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=YvzOrhM-W2ImqM0vzyFOeYdAy6Rsv2phJGFS2hE9GWc&nonce=6Kk52KhZrvD3AlmC6TCCL8LVGiauuOxBXV93I0T5g5U&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_34=|||19|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_34="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=h7weuQ9LmjlGOCaVHXEy6X_bGTtYN5POZmdlxHQLWrQ&nonce=T0y1k--j4kYFW2YyXYcoVYXCGJvR-K6Pz8_lJ7iZ8QI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_35=|||6|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_35="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=nWjH5GPg0go0sQqyEM7GsdJRpenLkX3iDci_o8Yfowk&nonce=D3dgUm3n0qyOJ5t2rnPSxBIha3Fh7JCyY7-becmRraA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_36=|||20|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_36="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=T5T_s87_z8DedloX2pDtyD94TBcFuS0H56UOh36ivxo&nonce=vhy8afUf6U4ESgcr2YIzoCglHNFVnHa1aaZkkC77iUM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_37=|||32|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_37="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=rD_vSfcN2o5_r7hnJhSzCBISQ_UkK3wFqsOCk_jTRwY&nonce=dW6bSF4qggZBXcZaASqwCgYcuJjac6UP4qOIvqpTdwM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_38=|||22|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_38="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=c5BF6R3w_vLQUObPOvEEC2I54jyU_MGLN3_j9nE4-nI&nonce=_ZVNfnlTt8vzOPZDJRuF5bsl27C6IoehU2kYmdk3iz0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_39=|||7|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_39="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=JEWZJdu-FZ0NSw2QWFprgajN7gnp4A5fwcodvdmtCDQ&nonce=Ga8bEfrsS16aIIxQldB4Kcc3iTN3D8y-KIRhh21RcXw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_40=|||9|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_40="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=jcxQkw16ZQQFst2weKAVfJbyxsaEwxTNNoTWtg2SHRU&nonce=re2kwOKmL3zcs4hmi-b7f4WpaKUSzyFjLdJfOkAdG1g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_41=|||1|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_41="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=W32UxzA7DWolzQSswm87yySuH7hBHgxTF3wk3Jc94Xc&nonce=BW7FyXqyNZNiuu53-kcIrbTa8PQH8ZTKIpcBtRQ5xKM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_42=|||5|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_42="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fN3pW-1nKgZIqd23KbUo94F3OqfPAUyfGgjg19Jc530&nonce=LeYQODLTZ_Dfm486bOYbRzRCo1x7Nik5RKFyoGiga50&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_43=|||4|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_43="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Y8qetANj1PadY2E0QlKzlKQhwYEk4M7BcxnRu0Y2kuM&nonce=eYBeQRg6wP18zjNhppSWFLmK8flKuI69iuQ4BDPrvDA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_44=|||24|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_44="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=-Oa2HTTsv10cIB4MH9gIRbOtHrtHWzdIWqMOsIOM6OQ&nonce=N5-uK24-NFW4zlXlwM9UwfXboxXSPDJg_UkLh_b6Uq4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_45=|||18|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_45="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=hJC20VhqtxQ5pUMVpFgLpTGgIepHAGwweAfpBilI2WE&nonce=ck-iSPhag4v70qVjQlqWfvzdbRBOFBWqA7VcFbgwITc&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_46=|||31|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_46="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=roQbavHSmdIJwk0S4k_FeMrcCev3pS--PN5wWMW77No&nonce=ykWCLFzGUagHs2et-QWKobcFGrm0jyKgL9FFt6ddsJM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_47=|||7|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_47="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=e_St13sEogTbCmAx6e2g84wW85rxYp-jFN_4Uw0CqKE&nonce=gYauMO222Tf64eV1gCXPDzhyEhSfVPyW2Uj-H_V0Fcg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_48=|||28|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_48="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=T3py28LobFCISZkaySoANUlpMMnb0fJtrBvBup3PcZc&nonce=7GfXJndHTB0XJlEZ7e3FyPq0YgGLk_7qF7q3wDO4tZw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_49=|||1|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_49="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=P_ZNSM-DBST8lF0OK9ZjA2YvCQ-F3yZ-6_LACljwcvw&nonce=z6StNGFboaeHVp1fG7Swsi52IB2GCZ1GdVbVx08LpJo&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_50=|||8|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_50="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=HMXqXYPgNZ-6EgbxMuBIePbRvyu0p-_9ZmlxVfwTTLM&nonce=mgEyyuj7k7aH9iTEsJ-9pmqmUCtZ0RrohaSNCHok5O0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_51=|||23|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_51="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=zcwkDkhbXO-sJPLM4RTxtfyHMstGifsXaSIvCUVF3_c&nonce=BPDg416Merdw2eJpEPRd-dtVJLxt0H3iCczwwpzihAk&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_52=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_52="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=kJcP2qnZq19NAnCykZEkM5gQH85KcqhZbqdBmhVHr-s&nonce=ZnnDBaHAc5iUdNt8jfMGNlRshz0izivfI4itsrzjE1g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_53=|||19|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_53="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=z2NMUeElEtmD2Od2rzvSrWwdpL0KsVtZfXhCK4OODu8&nonce=Z1JUXj751J8VRsFhiLJEAPzSkehj1Jo9aO8UtyX0eLQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_54=|||5|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_54="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=zXq9d8A6wNAF0fat0K5CsqWwB1MU3si1W804cxpxd4Y&nonce=mE6YoEydee-lcAL_ivZgmrJyH1jIlKRE50T_JWhzxTo&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_55=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_55="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=_0w1blA0uKzAUpP0C16-erwR_XEKkDpBHQPVMtoDb2M&nonce=DKlAgGiMGrl7RFPhUB0heiiwGCOeCin82wf48n5dI0Q&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_56=|||32|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_56="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=HNRsCRa8efQEOjQxs_dk7rYxTlqwDV7c_6j5OAc_Sok&nonce=LzGoUmk-GxA7vcCiUo8a0KhJ6znFNRh9j89D09HxFtc&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_57=|||17|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_57="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=rv8m2qgEd45oejIohocBRkKk3bzqpmD7Tcj6_E9VRFg&nonce=nriBxXrMsTA1r30bd3Ey_k9AFu0pZGt10pgneT92jrM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_58=|||6|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_58="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=ucznsUpKM4sW4qwU81b0fpBOryA5xmYQOnW4Ky-87A8&nonce=SJAMZbc5GnSbhSwUplGNA5LnjtuaRbBRDi0vDgNiqrU&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_59=|||31|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_59="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=YxEJYABkl5v-6zTytJU1648fT0254NWZVydvRngpMXE&nonce=KlpoNJjIoBPVr240wht72d_9Z-RAKaOqYDgFfvWyvjw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_60=|||25|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_60="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=kga-GNyCmGRtMzQtp8gIzXoAOgzJLOiOeUtEqunfcq8&nonce=nePQZcQ5svO8TP-eKW5Tpk4HiY1OoJQVKstt-k3TPes&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_61=|||21|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_61="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=R0CyjtDM78LdYmkdu1AKPr0dOQYZqIEnk1yRsfJ_6aU&nonce=ySKeP4AO81SbtIVCrbc8enlmip4oqflWY0XMXwoAREI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_62=|||19|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_62="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=lRdSBWnEv403B1l78X38wJDt6uGRZCgFfa2ENTepo6s&nonce=_rT1XCTrcbRbnZ_OCCgAOckif-BxzuKNtWnxzMRpWGw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_63=|||25|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_63="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=3EnCCJVcw8yUFCM00Mt0t-aa77xzcQE78dVsJnfCTa0&nonce=qo3fbtUMe2w44-_8uUbAHaexpS6GZ-gLgjksrItZ_CQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_64=|||13|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_64="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=nsSB_TrKsmdytP4p17LXrq0SG7Qgr5iscsIH48hZEhQ&nonce=iviAdidvvbdq_KswGIshxC3TZ_X5v4jG81fZwMJLo8o&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_65=|||8|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_65="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Vc1iGfGVKJg2YDb9E55Fyw9uCRS-vWQGS5A-Z3tKf3E&nonce=8p6PDLhNt49BYC7M0u_mwWIBw_TDhZQSFavTTRcEL0U&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_66=|||13|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_66="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=grKrQn1x1ZS_2cKFd7TGdCk8EQoStlMOL-JD68iHyiU&nonce=JvA0alU8hcOos2iCAqdR9TNKUm7j3TocW098ETgwIQ4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_67=|||12|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_67="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=e_IS5pF5DiiF4iEqFhan1XBFVg5IV46lTZzgTbwv2hk&nonce=5DzF7XEh-82G5Qrpyq1Wh-dLj9a_OSXziBxyIrIU8Pk&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_68=|||1|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_68="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=8GMZWWni8EDL7Fadgh5JhSq_VlV2WacUdo600ZkqBMU&nonce=QJZndF_rkMmetQOTX7kax00bxs4VyozeScANfGLsMQM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_69=|||34|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_69="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Y0_dztMBNOPsfIo2n_4QgBHMViZH5Lj5IntnIHOQoLk&nonce=U9IxVxYdARvWS5kbNZ8HFSRQsvPFpALANA5XH65h8oM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_70=|||28|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_70="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=9s-vXRhYHlKss0DqyeFuyj61LKEwnyP4q153YnwrXrw&nonce=rtT_gL74etb_iKWgHZpZZ-2VZg8jbB7tI9SsfQH7ulw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_71=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_71="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=21LuzN8R-4Vp2Y2MV21nxp3Om6cG6g3HGtXmmeM-AG0&nonce=qEpEYHujiqE9lJqqiKfrqjvI4Lg9rr8VTk7Xu5aHsb8&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_72=|||34|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_72="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=WWkAjCoWLcuff9QUhqhkaZkj7xL_NvIU2O2FMuMStxw&nonce=Olt7_Razr4knexaS2fjCa9A0ha4sQTesYZVOLMC0wpA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_73=|||19|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_73="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=ZQ8NSG1bV5NaBnUYCoHXoKmhcEVBtVZfgcnjDbyEWWE&nonce=T7sWS1cP_QNjcLtCX7ZB-Y00tEdv6y7ynhKK-t4kaNo&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_74=|||11|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_74="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=zgKaZijzqcXM4s1Bs0S9xVusjQyk7yI3sTjF2J3i-WA&nonce=x_Us4IBZYoOhyg6tB3iTFTXPAnlOREAXodFtKY4nIl0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_75=|||28|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_75="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=REMvDIIHlqARt7fjV5pftvX50cH8z8e5GprZDAwAqwg&nonce=zZE434M2q6FBPQUVKCD-mIDI3vnMbb-oiX67RiVtVFI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_76=|||19|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_76="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=CKcOfDXKbXUyMQHzOMhD2rEFjqbO6X_s7UE3VrtIRCM&nonce=_mmKFWvltX3r8-n43Qlv1CJCwozV-fm0UXJVf4iKBtQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_77=|||21|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_77="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=p7haNayd8SFp_LZEG5O4Dfn01Kea8aHogSXdoJ_ge2o&nonce=M_YGBrHDEQV75z61IWTX79rMsxuGbBCesefLCcyP7FE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_78=|||29|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_78="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=ryuOtxM8md0t8poVVVCyxNL-tSNYaOeQ1IqAMSEmm0s&nonce=eebYqL7CHWgV7RrhJuvfum5r-vCmCbh2Qem2nz6Ydgs&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_79=|||34|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_79="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=0_f_KKLxCbNWO6aWVIKEL6V8HX7Cvet3v_uDCOYigY4&nonce=IFPuG_8BH1t7szVHrCR4PCBKpyq5Y0CLyW6kXerW-GY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_80=|||7|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_80="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=H6rBiTWShJK00DObDKFL11eK_9uP7pMptaJGL8nSUxo&nonce=MJhdk7PkUY3NjJviRIHB9jt7W5EeYaxmHY79jAYC8X0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_81=|||17|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_81="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=7fXRiPphdTzUtwnE7Ip3759_Iv7g2Y7zBQGCsihcuS0&nonce=_i6ig9bF5e3LVNg6UtAoIybLT-NbkRGRk0q7miLsRv0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_82=|||24|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_82="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=OJaSIy81oMpTFq82mforh7DbTgxu9d5T4wrY5ymrcxQ&nonce=v7tIhFYaclY6PpwCLQy1VPTPEgDPeWzlQkSOu5XtgBg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_83=|||6|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_83="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=rkOHCUfJpJROTGABORcF5ddHCINAMDL25iK5NfE-ryQ&nonce=BAqg9riTMUoCRTcFU-TLNU3CVzfZDomtcel528UJHuE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_84=|||33|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_84="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=BUGNR13KmTkXzYDtI2ZCvNhkTrV2mkXnQ-YqKdFTDwc&nonce=WlYr09VuBDGACg3x5gv9vVcpV-Ss3ZXzHIgBO347HOs&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_85=|||21|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_85="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=vRjCf0Ts7yOazt-j5p1wrezsA3madNiZak2g6hvmcao&nonce=zsMPJ39xe1dX8QrXfd9XL5LAmAzQVVSGD_rWBOwoetI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_86=|||0|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_86="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Lqu-PHGgTzVjUDQMHmexxH0rchRzcPyt7s8Nh3Z4tuA&nonce=FOPV3UXsX70-AT2TZ7cf_e0h4Zz1EQGYIh-pHnHcv6k&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_87=|||18|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_87="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=wcMayIn6QILko8SulTaLEKNLi0DZejmgFzHr8dzarpc&nonce=vhbeq9WjAePjDaIVrefMOGmo_mXbAC7tzyTO1gcrYFw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_88=|||6|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_88="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=OjV6mvLNKFm-IM3N-5ookDxlEMcrpyUcH_wjlfTVaJY&nonce=3bshEDIUJFX4ZNayYJxlqesQAfDuj_InyDruonO3ZlM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_89=|||7|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
-MeasurementFullPath_89="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=flmENWE7gx0PV09evx4nZ9zhfCEI6mxDjTYJUdjpaCI&nonce=56qoXDnoTztw8sLFyclVJwXc-lvxNlPiPioIoQJ7GJY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_3=|||32|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
+MeasurementFullPath_3="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fnvi8pVU6hRo72kjDt7jlVhRZ14mE6ZJMzIaIFTsa4U&nonce=v17rphgXDQ-9K2t73ofONCbM3dcm-oXBj4AQt5e63H4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_4=|||13|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
+MeasurementFullPath_4="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Ra08c8K0RTS9myIqA8qDi2VJYT0cgWITrQ0OFWbMlHE&nonce=2KUfj9OsWUPj3gCZXPEoz20-dVE3-d_cSlauXY2HFM0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_5=|||7|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
+MeasurementFullPath_5="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=j7J3pHyJ26ec9fHDtbxrDLHR4HbLgColNxPv9h8ibjY&nonce=Su3thhNhfmUM5RCAj2HnV-BY0DyRzUx5WhWj9UCIjV0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_6=|||19|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
+MeasurementFullPath_6="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fO3JiStj_6kNhsTSHqATdIdppQrTpW4mzgCTvDUreWM&nonce=cwAcHTe9fo-O_CvcEw04Ua2PRqMl5aHaHPF5mxMsuT8&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_7=|||18|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
+MeasurementFullPath_7="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=cyhp4BVmmBph6EyAqkAabIFwS2BvjGkIeWgPy7s8OxM&nonce=MVx3oScG5r1gAjr1HRx8ZKBRs7xdx6m9U20oyWOT76g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_8=|||1|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
+MeasurementFullPath_8="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=DF1ixkp2Rg5HnbJCmZKWJMH3vPLh0U6GS5AAWfsawFE&nonce=AdbRyy7r4znyfxs697QibTRbnI2jvKCiVfaLg4bgAFE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_9=|||9|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMInteractive
+MeasurementFullPath_9="DOM Interactive [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=N7aldCCZOjKwn9LaLlOx6y-jidkJoHjJ2e_3fMy-6LY&nonce=ql-XvWC9ghliWfiqhEZOvO2-GTqIBBr3LkROichEGG0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
 Description=Displays the average time per document, in milliseconds, since the browser has finished parsing all of the HTML and DOM construction is complete
 [43]
 MeasurementsDelimiter=|||
@@ -2275,187 +2100,27 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=90
+MeasurementCount=10
 Measurement_0=|||23|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
 MeasurementFullPath_0="DOMContentLoaded duration [https://manage-case.perftest.platform.hmcts.net/]"
-Measurement_1=|||26|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_1="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Tu6D45CxB_DYkpoquQxae2x7eRYiQF2oAaqZpat3XtM&nonce=NnWip-5suu1VODBn0G8oqv0sjhzgWb9ztXf8z0meRQk&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_1=|||4|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
+MeasurementFullPath_1="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=9zBp8EuO4C5ainGvzH97to_o6f6czbjmbr6ydPsM_-Q&nonce=_0SJpdnQQjgoxV6kaeRYKWH_HWTW4y1ciub8jCOlmPE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
 Measurement_2=|||11|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
 MeasurementFullPath_2="DOMContentLoaded duration [https://manage-case.perftest.platform.hmcts.net/cases]"
-Measurement_3=|||14|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_3="DOMContentLoaded duration [https://manage-case.perftest.platform.hmcts.net/cases/case-details/1706796305958082#Tasks]"
-Measurement_4=|||23|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_4="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=4x1oDtfx4riuYrlt2p79Kd_3McEV2xvBqyGgFDon9P4&nonce=RvarzafmffBA3j4CIEHJrojU_KYCI-LNJr8KtNbkHeY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_3=|||27|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
+MeasurementFullPath_3="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fnvi8pVU6hRo72kjDt7jlVhRZ14mE6ZJMzIaIFTsa4U&nonce=v17rphgXDQ-9K2t73ofONCbM3dcm-oXBj4AQt5e63H4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_4=|||3|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
+MeasurementFullPath_4="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Ra08c8K0RTS9myIqA8qDi2VJYT0cgWITrQ0OFWbMlHE&nonce=2KUfj9OsWUPj3gCZXPEoz20-dVE3-d_cSlauXY2HFM0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
 Measurement_5=|||11|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_5="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=29AlwUxZDk6-B7-n-bjaSN4CJ4TtixkG-6j7rstyj4Q&nonce=4P_plEaKltQCbhudiToSwi_0etJ6ZI7J-g7309Fgy0s&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_6=|||23|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_6="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=u_DMbliJXgztVlB7KE5p-78Q0-9xBFiGlUdAfB58-5o&nonce=mGtDalrUe0k-P144W9ErGWYCPUHXtI0TDVzoE9iVvfQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_7=|||17|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_7="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=AF1JrnLwzkqTbzl5XeFC84Uj7bEUu-uHzi5TL4apc88&nonce=b5P-cAd7stuPY0tIiXAJTmSn802pnIjXAIA-hpJZWNY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_8=|||29|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_8="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=g-9bxXV1W2iEpuM4RWHz3RfSCOqRVkcJql5ETkOnjEg&nonce=KleNCRbVKGUa_qPfoUQzwg4xB2KGayLWZqmxEUyolXU&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_9=|||23|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_9="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=CrY0ymG2eZ8uyoZeciK2Qte2OGB5lggqdIFcMyvdQnE&nonce=xc-WNOW-L3LIsBGVc_YkKyai-43dNDodOpL-3_U0wIg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_10=|||0|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_10="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=4v87cCrzR-StF_pmCJT2zB2M8R6gJ485KhoT5YYWX8g&nonce=M_qLAqZEj20qRK0cKiE96Q_SMZH_t5v8mRMGSKbbUIE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_11=|||8|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_11="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=LxWBcBx7Z265ck7BfLR4U2BuA0G7-Mj6m6K72F8h-o4&nonce=eupVNk6bjmq1hp8E4UtXp0fPCZlZu9tpEZhFcmsb84k&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_12=|||20|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_12="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=WfWNUmKG8SLNyGivrdZ6LwxzHxToWD5wp-uEJJoAcn4&nonce=vJkbOOFL34z_Q-ng1eAizLMV1xvWoxHn4q9gYI2Hq-g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_13=|||19|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_13="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=xY7INhWOurdk5zvvVjbQXfINe5vNcD8mxLtqTe450QE&nonce=09H-N6xgNQyvMt4FnuEWIb0Zv9FvYDkmZDKMfIcjcjE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_14=|||32|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_14="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=JCyAS02ArZRXpGZTgAaqECfRQT-A0GVV6z1X7cf0GMU&nonce=swcM_aONrHafHnWQBWYshlPabKvxVK4qBiD_bGX-WcA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_15=|||31|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_15="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=5qARCVfvkRNuN1hjmwhmiP68l5ODFZvLCZpMzO3ZXqc&nonce=EVS-8Vbs-2j4tJ_YpO21VYE5qQhRnyaDQw9u6qpkc6M&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_16=|||17|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_16="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=G8AWGuQUAWmi_dm9CGy3nnK6bIcPmlWTsY5JkwYfbwo&nonce=7OHBBQ9Tgr1it07qMuaEJNKcv5W-1xeqI4r8I1x-k4U&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_17=|||20|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_17="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fgO5npnao2QbPTFo5RJq88J2sDi415dxf8hrhJ1vLTg&nonce=jO_iUpBF0J4hH0cGFRW2L92kw9bphmRnAcoV-drvDIg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_18=|||12|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_18="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=iJix_HG37VeMDxrBa2kBkD7EdTnh0VswzxK87P13tP4&nonce=ds1ocnOjae-JRh0n0Olpkdz4aK7cmVJ9SpooBLe0cqg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_19=|||10|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_19="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=jMIzoqRfgAnA9u69av5ZZprNCzGenUjmOtujQqS0NBQ&nonce=NhTfY6bDZz_ApnMYtT5N7Vollv1payHBmx4VqEls7Yw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_20=|||19|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_20="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=D1vXnP3JXV7JmFLsr1DWW9E02WWFSWAWXve3nKjd5Kc&nonce=MKHrK7D9S7LdWpNoTD75ml11kkWfGAjL9tWo4SMzaas&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_21=|||2|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_21="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=IOcTcqaCm_VAgVkGPXxmBlI9RIMDmd0LVqW8KtpLzis&nonce=Lb9iBv_CeLsdAOmsY5_bmj4R75pxyyEOxGWrwAlHbXQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_22=|||31|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_22="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=1eZyUnYhe2HRIimVjHHhNsoi2RjXjaR3eUXOltgaVlA&nonce=-CFNS6j7hAPbqWIRz2k2SJBA49Df-GbJ5AgzvhwVvk4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_23=|||29|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_23="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=s5-ETKbMQOJ5O2H1BW0s_sq46kYKY84JlQkaJyPl3rQ&nonce=EZJ96M__-_Vx0VigWfNPVW5YNxANCkNOCrNKPzY9xNY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_24=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_24="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=HPTir4mTzwc8Mvsl_QY-B8W_5SL3r0nvu6DXTYTwucs&nonce=SkyG1xAMj3nohrXaq4dEMvvpKzIp98_OxyShUVgvGf4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_25=|||14|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_25="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=bbq1rdsFjyo1BRKuNKNxZCOIHsj05f_B9Rir3zScHDQ&nonce=i2fkJhbTzwZNngVQcR_AEnfP19D7oOTZhtWdXt8G-Kc&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_26=|||12|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_26="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fNrGMv26pSMYkeoVhDIxy-uMjwj-05O1X-qu7bQDl3U&nonce=MQUzProvMKDkdKhMcHuQz8miguRODb2UQ5UkESDcu_E&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_27=|||1|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_27="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=lWBx2EpFcgACk8CRG59DGNDDctdwW2St4F_a1aHSh-E&nonce=5YOjaymt8jDQ8NP_hJ_EeD03yKaX92zlMoH6BQbLXCQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_28=|||16|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_28="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=WgfxBFyDEydYhXtrnenXWWPQbpdUlxzzfZrk61C-EuU&nonce=4sYPgbEI4kQ4qmP2OCAJt4TQbm94tKum5WdxI-V_Xw0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_29=|||25|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_29="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=2H3b6W5FEWZaWPCEZow4rw62jx0LPKCchJgZuJDaTks&nonce=IGTh6lbr0kaPZWvwXn_wNiMuLwqgkV5oRtLGesCEhB0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_30=|||28|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_30="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=U2aNvBPnI_ieZoVRvmuWOM24OB38iy2q9i9BvFq1Muc&nonce=mPUTZXl-Asx7vNulKkMmIpw2uMgs9x-E6jQqNXUHi04&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_31=|||29|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_31="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=EMYX6duhjOM_GqchLfY4asO1QOSkpgcSwQYkP8dwOio&nonce=FPAAs53TkysTK7X9F0l80aCklxXnYzbDzDeyz6qqavI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_32=|||20|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_32="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=42oOIPaUnhCMIEOXxugReozUnY-27RryymcCA5sF4nI&nonce=FQV-8RND40LhAtcHNV5wA_WQP3rJtjHSI60Bu5dhXtE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_33=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_33="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=YvzOrhM-W2ImqM0vzyFOeYdAy6Rsv2phJGFS2hE9GWc&nonce=6Kk52KhZrvD3AlmC6TCCL8LVGiauuOxBXV93I0T5g5U&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_34=|||22|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_34="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=nWjH5GPg0go0sQqyEM7GsdJRpenLkX3iDci_o8Yfowk&nonce=D3dgUm3n0qyOJ5t2rnPSxBIha3Fh7JCyY7-becmRraA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_35=|||12|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_35="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=h7weuQ9LmjlGOCaVHXEy6X_bGTtYN5POZmdlxHQLWrQ&nonce=T0y1k--j4kYFW2YyXYcoVYXCGJvR-K6Pz8_lJ7iZ8QI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_36=|||30|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_36="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=rD_vSfcN2o5_r7hnJhSzCBISQ_UkK3wFqsOCk_jTRwY&nonce=dW6bSF4qggZBXcZaASqwCgYcuJjac6UP4qOIvqpTdwM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_37=|||21|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_37="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=T5T_s87_z8DedloX2pDtyD94TBcFuS0H56UOh36ivxo&nonce=vhy8afUf6U4ESgcr2YIzoCglHNFVnHa1aaZkkC77iUM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_38=|||12|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_38="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=c5BF6R3w_vLQUObPOvEEC2I54jyU_MGLN3_j9nE4-nI&nonce=_ZVNfnlTt8vzOPZDJRuF5bsl27C6IoehU2kYmdk3iz0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_39=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_39="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=JEWZJdu-FZ0NSw2QWFprgajN7gnp4A5fwcodvdmtCDQ&nonce=Ga8bEfrsS16aIIxQldB4Kcc3iTN3D8y-KIRhh21RcXw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_40=|||3|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_40="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=jcxQkw16ZQQFst2weKAVfJbyxsaEwxTNNoTWtg2SHRU&nonce=re2kwOKmL3zcs4hmi-b7f4WpaKUSzyFjLdJfOkAdG1g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_41=|||30|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_41="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fN3pW-1nKgZIqd23KbUo94F3OqfPAUyfGgjg19Jc530&nonce=LeYQODLTZ_Dfm486bOYbRzRCo1x7Nik5RKFyoGiga50&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_42=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_42="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=W32UxzA7DWolzQSswm87yySuH7hBHgxTF3wk3Jc94Xc&nonce=BW7FyXqyNZNiuu53-kcIrbTa8PQH8ZTKIpcBtRQ5xKM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_43=|||14|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_43="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Y8qetANj1PadY2E0QlKzlKQhwYEk4M7BcxnRu0Y2kuM&nonce=eYBeQRg6wP18zjNhppSWFLmK8flKuI69iuQ4BDPrvDA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_44=|||31|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_44="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=hJC20VhqtxQ5pUMVpFgLpTGgIepHAGwweAfpBilI2WE&nonce=ck-iSPhag4v70qVjQlqWfvzdbRBOFBWqA7VcFbgwITc&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_45=|||9|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_45="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=-Oa2HTTsv10cIB4MH9gIRbOtHrtHWzdIWqMOsIOM6OQ&nonce=N5-uK24-NFW4zlXlwM9UwfXboxXSPDJg_UkLh_b6Uq4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_46=|||3|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_46="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=roQbavHSmdIJwk0S4k_FeMrcCev3pS--PN5wWMW77No&nonce=ykWCLFzGUagHs2et-QWKobcFGrm0jyKgL9FFt6ddsJM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_47=|||14|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_47="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=e_St13sEogTbCmAx6e2g84wW85rxYp-jFN_4Uw0CqKE&nonce=gYauMO222Tf64eV1gCXPDzhyEhSfVPyW2Uj-H_V0Fcg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_48=|||22|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_48="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=T3py28LobFCISZkaySoANUlpMMnb0fJtrBvBup3PcZc&nonce=7GfXJndHTB0XJlEZ7e3FyPq0YgGLk_7qF7q3wDO4tZw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_49=|||5|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_49="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=HMXqXYPgNZ-6EgbxMuBIePbRvyu0p-_9ZmlxVfwTTLM&nonce=mgEyyuj7k7aH9iTEsJ-9pmqmUCtZ0RrohaSNCHok5O0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_50=|||17|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_50="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=P_ZNSM-DBST8lF0OK9ZjA2YvCQ-F3yZ-6_LACljwcvw&nonce=z6StNGFboaeHVp1fG7Swsi52IB2GCZ1GdVbVx08LpJo&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_51=|||4|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_51="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=zcwkDkhbXO-sJPLM4RTxtfyHMstGifsXaSIvCUVF3_c&nonce=BPDg416Merdw2eJpEPRd-dtVJLxt0H3iCczwwpzihAk&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_52=|||11|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_52="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=kJcP2qnZq19NAnCykZEkM5gQH85KcqhZbqdBmhVHr-s&nonce=ZnnDBaHAc5iUdNt8jfMGNlRshz0izivfI4itsrzjE1g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_53=|||10|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_53="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=z2NMUeElEtmD2Od2rzvSrWwdpL0KsVtZfXhCK4OODu8&nonce=Z1JUXj751J8VRsFhiLJEAPzSkehj1Jo9aO8UtyX0eLQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_54=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_54="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=zXq9d8A6wNAF0fat0K5CsqWwB1MU3si1W804cxpxd4Y&nonce=mE6YoEydee-lcAL_ivZgmrJyH1jIlKRE50T_JWhzxTo&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_55=|||20|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_55="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=HNRsCRa8efQEOjQxs_dk7rYxTlqwDV7c_6j5OAc_Sok&nonce=LzGoUmk-GxA7vcCiUo8a0KhJ6znFNRh9j89D09HxFtc&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_56=|||22|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_56="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=_0w1blA0uKzAUpP0C16-erwR_XEKkDpBHQPVMtoDb2M&nonce=DKlAgGiMGrl7RFPhUB0heiiwGCOeCin82wf48n5dI0Q&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_57=|||8|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_57="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=rv8m2qgEd45oejIohocBRkKk3bzqpmD7Tcj6_E9VRFg&nonce=nriBxXrMsTA1r30bd3Ey_k9AFu0pZGt10pgneT92jrM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_58=|||9|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_58="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=ucznsUpKM4sW4qwU81b0fpBOryA5xmYQOnW4Ky-87A8&nonce=SJAMZbc5GnSbhSwUplGNA5LnjtuaRbBRDi0vDgNiqrU&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_59=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_59="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=YxEJYABkl5v-6zTytJU1648fT0254NWZVydvRngpMXE&nonce=KlpoNJjIoBPVr240wht72d_9Z-RAKaOqYDgFfvWyvjw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_60=|||16|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_60="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=kga-GNyCmGRtMzQtp8gIzXoAOgzJLOiOeUtEqunfcq8&nonce=nePQZcQ5svO8TP-eKW5Tpk4HiY1OoJQVKstt-k3TPes&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_61=|||6|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_61="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=R0CyjtDM78LdYmkdu1AKPr0dOQYZqIEnk1yRsfJ_6aU&nonce=ySKeP4AO81SbtIVCrbc8enlmip4oqflWY0XMXwoAREI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_62=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_62="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=lRdSBWnEv403B1l78X38wJDt6uGRZCgFfa2ENTepo6s&nonce=_rT1XCTrcbRbnZ_OCCgAOckif-BxzuKNtWnxzMRpWGw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_63=|||20|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_63="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=3EnCCJVcw8yUFCM00Mt0t-aa77xzcQE78dVsJnfCTa0&nonce=qo3fbtUMe2w44-_8uUbAHaexpS6GZ-gLgjksrItZ_CQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_64=|||18|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_64="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Vc1iGfGVKJg2YDb9E55Fyw9uCRS-vWQGS5A-Z3tKf3E&nonce=8p6PDLhNt49BYC7M0u_mwWIBw_TDhZQSFavTTRcEL0U&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_65=|||9|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_65="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=nsSB_TrKsmdytP4p17LXrq0SG7Qgr5iscsIH48hZEhQ&nonce=iviAdidvvbdq_KswGIshxC3TZ_X5v4jG81fZwMJLo8o&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_66=|||17|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_66="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=grKrQn1x1ZS_2cKFd7TGdCk8EQoStlMOL-JD68iHyiU&nonce=JvA0alU8hcOos2iCAqdR9TNKUm7j3TocW098ETgwIQ4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_67=|||4|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_67="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=e_IS5pF5DiiF4iEqFhan1XBFVg5IV46lTZzgTbwv2hk&nonce=5DzF7XEh-82G5Qrpyq1Wh-dLj9a_OSXziBxyIrIU8Pk&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_68=|||34|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_68="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=8GMZWWni8EDL7Fadgh5JhSq_VlV2WacUdo600ZkqBMU&nonce=QJZndF_rkMmetQOTX7kax00bxs4VyozeScANfGLsMQM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_69=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_69="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Y0_dztMBNOPsfIo2n_4QgBHMViZH5Lj5IntnIHOQoLk&nonce=U9IxVxYdARvWS5kbNZ8HFSRQsvPFpALANA5XH65h8oM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_70=|||33|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_70="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=9s-vXRhYHlKss0DqyeFuyj61LKEwnyP4q153YnwrXrw&nonce=rtT_gL74etb_iKWgHZpZZ-2VZg8jbB7tI9SsfQH7ulw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_71=|||29|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_71="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=21LuzN8R-4Vp2Y2MV21nxp3Om6cG6g3HGtXmmeM-AG0&nonce=qEpEYHujiqE9lJqqiKfrqjvI4Lg9rr8VTk7Xu5aHsb8&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_72=|||18|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_72="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=WWkAjCoWLcuff9QUhqhkaZkj7xL_NvIU2O2FMuMStxw&nonce=Olt7_Razr4knexaS2fjCa9A0ha4sQTesYZVOLMC0wpA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_73=|||6|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_73="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=ZQ8NSG1bV5NaBnUYCoHXoKmhcEVBtVZfgcnjDbyEWWE&nonce=T7sWS1cP_QNjcLtCX7ZB-Y00tEdv6y7ynhKK-t4kaNo&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_74=|||9|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_74="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=REMvDIIHlqARt7fjV5pftvX50cH8z8e5GprZDAwAqwg&nonce=zZE434M2q6FBPQUVKCD-mIDI3vnMbb-oiX67RiVtVFI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_75=|||34|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_75="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=zgKaZijzqcXM4s1Bs0S9xVusjQyk7yI3sTjF2J3i-WA&nonce=x_Us4IBZYoOhyg6tB3iTFTXPAnlOREAXodFtKY4nIl0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_76=|||20|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_76="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=CKcOfDXKbXUyMQHzOMhD2rEFjqbO6X_s7UE3VrtIRCM&nonce=_mmKFWvltX3r8-n43Qlv1CJCwozV-fm0UXJVf4iKBtQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_77=|||14|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_77="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=p7haNayd8SFp_LZEG5O4Dfn01Kea8aHogSXdoJ_ge2o&nonce=M_YGBrHDEQV75z61IWTX79rMsxuGbBCesefLCcyP7FE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_78=|||6|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_78="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=ryuOtxM8md0t8poVVVCyxNL-tSNYaOeQ1IqAMSEmm0s&nonce=eebYqL7CHWgV7RrhJuvfum5r-vCmCbh2Qem2nz6Ydgs&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_79=|||14|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_79="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=0_f_KKLxCbNWO6aWVIKEL6V8HX7Cvet3v_uDCOYigY4&nonce=IFPuG_8BH1t7szVHrCR4PCBKpyq5Y0CLyW6kXerW-GY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_80=|||8|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_80="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=H6rBiTWShJK00DObDKFL11eK_9uP7pMptaJGL8nSUxo&nonce=MJhdk7PkUY3NjJviRIHB9jt7W5EeYaxmHY79jAYC8X0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_81=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_81="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=7fXRiPphdTzUtwnE7Ip3759_Iv7g2Y7zBQGCsihcuS0&nonce=_i6ig9bF5e3LVNg6UtAoIybLT-NbkRGRk0q7miLsRv0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_82=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_82="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=OJaSIy81oMpTFq82mforh7DbTgxu9d5T4wrY5ymrcxQ&nonce=v7tIhFYaclY6PpwCLQy1VPTPEgDPeWzlQkSOu5XtgBg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_83=|||18|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_83="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=rkOHCUfJpJROTGABORcF5ddHCINAMDL25iK5NfE-ryQ&nonce=BAqg9riTMUoCRTcFU-TLNU3CVzfZDomtcel528UJHuE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_84=|||23|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_84="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=vRjCf0Ts7yOazt-j5p1wrezsA3madNiZak2g6hvmcao&nonce=zsMPJ39xe1dX8QrXfd9XL5LAmAzQVVSGD_rWBOwoetI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_85=|||17|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_85="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=BUGNR13KmTkXzYDtI2ZCvNhkTrV2mkXnQ-YqKdFTDwc&nonce=WlYr09VuBDGACg3x5gv9vVcpV-Ss3ZXzHIgBO347HOs&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_86=|||34|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_86="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=wcMayIn6QILko8SulTaLEKNLi0DZejmgFzHr8dzarpc&nonce=vhbeq9WjAePjDaIVrefMOGmo_mXbAC7tzyTO1gcrYFw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_87=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_87="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Lqu-PHGgTzVjUDQMHmexxH0rchRzcPyt7s8Nh3Z4tuA&nonce=FOPV3UXsX70-AT2TZ7cf_e0h4Zz1EQGYIh-pHnHcv6k&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_88=|||13|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_88="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=flmENWE7gx0PV09evx4nZ9zhfCEI6mxDjTYJUdjpaCI&nonce=56qoXDnoTztw8sLFyclVJwXc-lvxNlPiPioIoQJ7GJY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_89=|||21|||1|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
-MeasurementFullPath_89="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=OjV6mvLNKFm-IM3N-5ookDxlEMcrpyUcH_wjlfTVaJY&nonce=3bshEDIUJFX4ZNayYJxlqesQAfDuj_InyDruonO3ZlM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+MeasurementFullPath_5="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=j7J3pHyJ26ec9fHDtbxrDLHR4HbLgColNxPv9h8ibjY&nonce=Su3thhNhfmUM5RCAj2HnV-BY0DyRzUx5WhWj9UCIjV0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_6=|||0|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
+MeasurementFullPath_6="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=cyhp4BVmmBph6EyAqkAabIFwS2BvjGkIeWgPy7s8OxM&nonce=MVx3oScG5r1gAjr1HRx8ZKBRs7xdx6m9U20oyWOT76g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_7=|||3|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
+MeasurementFullPath_7="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fO3JiStj_6kNhsTSHqATdIdppQrTpW4mzgCTvDUreWM&nonce=cwAcHTe9fo-O_CvcEw04Ua2PRqMl5aHaHPF5mxMsuT8&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_8=|||28|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
+MeasurementFullPath_8="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=DF1ixkp2Rg5HnbJCmZKWJMH3vPLh0U6GS5AAWfsawFE&nonce=AdbRyy7r4znyfxs697QibTRbnI2jvKCiVfaLg4bgAFE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_9=|||29|||0|||1|||Not_In_Use|||0|||-1|||CS_DOMContentLoadedDuration
+MeasurementFullPath_9="DOMContentLoaded duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=N7aldCCZOjKwn9LaLlOx6y-jidkJoHjJ2e_3fMy-6LY&nonce=ql-XvWC9ghliWfiqhEZOvO2-GTqIBBr3LkROichEGG0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
 Description=Displays the average time per document, in milliseconds, it takes for DOMContentLoaded to occur (a point when the document has been completely loaded and parsed without waiting for stylesheets, images and subframes to finish loading)
 [44]
 MeasurementsDelimiter=|||
@@ -2494,185 +2159,27 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=89
+MeasurementCount=10
 Measurement_0=|||19|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
 MeasurementFullPath_0="Load duration [https://manage-case.perftest.platform.hmcts.net/]"
-Measurement_1=|||21|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_1="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Tu6D45CxB_DYkpoquQxae2x7eRYiQF2oAaqZpat3XtM&nonce=NnWip-5suu1VODBn0G8oqv0sjhzgWb9ztXf8z0meRQk&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_1=|||32|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
+MeasurementFullPath_1="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=9zBp8EuO4C5ainGvzH97to_o6f6czbjmbr6ydPsM_-Q&nonce=_0SJpdnQQjgoxV6kaeRYKWH_HWTW4y1ciub8jCOlmPE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
 Measurement_2=|||28|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
 MeasurementFullPath_2="Load duration [https://manage-case.perftest.platform.hmcts.net/cases]"
-Measurement_3=|||5|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_3="Load duration [https://manage-case.perftest.platform.hmcts.net/cases/case-details/1706796305958082#Tasks]"
-Measurement_4=|||13|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_4="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=4x1oDtfx4riuYrlt2p79Kd_3McEV2xvBqyGgFDon9P4&nonce=RvarzafmffBA3j4CIEHJrojU_KYCI-LNJr8KtNbkHeY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_5=|||7|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_5="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=29AlwUxZDk6-B7-n-bjaSN4CJ4TtixkG-6j7rstyj4Q&nonce=4P_plEaKltQCbhudiToSwi_0etJ6ZI7J-g7309Fgy0s&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_6=|||29|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_6="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=u_DMbliJXgztVlB7KE5p-78Q0-9xBFiGlUdAfB58-5o&nonce=mGtDalrUe0k-P144W9ErGWYCPUHXtI0TDVzoE9iVvfQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_7=|||20|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_7="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=AF1JrnLwzkqTbzl5XeFC84Uj7bEUu-uHzi5TL4apc88&nonce=b5P-cAd7stuPY0tIiXAJTmSn802pnIjXAIA-hpJZWNY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_8=|||16|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_8="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=g-9bxXV1W2iEpuM4RWHz3RfSCOqRVkcJql5ETkOnjEg&nonce=KleNCRbVKGUa_qPfoUQzwg4xB2KGayLWZqmxEUyolXU&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_9=|||24|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_9="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=CrY0ymG2eZ8uyoZeciK2Qte2OGB5lggqdIFcMyvdQnE&nonce=xc-WNOW-L3LIsBGVc_YkKyai-43dNDodOpL-3_U0wIg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_10=|||10|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_10="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=4v87cCrzR-StF_pmCJT2zB2M8R6gJ485KhoT5YYWX8g&nonce=M_qLAqZEj20qRK0cKiE96Q_SMZH_t5v8mRMGSKbbUIE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_11=|||13|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_11="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=LxWBcBx7Z265ck7BfLR4U2BuA0G7-Mj6m6K72F8h-o4&nonce=eupVNk6bjmq1hp8E4UtXp0fPCZlZu9tpEZhFcmsb84k&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_12=|||13|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_12="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=WfWNUmKG8SLNyGivrdZ6LwxzHxToWD5wp-uEJJoAcn4&nonce=vJkbOOFL34z_Q-ng1eAizLMV1xvWoxHn4q9gYI2Hq-g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_13=|||7|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_13="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=xY7INhWOurdk5zvvVjbQXfINe5vNcD8mxLtqTe450QE&nonce=09H-N6xgNQyvMt4FnuEWIb0Zv9FvYDkmZDKMfIcjcjE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_14=|||8|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_14="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=JCyAS02ArZRXpGZTgAaqECfRQT-A0GVV6z1X7cf0GMU&nonce=swcM_aONrHafHnWQBWYshlPabKvxVK4qBiD_bGX-WcA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_15=|||3|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_15="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=5qARCVfvkRNuN1hjmwhmiP68l5ODFZvLCZpMzO3ZXqc&nonce=EVS-8Vbs-2j4tJ_YpO21VYE5qQhRnyaDQw9u6qpkc6M&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_16=|||22|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_16="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=G8AWGuQUAWmi_dm9CGy3nnK6bIcPmlWTsY5JkwYfbwo&nonce=7OHBBQ9Tgr1it07qMuaEJNKcv5W-1xeqI4r8I1x-k4U&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_17=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_17="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fgO5npnao2QbPTFo5RJq88J2sDi415dxf8hrhJ1vLTg&nonce=jO_iUpBF0J4hH0cGFRW2L92kw9bphmRnAcoV-drvDIg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_18=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_18="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=iJix_HG37VeMDxrBa2kBkD7EdTnh0VswzxK87P13tP4&nonce=ds1ocnOjae-JRh0n0Olpkdz4aK7cmVJ9SpooBLe0cqg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_19=|||5|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_19="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=jMIzoqRfgAnA9u69av5ZZprNCzGenUjmOtujQqS0NBQ&nonce=NhTfY6bDZz_ApnMYtT5N7Vollv1payHBmx4VqEls7Yw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_20=|||33|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_20="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=D1vXnP3JXV7JmFLsr1DWW9E02WWFSWAWXve3nKjd5Kc&nonce=MKHrK7D9S7LdWpNoTD75ml11kkWfGAjL9tWo4SMzaas&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_21=|||0|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_21="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=1eZyUnYhe2HRIimVjHHhNsoi2RjXjaR3eUXOltgaVlA&nonce=-CFNS6j7hAPbqWIRz2k2SJBA49Df-GbJ5AgzvhwVvk4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_22=|||23|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_22="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=IOcTcqaCm_VAgVkGPXxmBlI9RIMDmd0LVqW8KtpLzis&nonce=Lb9iBv_CeLsdAOmsY5_bmj4R75pxyyEOxGWrwAlHbXQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_23=|||33|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_23="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=HPTir4mTzwc8Mvsl_QY-B8W_5SL3r0nvu6DXTYTwucs&nonce=SkyG1xAMj3nohrXaq4dEMvvpKzIp98_OxyShUVgvGf4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_24=|||9|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_24="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=s5-ETKbMQOJ5O2H1BW0s_sq46kYKY84JlQkaJyPl3rQ&nonce=EZJ96M__-_Vx0VigWfNPVW5YNxANCkNOCrNKPzY9xNY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_25=|||9|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_25="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=bbq1rdsFjyo1BRKuNKNxZCOIHsj05f_B9Rir3zScHDQ&nonce=i2fkJhbTzwZNngVQcR_AEnfP19D7oOTZhtWdXt8G-Kc&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_26=|||16|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_26="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fNrGMv26pSMYkeoVhDIxy-uMjwj-05O1X-qu7bQDl3U&nonce=MQUzProvMKDkdKhMcHuQz8miguRODb2UQ5UkESDcu_E&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_27=|||32|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_27="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=lWBx2EpFcgACk8CRG59DGNDDctdwW2St4F_a1aHSh-E&nonce=5YOjaymt8jDQ8NP_hJ_EeD03yKaX92zlMoH6BQbLXCQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_28=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_28="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=WgfxBFyDEydYhXtrnenXWWPQbpdUlxzzfZrk61C-EuU&nonce=4sYPgbEI4kQ4qmP2OCAJt4TQbm94tKum5WdxI-V_Xw0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_29=|||20|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_29="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=2H3b6W5FEWZaWPCEZow4rw62jx0LPKCchJgZuJDaTks&nonce=IGTh6lbr0kaPZWvwXn_wNiMuLwqgkV5oRtLGesCEhB0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_30=|||3|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_30="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=U2aNvBPnI_ieZoVRvmuWOM24OB38iy2q9i9BvFq1Muc&nonce=mPUTZXl-Asx7vNulKkMmIpw2uMgs9x-E6jQqNXUHi04&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_31=|||0|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_31="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=EMYX6duhjOM_GqchLfY4asO1QOSkpgcSwQYkP8dwOio&nonce=FPAAs53TkysTK7X9F0l80aCklxXnYzbDzDeyz6qqavI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_32=|||33|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_32="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=42oOIPaUnhCMIEOXxugReozUnY-27RryymcCA5sF4nI&nonce=FQV-8RND40LhAtcHNV5wA_WQP3rJtjHSI60Bu5dhXtE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_33=|||8|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_33="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=YvzOrhM-W2ImqM0vzyFOeYdAy6Rsv2phJGFS2hE9GWc&nonce=6Kk52KhZrvD3AlmC6TCCL8LVGiauuOxBXV93I0T5g5U&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_34=|||10|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_34="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=nWjH5GPg0go0sQqyEM7GsdJRpenLkX3iDci_o8Yfowk&nonce=D3dgUm3n0qyOJ5t2rnPSxBIha3Fh7JCyY7-becmRraA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_35=|||13|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_35="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=h7weuQ9LmjlGOCaVHXEy6X_bGTtYN5POZmdlxHQLWrQ&nonce=T0y1k--j4kYFW2YyXYcoVYXCGJvR-K6Pz8_lJ7iZ8QI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_36=|||10|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_36="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=rD_vSfcN2o5_r7hnJhSzCBISQ_UkK3wFqsOCk_jTRwY&nonce=dW6bSF4qggZBXcZaASqwCgYcuJjac6UP4qOIvqpTdwM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_37=|||23|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_37="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=T5T_s87_z8DedloX2pDtyD94TBcFuS0H56UOh36ivxo&nonce=vhy8afUf6U4ESgcr2YIzoCglHNFVnHa1aaZkkC77iUM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_38=|||26|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_38="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=c5BF6R3w_vLQUObPOvEEC2I54jyU_MGLN3_j9nE4-nI&nonce=_ZVNfnlTt8vzOPZDJRuF5bsl27C6IoehU2kYmdk3iz0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_39=|||24|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_39="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=JEWZJdu-FZ0NSw2QWFprgajN7gnp4A5fwcodvdmtCDQ&nonce=Ga8bEfrsS16aIIxQldB4Kcc3iTN3D8y-KIRhh21RcXw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_40=|||14|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_40="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=jcxQkw16ZQQFst2weKAVfJbyxsaEwxTNNoTWtg2SHRU&nonce=re2kwOKmL3zcs4hmi-b7f4WpaKUSzyFjLdJfOkAdG1g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_41=|||4|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_41="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=W32UxzA7DWolzQSswm87yySuH7hBHgxTF3wk3Jc94Xc&nonce=BW7FyXqyNZNiuu53-kcIrbTa8PQH8ZTKIpcBtRQ5xKM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_42=|||7|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_42="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Y8qetANj1PadY2E0QlKzlKQhwYEk4M7BcxnRu0Y2kuM&nonce=eYBeQRg6wP18zjNhppSWFLmK8flKuI69iuQ4BDPrvDA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_43=|||9|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_43="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=-Oa2HTTsv10cIB4MH9gIRbOtHrtHWzdIWqMOsIOM6OQ&nonce=N5-uK24-NFW4zlXlwM9UwfXboxXSPDJg_UkLh_b6Uq4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_44=|||21|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_44="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=hJC20VhqtxQ5pUMVpFgLpTGgIepHAGwweAfpBilI2WE&nonce=ck-iSPhag4v70qVjQlqWfvzdbRBOFBWqA7VcFbgwITc&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_45=|||24|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_45="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=roQbavHSmdIJwk0S4k_FeMrcCev3pS--PN5wWMW77No&nonce=ykWCLFzGUagHs2et-QWKobcFGrm0jyKgL9FFt6ddsJM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_46=|||29|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_46="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=e_St13sEogTbCmAx6e2g84wW85rxYp-jFN_4Uw0CqKE&nonce=gYauMO222Tf64eV1gCXPDzhyEhSfVPyW2Uj-H_V0Fcg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_47=|||4|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_47="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=T3py28LobFCISZkaySoANUlpMMnb0fJtrBvBup3PcZc&nonce=7GfXJndHTB0XJlEZ7e3FyPq0YgGLk_7qF7q3wDO4tZw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_48=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_48="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=P_ZNSM-DBST8lF0OK9ZjA2YvCQ-F3yZ-6_LACljwcvw&nonce=z6StNGFboaeHVp1fG7Swsi52IB2GCZ1GdVbVx08LpJo&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_49=|||22|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_49="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=HMXqXYPgNZ-6EgbxMuBIePbRvyu0p-_9ZmlxVfwTTLM&nonce=mgEyyuj7k7aH9iTEsJ-9pmqmUCtZ0RrohaSNCHok5O0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_50=|||8|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_50="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=zcwkDkhbXO-sJPLM4RTxtfyHMstGifsXaSIvCUVF3_c&nonce=BPDg416Merdw2eJpEPRd-dtVJLxt0H3iCczwwpzihAk&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_51=|||33|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_51="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=z2NMUeElEtmD2Od2rzvSrWwdpL0KsVtZfXhCK4OODu8&nonce=Z1JUXj751J8VRsFhiLJEAPzSkehj1Jo9aO8UtyX0eLQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_52=|||21|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_52="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=kJcP2qnZq19NAnCykZEkM5gQH85KcqhZbqdBmhVHr-s&nonce=ZnnDBaHAc5iUdNt8jfMGNlRshz0izivfI4itsrzjE1g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_53=|||34|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_53="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=zXq9d8A6wNAF0fat0K5CsqWwB1MU3si1W804cxpxd4Y&nonce=mE6YoEydee-lcAL_ivZgmrJyH1jIlKRE50T_JWhzxTo&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_54=|||3|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_54="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=HNRsCRa8efQEOjQxs_dk7rYxTlqwDV7c_6j5OAc_Sok&nonce=LzGoUmk-GxA7vcCiUo8a0KhJ6znFNRh9j89D09HxFtc&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_55=|||25|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_55="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=_0w1blA0uKzAUpP0C16-erwR_XEKkDpBHQPVMtoDb2M&nonce=DKlAgGiMGrl7RFPhUB0heiiwGCOeCin82wf48n5dI0Q&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_56=|||25|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_56="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=rv8m2qgEd45oejIohocBRkKk3bzqpmD7Tcj6_E9VRFg&nonce=nriBxXrMsTA1r30bd3Ey_k9AFu0pZGt10pgneT92jrM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_57=|||12|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_57="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=ucznsUpKM4sW4qwU81b0fpBOryA5xmYQOnW4Ky-87A8&nonce=SJAMZbc5GnSbhSwUplGNA5LnjtuaRbBRDi0vDgNiqrU&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_58=|||10|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_58="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=YxEJYABkl5v-6zTytJU1648fT0254NWZVydvRngpMXE&nonce=KlpoNJjIoBPVr240wht72d_9Z-RAKaOqYDgFfvWyvjw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_59=|||24|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_59="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=kga-GNyCmGRtMzQtp8gIzXoAOgzJLOiOeUtEqunfcq8&nonce=nePQZcQ5svO8TP-eKW5Tpk4HiY1OoJQVKstt-k3TPes&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_60=|||12|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_60="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=R0CyjtDM78LdYmkdu1AKPr0dOQYZqIEnk1yRsfJ_6aU&nonce=ySKeP4AO81SbtIVCrbc8enlmip4oqflWY0XMXwoAREI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_61=|||0|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_61="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=lRdSBWnEv403B1l78X38wJDt6uGRZCgFfa2ENTepo6s&nonce=_rT1XCTrcbRbnZ_OCCgAOckif-BxzuKNtWnxzMRpWGw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_62=|||10|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_62="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=3EnCCJVcw8yUFCM00Mt0t-aa77xzcQE78dVsJnfCTa0&nonce=qo3fbtUMe2w44-_8uUbAHaexpS6GZ-gLgjksrItZ_CQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_63=|||31|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_63="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Vc1iGfGVKJg2YDb9E55Fyw9uCRS-vWQGS5A-Z3tKf3E&nonce=8p6PDLhNt49BYC7M0u_mwWIBw_TDhZQSFavTTRcEL0U&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_64=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_64="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=nsSB_TrKsmdytP4p17LXrq0SG7Qgr5iscsIH48hZEhQ&nonce=iviAdidvvbdq_KswGIshxC3TZ_X5v4jG81fZwMJLo8o&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_65=|||24|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_65="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=grKrQn1x1ZS_2cKFd7TGdCk8EQoStlMOL-JD68iHyiU&nonce=JvA0alU8hcOos2iCAqdR9TNKUm7j3TocW098ETgwIQ4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_66=|||2|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_66="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=e_IS5pF5DiiF4iEqFhan1XBFVg5IV46lTZzgTbwv2hk&nonce=5DzF7XEh-82G5Qrpyq1Wh-dLj9a_OSXziBxyIrIU8Pk&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_67=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_67="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=8GMZWWni8EDL7Fadgh5JhSq_VlV2WacUdo600ZkqBMU&nonce=QJZndF_rkMmetQOTX7kax00bxs4VyozeScANfGLsMQM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_68=|||4|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_68="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Y0_dztMBNOPsfIo2n_4QgBHMViZH5Lj5IntnIHOQoLk&nonce=U9IxVxYdARvWS5kbNZ8HFSRQsvPFpALANA5XH65h8oM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_69=|||20|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_69="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=9s-vXRhYHlKss0DqyeFuyj61LKEwnyP4q153YnwrXrw&nonce=rtT_gL74etb_iKWgHZpZZ-2VZg8jbB7tI9SsfQH7ulw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_70=|||27|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_70="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=21LuzN8R-4Vp2Y2MV21nxp3Om6cG6g3HGtXmmeM-AG0&nonce=qEpEYHujiqE9lJqqiKfrqjvI4Lg9rr8VTk7Xu5aHsb8&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_71=|||2|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_71="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=ZQ8NSG1bV5NaBnUYCoHXoKmhcEVBtVZfgcnjDbyEWWE&nonce=T7sWS1cP_QNjcLtCX7ZB-Y00tEdv6y7ynhKK-t4kaNo&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_72=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_72="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=WWkAjCoWLcuff9QUhqhkaZkj7xL_NvIU2O2FMuMStxw&nonce=Olt7_Razr4knexaS2fjCa9A0ha4sQTesYZVOLMC0wpA&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_73=|||4|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_73="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=zgKaZijzqcXM4s1Bs0S9xVusjQyk7yI3sTjF2J3i-WA&nonce=x_Us4IBZYoOhyg6tB3iTFTXPAnlOREAXodFtKY4nIl0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_74=|||33|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_74="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=REMvDIIHlqARt7fjV5pftvX50cH8z8e5GprZDAwAqwg&nonce=zZE434M2q6FBPQUVKCD-mIDI3vnMbb-oiX67RiVtVFI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_75=|||2|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_75="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=CKcOfDXKbXUyMQHzOMhD2rEFjqbO6X_s7UE3VrtIRCM&nonce=_mmKFWvltX3r8-n43Qlv1CJCwozV-fm0UXJVf4iKBtQ&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_76=|||7|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_76="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=p7haNayd8SFp_LZEG5O4Dfn01Kea8aHogSXdoJ_ge2o&nonce=M_YGBrHDEQV75z61IWTX79rMsxuGbBCesefLCcyP7FE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_77=|||10|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_77="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=ryuOtxM8md0t8poVVVCyxNL-tSNYaOeQ1IqAMSEmm0s&nonce=eebYqL7CHWgV7RrhJuvfum5r-vCmCbh2Qem2nz6Ydgs&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_78=|||1|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_78="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=0_f_KKLxCbNWO6aWVIKEL6V8HX7Cvet3v_uDCOYigY4&nonce=IFPuG_8BH1t7szVHrCR4PCBKpyq5Y0CLyW6kXerW-GY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_79=|||3|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_79="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=7fXRiPphdTzUtwnE7Ip3759_Iv7g2Y7zBQGCsihcuS0&nonce=_i6ig9bF5e3LVNg6UtAoIybLT-NbkRGRk0q7miLsRv0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_80=|||6|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_80="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=H6rBiTWShJK00DObDKFL11eK_9uP7pMptaJGL8nSUxo&nonce=MJhdk7PkUY3NjJviRIHB9jt7W5EeYaxmHY79jAYC8X0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_81=|||17|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_81="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=OJaSIy81oMpTFq82mforh7DbTgxu9d5T4wrY5ymrcxQ&nonce=v7tIhFYaclY6PpwCLQy1VPTPEgDPeWzlQkSOu5XtgBg&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_82=|||12|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_82="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=rkOHCUfJpJROTGABORcF5ddHCINAMDL25iK5NfE-ryQ&nonce=BAqg9riTMUoCRTcFU-TLNU3CVzfZDomtcel528UJHuE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_83=|||17|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_83="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=vRjCf0Ts7yOazt-j5p1wrezsA3madNiZak2g6hvmcao&nonce=zsMPJ39xe1dX8QrXfd9XL5LAmAzQVVSGD_rWBOwoetI&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_84=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_84="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=BUGNR13KmTkXzYDtI2ZCvNhkTrV2mkXnQ-YqKdFTDwc&nonce=WlYr09VuBDGACg3x5gv9vVcpV-Ss3ZXzHIgBO347HOs&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_85=|||33|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_85="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=wcMayIn6QILko8SulTaLEKNLi0DZejmgFzHr8dzarpc&nonce=vhbeq9WjAePjDaIVrefMOGmo_mXbAC7tzyTO1gcrYFw&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_86=|||15|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_86="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Lqu-PHGgTzVjUDQMHmexxH0rchRzcPyt7s8Nh3Z4tuA&nonce=FOPV3UXsX70-AT2TZ7cf_e0h4Zz1EQGYIh-pHnHcv6k&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_87=|||19|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_87="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=flmENWE7gx0PV09evx4nZ9zhfCEI6mxDjTYJUdjpaCI&nonce=56qoXDnoTztw8sLFyclVJwXc-lvxNlPiPioIoQJ7GJY&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
-Measurement_88=|||16|||1|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
-MeasurementFullPath_88="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=OjV6mvLNKFm-IM3N-5ookDxlEMcrpyUcH_wjlfTVaJY&nonce=3bshEDIUJFX4ZNayYJxlqesQAfDuj_InyDruonO3ZlM&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_3=|||22|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
+MeasurementFullPath_3="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fnvi8pVU6hRo72kjDt7jlVhRZ14mE6ZJMzIaIFTsa4U&nonce=v17rphgXDQ-9K2t73ofONCbM3dcm-oXBj4AQt5e63H4&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_4=|||34|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
+MeasurementFullPath_4="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=Ra08c8K0RTS9myIqA8qDi2VJYT0cgWITrQ0OFWbMlHE&nonce=2KUfj9OsWUPj3gCZXPEoz20-dVE3-d_cSlauXY2HFM0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_5=|||23|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
+MeasurementFullPath_5="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=j7J3pHyJ26ec9fHDtbxrDLHR4HbLgColNxPv9h8ibjY&nonce=Su3thhNhfmUM5RCAj2HnV-BY0DyRzUx5WhWj9UCIjV0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_6=|||27|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
+MeasurementFullPath_6="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=cyhp4BVmmBph6EyAqkAabIFwS2BvjGkIeWgPy7s8OxM&nonce=MVx3oScG5r1gAjr1HRx8ZKBRs7xdx6m9U20oyWOT76g&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_7=|||31|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
+MeasurementFullPath_7="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=fO3JiStj_6kNhsTSHqATdIdppQrTpW4mzgCTvDUreWM&nonce=cwAcHTe9fo-O_CvcEw04Ua2PRqMl5aHaHPF5mxMsuT8&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_8=|||19|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
+MeasurementFullPath_8="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=DF1ixkp2Rg5HnbJCmZKWJMH3vPLh0U6GS5AAWfsawFE&nonce=AdbRyy7r4znyfxs697QibTRbnI2jvKCiVfaLg4bgAFE&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
+Measurement_9=|||26|||0|||1|||Not_In_Use|||0|||-1|||CS_PageLoadDuration
+MeasurementFullPath_9="Load duration [https://idam-web-public.perftest.platform.hmcts.net/login?client_id=xuiwebapp&redirect_uri=https://manage-case.perftest.platform.hmcts.net/oauth2/callback&state=N7aldCCZOjKwn9LaLlOx6y-jidkJoHjJ2e_3fMy-6LY&nonce=ql-XvWC9ghliWfiqhEZOvO2-GTqIBBr3LkROichEGG0&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user%20search-user&prompt=]"
 Description=Displays the average time per document, in milliseconds, it takes for Load event to occur (a point when the whole page has loaded, including all dependent resources such as stylesheets and images)
 [45]
 MeasurementsDelimiter=|||
@@ -5164,7 +4671,7 @@ MachinesCount=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="65d38a4fe" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="65d39666e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioSchedulerConfig
@@ -5258,7 +4765,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
 }
 
 {ScenarioSLAConfig
-<?xml version="1.0" encoding="UTF-8"?><SLA Version="1.0"><TxList><Tx>010_SignInPage</Tx><Tx>CaseFileViewTab</Tx><Tx>vuser_end_Transaction</Tx><Tx>CaseFileViewMediaViewer</Tx><Tx>MyWorkMyCases</Tx><Tx>040_Cases</Tx><Tx>CaseDocumentsTab</Tx><Tx>MyWorkMyTasks</Tx><Tx>SelectedTab</Tx><Tx>200_SignOut</Tx><Tx>MyWorkMyAccess</Tx><Tx>CaseDocumentsMediaViewer</Tx><Tx>HearingsTab</Tx><Tx>050_ApplyFilter</Tx><Tx>vuser_init_Transaction</Tx><Tx>MyWorkAvailableTasks</Tx><Tx>SubmitScannedDocument</Tx><Tx>CaseNotes</Tx><Tx>AttachedScanDocsDialog</Tx><Tx>190_TranslateToEnglish</Tx><Tx>070_ApplicationTab</Tx><Tx>AddCaseNote</Tx><Tx>020_SignIn</Tx><Tx>AddCaseNoteDialog</Tx><Tx>030_TranslateToWelsh</Tx><Tx>SearchCaseReference</Tx><Tx>Lib-View_Transaction</Tx><Tx>Action_Transaction</Tx><Tx>060_SelectCase</Tx><Tx>SearchDialog</Tx><Tx>UploadDocument</Tx></TxList><SLARules><TrackingPeriodType>Default</TrackingPeriodType><TrackingPeriodValue></TrackingPeriodValue><TrackingPeriodTimeScale></TrackingPeriodTimeScale></SLARules></SLA>
+<?xml version="1.0" encoding="UTF-8"?><SLA Version="1.0"><TxList><Tx>010_SignInPage</Tx><Tx>CaseFileViewTab</Tx><Tx>vuser_end_Transaction</Tx><Tx>MyWorkMyCases</Tx><Tx>150_SelectLanguageInterpreter</Tx><Tx>CaseFileViewMediaViewer</Tx><Tx>040_Cases</Tx><Tx>MyWorkMyTasks</Tx><Tx>CaseDocumentsTab</Tx><Tx>090_DogfennauAchosTab</Tx><Tx>SelectedTab</Tx><Tx>080_SupportTab</Tx><Tx>130_RequestSupport</Tx><Tx>200_SignOut</Tx><Tx>MyWorkMyAccess</Tx><Tx>160_SelectLanguage</Tx><Tx>CaseDocumentsMediaViewer</Tx><Tx>050_ApplyFilter</Tx><Tx>170_RequestDetails</Tx><Tx>HearingsTab</Tx><Tx>vuser_init_Transaction</Tx><Tx>140_SelectPerson</Tx><Tx>SubmitScannedDocument</Tx><Tx>MyWorkAvailableTasks</Tx><Tx>110_ServiceRequestTab</Tx><Tx>CaseNotes</Tx><Tx>AttachedScanDocsDialog</Tx><Tx>070_ApplicationTab</Tx><Tx>180_SubmitSupportRequest</Tx><Tx>190_TranslateToEnglish</Tx><Tx>AddCaseNote</Tx><Tx>100_HanesTab</Tx><Tx>020_SignIn</Tx><Tx>AddCaseNoteDialog</Tx><Tx>120_PartiesTab</Tx><Tx>SearchCaseReference</Tx><Tx>030_TranslateToWelsh</Tx><Tx>Lib-View_Transaction</Tx><Tx>Action_Transaction</Tx><Tx>SearchDialog</Tx><Tx>060_SelectCase</Tx><Tx>UploadDocument</Tx></TxList><SLARules><TrackingPeriodType>Default</TrackingPeriodType><TrackingPeriodValue></TrackingPeriodValue><TrackingPeriodTimeScale></TrackingPeriodTimeScale></SLARules></SLA>
 }
 
 {ScenarioSEVConfig
@@ -5285,6 +4792,6 @@ welshtranslationapplicationtab=00000000-0000-0000-0000-000000000000
 }
 
 {LocAssignedToTest
-welshtranslation_1_1=00000000-0000-0000-0000-000000000000
+welshtranslation_1_1_1=00000000-0000-0000-0000-000000000000
 }
 }
