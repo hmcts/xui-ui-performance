@@ -26,29 +26,24 @@ Library_Common()
 		truclient_step("1.14", "Wait until Reject analytics cookies button exists", "snapshot=Common_1.14.inf");
 		truclient_step("1.15", "Click on Reject analytics cookies button", "snapshot=Common_1.15.inf");
 		truclient_step("1.16", "Verify Case list 's Visible Text contains Case list", "snapshot=Common_1.16.inf");
-		/* Adding a temporary delay here to account for the time it takes to show the "Sorry, there is a problem with the service" message. */
-		truclient_step("1.18", "Wait 6 seconds", "snapshot=Common_1.18.inf");
 	}
 	truclient_step("2", "Function SelectCasesApplyFilter", "snapshot=Common_2.inf");
 	{
-		lr_start_transaction("040_Cases");
-		truclient_step("2.1", "Click on Rhestr achos link", "snapshot=Common_2.1.inf");
-		lr_end_transaction("040_Cases",0);
-		truclient_step("2.2", "Wait until Rhestr achos heading exists", "snapshot=Common_2.2.inf");
-		truclient_step("2.3", "Wait until Filters heading exists", "snapshot=Common_2.3.inf");
-		truclient_step("2.4", "Select TC.getParam('state') from State listbox", "snapshot=Common_2.4.inf");
+		truclient_step("2.1", "Wait until Rhestr achos heading exists", "snapshot=Common_2.1.inf");
+		truclient_step("2.2", "Wait until State label exists", "snapshot=Common_2.2.inf");
+		truclient_step("2.3", "Select TC.getParam('state') from State listbox", "snapshot=Common_2.3.inf");
 		lr_start_transaction("050_ApplyFilter");
-		truclient_step("2.5", "Click on Apply filter button", "snapshot=Common_2.5.inf");
+		truclient_step("2.4", "Click on Apply filter button", "snapshot=Common_2.4.inf");
 		lr_end_transaction("050_ApplyFilter",0);
-		truclient_step("2.6", "Verify Your cases 's Visible Text contains Your cases", "snapshot=Common_2.6.inf");
+		truclient_step("2.5", "Verify Your cases 's Visible Text contains Your cases", "snapshot=Common_2.5.inf");
 	}
 	truclient_step("3", "Function SelectRandomCase", "snapshot=Common_3.inf");
 	{
 		/* Select a randomCaseIndex based on available case links */
-		truclient_step("3.2", "Evaluate JavaScript code //TC.log('Starting custo...andomCaseIndex);", "snapshot=Common_3.2.inf");
+		truclient_step("3.2", "Evaluate JavaScript code // Get all elements with...' + randomLink);", "snapshot=Common_3.2.inf");
 		/* Pick a random case link */
 		lr_start_transaction("060_SelectCase");
-		truclient_step("3.4", "Click on random case in list link", "snapshot=Common_3.4.inf");
+		truclient_step("3.4", "Navigate to randomLink", "snapshot=Common_3.4.inf");
 		lr_end_transaction("060_SelectCase",0);
 	}
 	truclient_step("4", "Function ReturnAllTabs", "snapshot=Common_4.inf");
