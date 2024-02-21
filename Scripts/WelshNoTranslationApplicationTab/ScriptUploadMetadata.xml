@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VugenScriptMetadata>
-  <ScriptName>WelshTranslationApplicationTab</ScriptName>
+  <ScriptName>WelshNoTranslationApplicationTab</ScriptName>
   <Protocol>TruClient - Web</Protocol>
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
@@ -9,10 +9,10 @@
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>
-    <FileEntry Name="WelshTranslationApplicationTab.usr" Filter="4" />
+    <FileEntry Name="WelshNoTranslationApplicationTab.usr" Filter="4" />
     <FileEntry Name="default.cfg" Filter="4" />
     <FileEntry Name="default.usp" Filter="4" />
-    <FileEntry Name="WelshTranslationApplicationTab.prm" Filter="2" />
+    <FileEntry Name="WelshNoTranslationApplicationTab.prm" Filter="2" />
     <FileEntry Name="C-functions.c" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="JS-functions.js" Filter="2" />
@@ -26,14 +26,14 @@
     <FileEntry Name="user_modified_perfs.json" Filter="2" />
     <FileEntry Name="TCIEAuthenticationFilters.ini" Filter="2" />
     <FileEntry Name="username.dat" Filter="2" />
-    <FileEntry Name="combined_WelshTranslationApplicationTab.c" Filter="2" />
+    <FileEntry Name="combined_WelshNoTranslationApplicationTab.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
-    <FileEntry Name="129391878440.idx" Filter="1" />
-    <FileEntry Name="178952740440.idx" Filter="1" />
-    <FileEntry Name="202895703440.idx" Filter="1" />
-    <FileEntry Name="37846545440.idx" Filter="1" />
+    <FileEntry Name="107888609440.idx" Filter="1" />
+    <FileEntry Name="221488435440.idx" Filter="1" />
+    <FileEntry Name="266026260440.idx" Filter="1" />
+    <FileEntry Name="43344160440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -80,9 +80,9 @@
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Welsh.prm.bak" Filter="1" />
+    <FileEntry Name="WelshNoTranslationApplicationTab.c.pickle" Filter="1" />
+    <FileEntry Name="WelshNoTranslationApplicationTab.ci" Filter="1" />
     <FileEntry Name="WelshTranslation.prm.bak" Filter="1" />
-    <FileEntry Name="WelshTranslationApplicationTab.c.pickle" Filter="1" />
-    <FileEntry Name="WelshTranslationApplicationTab.ci" Filter="1" />
     <FileEntry Name="WelshTranslationApplicationTab.prm.bak" Filter="1" />
     <FileEntry Name="WelshTranslationApplicationTab_01.prm.bak" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
