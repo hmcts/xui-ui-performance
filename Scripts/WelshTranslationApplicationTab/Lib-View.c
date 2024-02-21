@@ -45,6 +45,7 @@ Library_Common()
 		lr_start_transaction("060_SelectCase");
 		truclient_step("3.4", "Navigate to randomLink", "snapshot=Common_3.4.inf");
 		lr_end_transaction("060_SelectCase",0);
+		truclient_step("3.5", "Wait until Dogfennau achos tab exists", "snapshot=Common_3.5.inf");
 	}
 	truclient_step("4", "Function ReturnAllTabs", "snapshot=Common_4.inf");
 	{

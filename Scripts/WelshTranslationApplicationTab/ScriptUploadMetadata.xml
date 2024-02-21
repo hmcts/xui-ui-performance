@@ -26,8 +26,14 @@
     <FileEntry Name="user_modified_perfs.json" Filter="2" />
     <FileEntry Name="TCIEAuthenticationFilters.ini" Filter="2" />
     <FileEntry Name="username.dat" Filter="2" />
+    <FileEntry Name="combined_WelshTranslationApplicationTab.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
+    <FileEntry Name="129391878440.idx" Filter="1" />
+    <FileEntry Name="178952740440.idx" Filter="1" />
+    <FileEntry Name="202895703440.idx" Filter="1" />
+    <FileEntry Name="37846545440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -39,10 +45,23 @@
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv0i7.735.log" Filter="1" />
     <FileEntry Name="mdrv3Ul.813.log" Filter="1" />
+    <FileEntry Name="mdrv5aP.939.log" Filter="1" />
+    <FileEntry Name="mdrv5b8.513.log" Filter="1" />
+    <FileEntry Name="mdrvAxE.809.log" Filter="1" />
+    <FileEntry Name="mdrvccl.475.log" Filter="1" />
+    <FileEntry Name="mdrvE4r.845.log" Filter="1" />
+    <FileEntry Name="mdrvFnD.963.log" Filter="1" />
+    <FileEntry Name="mdrvgQd.615.log" Filter="1" />
+    <FileEntry Name="mdrvi8M.339.log" Filter="1" />
+    <FileEntry Name="mdrvK8G.357.log" Filter="1" />
     <FileEntry Name="mdrvmMP.317.log" Filter="1" />
     <FileEntry Name="mdrvNCX.865.log" Filter="1" />
+    <FileEntry Name="mdrvnTG.259.log" Filter="1" />
+    <FileEntry Name="mdrvplX.861.log" Filter="1" />
     <FileEntry Name="mdrvUAu.57.log" Filter="1" />
     <FileEntry Name="mdrvvto.963.log" Filter="1" />
+    <FileEntry Name="mdrvVuY.717.log" Filter="1" />
+    <FileEntry Name="mdrvY2A.263.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
@@ -53,6 +72,8 @@
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Welsh.prm.bak" Filter="1" />
     <FileEntry Name="WelshTranslation.prm.bak" Filter="1" />
+    <FileEntry Name="WelshTranslationApplicationTab.c.pickle" Filter="1" />
+    <FileEntry Name="WelshTranslationApplicationTab.ci" Filter="1" />
     <FileEntry Name="WelshTranslationApplicationTab.prm.bak" Filter="1" />
     <FileEntry Name="WelshTranslationApplicationTab_01.prm.bak" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
