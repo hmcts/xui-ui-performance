@@ -31,9 +31,13 @@
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
     <FileEntry Name="107888609440.idx" Filter="1" />
+    <FileEntry Name="10788860944_7M2.861.idx" Filter="1" />
     <FileEntry Name="221488435440.idx" Filter="1" />
+    <FileEntry Name="22148843544_KM2.862.idx" Filter="1" />
     <FileEntry Name="266026260440.idx" Filter="1" />
+    <FileEntry Name="26602626044_MCZ.859.idx" Filter="1" />
     <FileEntry Name="43344160440.idx" Filter="1" />
+    <FileEntry Name="4334416044_iC3.860.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -82,6 +86,7 @@
     <FileEntry Name="Welsh.prm.bak" Filter="1" />
     <FileEntry Name="WelshNoTranslationApplicationTab.c.pickle" Filter="1" />
     <FileEntry Name="WelshNoTranslationApplicationTab.ci" Filter="1" />
+    <FileEntry Name="WelshNoTranslationApplicationTab.prm.bak" Filter="1" />
     <FileEntry Name="WelshTranslation.prm.bak" Filter="1" />
     <FileEntry Name="WelshTranslationApplicationTab.prm.bak" Filter="1" />
     <FileEntry Name="WelshTranslationApplicationTab_01.prm.bak" Filter="1" />

@@ -67,7 +67,7 @@ Order="010_SignInPage__*delimiter*__020_SignIn__*delimiter*__050_ApplyFilter__*d
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
-ActiveRunName=result1
+ActiveRunName=
 [Transactions]
 010_SignInPage=
 020_SignIn=

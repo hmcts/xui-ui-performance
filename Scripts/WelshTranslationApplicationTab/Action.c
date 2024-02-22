@@ -31,9 +31,8 @@ Action()
 	lr_end_transaction("070_ApplicationTab",0);
 	truclient_step("10", "WelshTranslation", "snapshot=Action_10.inf");
 	{
-		truclient_step("10.1", "Click on Cymraeg JavaScript link", "snapshot=Action_10.1.inf");
 		lr_start_transaction("190_TranslateToEnglish");
-		truclient_step("10.2", "Click on English JavaScript link", "snapshot=Action_10.2.inf");
+		truclient_step("10.1", "Click on English JavaScript link", "snapshot=Action_10.1.inf");
 		lr_end_transaction("190_TranslateToEnglish",0);
 	}
 	truclient_step("11", "Call Function Common.SignOut", "snapshot=Action_11.inf");
