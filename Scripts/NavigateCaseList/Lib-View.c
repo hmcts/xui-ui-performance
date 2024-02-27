@@ -48,10 +48,10 @@ Library_Common()
 	truclient_step("3", "Function SelectRandomCase", "snapshot=Common_3.inf");
 	{
 		/* Select a randomCaseIndex based on available case links */
-		truclient_step("3.2", "Evaluate JavaScript code //TC.log('Starting custo...andomCaseIndex);", "snapshot=Common_3.2.inf");
+		truclient_step("3.2", "Evaluate JavaScript code // Get all elements with...' + randomLink);", "snapshot=Common_3.2.inf");
 		/* Pick a random case link */
 		lr_start_transaction("XUI04_030_SelectCase");
-		truclient_step("3.4", "Click on random case in list link", "snapshot=Common_3.4.inf");
+		truclient_step("3.4", "Navigate to randomLink", "snapshot=Common_3.4.inf");
 		lr_end_transaction("XUI04_030_SelectCase",0);
 	}
 	truclient_step("4", "Function AddCaseNote", "snapshot=Common_4.inf");
@@ -138,8 +138,8 @@ Library_Common()
 		lr_end_transaction("XUI04_120_CaseFileViewTab",0);
 		truclient_step("8.5", "Click on Other Documents columnheader", "snapshot=Common_8.5.inf");
 		truclient_step("8.6", "Click on Any Other Documents columnheader", "snapshot=Common_8.6.inf");
-		truclient_step("8.7", "Click on Documents to be reviewed columnheader", "snapshot=Common_8.7.inf");
-		truclient_step("8.8", "Click on Bulk scan uploaded columnheader", "snapshot=Common_8.8.inf");
+		truclient_step("8.7", "Click on 1 columnheader", "snapshot=Common_8.7.inf");
+		truclient_step("8.8", "Click on 1 columnheader", "snapshot=Common_8.8.inf");
 		truclient_step("8.9", "Click on Performance_Test_1MB.pdf image", "snapshot=Common_8.9.inf");
 		lr_start_transaction("XUI04_130_CaseFileViewMediaViewer");
 		truclient_step("8.10", "Click on Performance_Test_1MB.pdf columnheader", "snapshot=Common_8.10.inf");

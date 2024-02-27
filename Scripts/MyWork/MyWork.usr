@@ -64,10 +64,10 @@ vuser_end=1
 [TransactionsOrder]
 Order="XUI03_010_MyWork__*delimiter*__XUI03_020_MyWorkApplyFilter__*delimiter*__XUI03_030_MyWorkApplyFilter__*delimiter*__XUI03_040_SortByDueDate__*delimiter*__XUI03_050_SortByDueDate__*delimiter*__XUI03_060_AssignToMe__*delimiter*__XUI03_070_MyTasks__*delimiter*__XUI03_080_UnassignDialog__*delimiter*__XUI03_090_Unassign__*delimiter*__SignInPage__*delimiter*__SignIn__*delimiter*__SignOut"
 [StateManagement]
-LastReplayStatus=3
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
-ActiveRunName=
+ActiveRunName=result1
 [Transactions]
 XUI03_010_MyWork=
 XUI03_020_MyWorkApplyFilter=
