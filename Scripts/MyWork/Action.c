@@ -32,23 +32,20 @@ Action()
 	lr_start_transaction("XUI03_050_SortByDueDate");
 	truclient_step("15", "Click on Due date button", "snapshot=Action_15.inf");
 	lr_end_transaction("XUI03_050_SortByDueDate",0);
-	truclient_step("16", "If Due date / 6 November... exists", "snapshot=Action_16.inf");
-	{
-		truclient_step("16.1", "Click on / Manage button", "snapshot=Action_16.1.inf");
-		lr_start_transaction("XUI03_060_AssignToMe");
-		truclient_step("16.2", "Click on Assign to me", "snapshot=Action_16.2.inf");
-		lr_end_transaction("XUI03_060_AssignToMe",0);
-		lr_start_transaction("XUI03_070_MyTasks");
-		truclient_step("16.3", "Click on My tasks link", "snapshot=Action_16.3.inf");
-		lr_end_transaction("XUI03_070_MyTasks",0);
-		truclient_step("16.4", "Click on / Manage button", "snapshot=Action_16.4.inf");
-		lr_start_transaction("XUI03_080_UnassignDialog");
-		truclient_step("16.5", "Click on Unassign task", "snapshot=Action_16.5.inf");
-		lr_end_transaction("XUI03_080_UnassignDialog",0);
-		lr_start_transaction("XUI03_090_Unassign");
-		truclient_step("16.6", "Click on Unassign button", "snapshot=Action_16.6.inf");
-		lr_end_transaction("XUI03_090_Unassign",0);
-	}
+	truclient_step("16", "Click on / Manage button", "snapshot=Action_16.inf");
+	lr_start_transaction("XUI03_060_AssignToMe");
+	truclient_step("17", "Click on Assign to me", "snapshot=Action_17.inf");
+	lr_end_transaction("XUI03_060_AssignToMe",0);
+	lr_start_transaction("XUI03_070_MyTasks");
+	truclient_step("18", "Click on My tasks link", "snapshot=Action_18.inf");
+	lr_end_transaction("XUI03_070_MyTasks",0);
+	truclient_step("19", "Click on / Manage button", "snapshot=Action_19.inf");
+	lr_start_transaction("XUI03_080_UnassignDialog");
+	truclient_step("20", "Click on Unassign task", "snapshot=Action_20.inf");
+	lr_end_transaction("XUI03_080_UnassignDialog",0);
+	lr_start_transaction("XUI03_090_Unassign");
+	truclient_step("21", "Click on Unassign button", "snapshot=Action_21.inf");
+	lr_end_transaction("XUI03_090_Unassign",0);
 
 	return 0;
 }
