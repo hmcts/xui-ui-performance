@@ -136,13 +136,10 @@ Library_Common()
 		lr_start_transaction("XUI04_120_CaseFileViewTab");
 		truclient_step("8.4", "Click on Case File View tab", "snapshot=Common_8.4.inf");
 		lr_end_transaction("XUI04_120_CaseFileViewTab",0);
-		truclient_step("8.5", "Click on Other Documents columnheader", "snapshot=Common_8.5.inf");
-		truclient_step("8.6", "Click on Any Other Documents columnheader", "snapshot=Common_8.6.inf");
-		truclient_step("8.7", "Click on 1 columnheader", "snapshot=Common_8.7.inf");
-		truclient_step("8.8", "Click on 1 columnheader", "snapshot=Common_8.8.inf");
-		truclient_step("8.9", "Click on Performance_Test_1MB.pdf image", "snapshot=Common_8.9.inf");
+		truclient_step("8.5", "Click on Documents to be reviewed columnheader", "snapshot=Common_8.5.inf");
+		truclient_step("8.6", "Click on Bulk scan uploaded columnheader", "snapshot=Common_8.6.inf");
 		lr_start_transaction("XUI04_130_CaseFileViewMediaViewer");
-		truclient_step("8.10", "Click on Performance_Test_1MB.pdf columnheader", "snapshot=Common_8.10.inf");
+		truclient_step("8.7", "Click on Performance_Test_1MB.pdf columnheader", "snapshot=Common_8.7.inf");
 		lr_end_transaction("XUI04_130_CaseFileViewMediaViewer",0);
 	}
 	truclient_step("9", "Function SearchCaseReference", "snapshot=Common_9.inf");
