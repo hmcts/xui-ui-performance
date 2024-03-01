@@ -67,7 +67,7 @@ Order="XUI03_010_MyWork__*delimiter*__XUI03_020_MyWorkApplyFilter__*delimiter*__
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
-ActiveRunName=result1
+ActiveRunName=
 [Transactions]
 XUI03_010_MyWork=
 XUI03_020_MyWorkApplyFilter=
