@@ -38,19 +38,22 @@ Library_Common()
 		truclient_step("2.3", "Wait until Your cases exists", "snapshot=Common_2.3.inf");
 		truclient_step("2.4", "Wait until Filters heading exists", "snapshot=Common_2.4.inf");
 		truclient_step("2.5", "Select TC.getParam('state') from State listbox", "snapshot=Common_2.5.inf");
+		truclient_step("2.6", "Click on FL401 Non Molestation... radiogroup", "snapshot=Common_2.6.inf");
 		lr_start_transaction("XUI02_020_ApplyFilter");
-		truclient_step("2.6", "Click on Apply filter button", "snapshot=Common_2.6.inf");
+		truclient_step("2.7", "Click on Apply filter button", "snapshot=Common_2.7.inf");
 		lr_end_transaction("XUI02_020_ApplyFilter",0);
-		truclient_step("2.7", "Verify Your cases 's Visible Text contains Your cases", "snapshot=Common_2.7.inf");
+		truclient_step("2.8", "Verify Your cases 's Visible Text contains Your cases", "snapshot=Common_2.8.inf");
 	}
 	truclient_step("3", "Function SelectRandomCase", "snapshot=Common_3.inf");
 	{
 		/* Select a randomCaseIndex based on available case links */
 		truclient_step("3.2", "Evaluate JavaScript code // Get all elements with...' + randomLink);", "snapshot=Common_3.2.inf");
 		/* Pick a random case link */
+		/* Temporarily hardcoding specific cases that can be used to create a hearing request */
 		lr_start_transaction("XUI02_030_SelectCase");
-		truclient_step("3.4", "Navigate to randomLink", "snapshot=Common_3.4.inf");
+		truclient_step("3.5", "Navigate to TC.getParam('case')", "snapshot=Common_3.5.inf");
 		lr_end_transaction("XUI02_030_SelectCase",0);
+		truclient_step("3.6", "Navigate to randomLink", "snapshot=Common_3.6.inf");
 	}
 	truclient_step("4", "Function SelectHearings", "snapshot=Common_4.inf");
 	{
