@@ -23,9 +23,9 @@ Action()
 		lr_end_transaction("065_TranslateToWelsh",0);
 	}
 	truclient_step("5", "Wait 6 seconds", "snapshot=Action_5.inf");
-	lr_start_transaction("070_ApplicationTab");
+	lr_start_transaction("070_WelshTranslationApplicationTabCache");
 	truclient_step("6", "Click on Application tab", "snapshot=Action_6.inf");
-	lr_end_transaction("070_ApplicationTab",0);
+	lr_end_transaction("070_WelshTranslationApplicationTabCache",0);
 	truclient_step("7", "WelshTranslation", "snapshot=Action_7.inf");
 	{
 		lr_start_transaction("190_TranslateToEnglish");

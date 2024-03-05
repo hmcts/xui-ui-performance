@@ -31,9 +31,29 @@
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
     <FileEntry Name="109727959440.idx" Filter="1" />
+    <FileEntry Name="10972795944_3vK.367.idx" Filter="1" />
+    <FileEntry Name="10972795944_gKi.531.idx" Filter="1" />
+    <FileEntry Name="10972795944_Jw0.409.idx" Filter="1" />
+    <FileEntry Name="10972795944_QU5.639.idx" Filter="1" />
+    <FileEntry Name="10972795944_z62.503.idx" Filter="1" />
     <FileEntry Name="140720863440.idx" Filter="1" />
+    <FileEntry Name="14072086344_1D6.532.idx" Filter="1" />
+    <FileEntry Name="14072086344_2D8.504.idx" Filter="1" />
+    <FileEntry Name="14072086344_DOK.640.idx" Filter="1" />
+    <FileEntry Name="14072086344_qtk.410.idx" Filter="1" />
+    <FileEntry Name="14072086344_VjL.368.idx" Filter="1" />
     <FileEntry Name="158460115440.idx" Filter="1" />
+    <FileEntry Name="15846011544_2m9.366.idx" Filter="1" />
+    <FileEntry Name="15846011544_Gol.530.idx" Filter="1" />
+    <FileEntry Name="15846011544_Ia3.638.idx" Filter="1" />
+    <FileEntry Name="15846011544_Joz.408.idx" Filter="1" />
+    <FileEntry Name="15846011544_YaC.502.idx" Filter="1" />
     <FileEntry Name="19861780440.idx" Filter="1" />
+    <FileEntry Name="1986178044_DQo.407.idx" Filter="1" />
+    <FileEntry Name="1986178044_Jyi.365.idx" Filter="1" />
+    <FileEntry Name="1986178044_mON.501.idx" Filter="1" />
+    <FileEntry Name="1986178044_NGR.529.idx" Filter="1" />
+    <FileEntry Name="1986178044_YAR.637.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -84,6 +104,7 @@
     <FileEntry Name="WelshTranslationApplicationTab.prm.bak" Filter="1" />
     <FileEntry Name="WelshTranslationApplicationTabCache.c.pickle" Filter="1" />
     <FileEntry Name="WelshTranslationApplicationTabCache.ci" Filter="1" />
+    <FileEntry Name="WelshTranslationApplicationTabCache.prm.bak" Filter="1" />
     <FileEntry Name="WelshTranslationApplicationTab_01.prm.bak" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
