@@ -37,12 +37,13 @@ Library_Common()
 		truclient_step("2.2", "Wait until Case list heading exists", "snapshot=Common_2.2.inf");
 		truclient_step("2.3", "Wait until Filters heading exists", "snapshot=Common_2.3.inf");
 		truclient_step("2.4", "Select Civil from Case type listbox", "snapshot=Common_2.4.inf");
-		truclient_step("2.5", "Select UNSPEC_CLAIM from Claim Type listbox", "snapshot=Common_2.5.inf");
-		truclient_step("2.6", "Select TC.getParam('state') from State listbox", "snapshot=Common_2.6.inf");
+		truclient_step("2.5", "Select Claim Dismissed from State listbox", "snapshot=Common_2.5.inf");
+		truclient_step("2.6", "Select UNSPEC_CLAIM from Claim Type listbox", "snapshot=Common_2.6.inf");
+		truclient_step("2.7", "Select TC.getParam('state') from State listbox", "snapshot=Common_2.7.inf");
 		lr_start_transaction("050_ApplyFilter");
-		truclient_step("2.7", "Click on Apply filter button", "snapshot=Common_2.7.inf");
+		truclient_step("2.8", "Click on Apply filter button", "snapshot=Common_2.8.inf");
 		lr_end_transaction("050_ApplyFilter",0);
-		truclient_step("2.8", "Verify Your cases 's Visible Text contains Your cases", "snapshot=Common_2.8.inf");
+		truclient_step("2.9", "Verify Your cases 's Visible Text contains Your cases", "snapshot=Common_2.9.inf");
 	}
 	truclient_step("3", "Function SelectRandomCase", "snapshot=Common_3.inf");
 	{
@@ -133,7 +134,7 @@ Library_Common()
 		lr_start_transaction("SubmitScannedDocument");
 		truclient_step("9.7", "Click on Submit button", "snapshot=Common_9.7.inf");
 		lr_end_transaction("SubmitScannedDocument",0);
-		truclient_step("9.8", "Click on Case documents tab", "snapshot=Common_9.8.inf");
+		truclient_step("9.8", "Click on Service Request tab", "snapshot=Common_9.8.inf");
 	}
 	truclient_step("10", "Function SelectHearings", "snapshot=Common_10.inf");
 	{
