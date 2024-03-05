@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>WelshTranslationApplicationTabCache</ScriptName>
+  <Protocol>TruClient - Web</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Lib-View.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="WelshTranslationApplicationTabCache.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="WelshTranslationApplicationTabCache.prm" Filter="2" />
+    <FileEntry Name="C-functions.c" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="JS-functions.js" Filter="2" />
+    <FileEntry Name="caseReference.dat" Filter="2" />
+    <FileEntry Name="state.dat" Filter="2" />
+    <FileEntry Name="hostname.dat" Filter="2" />
+    <FileEntry Name="default.xml" Filter="2" />
+    <FileEntry Name="TruClientScriptMetadata.xml" Filter="2" />
+    <FileEntry Name="TC.xsl" Filter="2" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="2" />
+    <FileEntry Name="user_modified_perfs.json" Filter="2" />
+    <FileEntry Name="TCIEAuthenticationFilters.ini" Filter="2" />
+    <FileEntry Name="username.dat" Filter="2" />
+    <FileEntry Name="combined_WelshTranslationApplicationTabCache.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="Libraries\" Filter="2" />
+    <FileEntry Name="profiles\" Filter="2" />
+    <FileEntry Name="109727959440.idx" Filter="1" />
+    <FileEntry Name="140720863440.idx" Filter="1" />
+    <FileEntry Name="158460115440.idx" Filter="1" />
+    <FileEntry Name="19861780440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="default.cfg.bak" Filter="1" />
+    <FileEntry Name="Functions.prm.bak" Filter="1" />
+    <FileEntry Name="interactive_replay_Chromium.txt" Filter="1" />
+    <FileEntry Name="interactive_replay_TruClientBrowser.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="ManageCases.prm.bak" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv0i7.735.log" Filter="1" />
+    <FileEntry Name="mdrv3Ul.813.log" Filter="1" />
+    <FileEntry Name="mdrv5aP.939.log" Filter="1" />
+    <FileEntry Name="mdrv5b8.513.log" Filter="1" />
+    <FileEntry Name="mdrvAxE.809.log" Filter="1" />
+    <FileEntry Name="mdrvbgw.57.log" Filter="1" />
+    <FileEntry Name="mdrvccl.475.log" Filter="1" />
+    <FileEntry Name="mdrvE4r.845.log" Filter="1" />
+    <FileEntry Name="mdrvF4O.827.log" Filter="1" />
+    <FileEntry Name="mdrvFnD.963.log" Filter="1" />
+    <FileEntry Name="mdrvgQd.615.log" Filter="1" />
+    <FileEntry Name="mdrvgXE.23.log" Filter="1" />
+    <FileEntry Name="mdrvi8M.339.log" Filter="1" />
+    <FileEntry Name="mdrvK8G.357.log" Filter="1" />
+    <FileEntry Name="mdrvKUH.405.log" Filter="1" />
+    <FileEntry Name="mdrvmMP.317.log" Filter="1" />
+    <FileEntry Name="mdrvNCX.865.log" Filter="1" />
+    <FileEntry Name="mdrvnTG.259.log" Filter="1" />
+    <FileEntry Name="mdrvplX.861.log" Filter="1" />
+    <FileEntry Name="mdrvsl8.271.log" Filter="1" />
+    <FileEntry Name="mdrvUAu.57.log" Filter="1" />
+    <FileEntry Name="mdrvvto.963.log" Filter="1" />
+    <FileEntry Name="mdrvVuY.717.log" Filter="1" />
+    <FileEntry Name="mdrvY2A.263.log" Filter="1" />
+    <FileEntry Name="mdrvyiq.85.log" Filter="1" />
+    <FileEntry Name="mdrvYyv.835.log" Filter="1" />
+    <FileEntry Name="mdrvZ5s.65.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="Welsh.prm.bak" Filter="1" />
+    <FileEntry Name="WelshTranslation.prm.bak" Filter="1" />
+    <FileEntry Name="WelshTranslationApplicationTab.prm.bak" Filter="1" />
+    <FileEntry Name="WelshTranslationApplicationTabCache.c.pickle" Filter="1" />
+    <FileEntry Name="WelshTranslationApplicationTabCache.ci" Filter="1" />
+    <FileEntry Name="WelshTranslationApplicationTab_01.prm.bak" Filter="1" />
+    <FileEntry Name="Backup\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+    <FileEntry Name="results\" Filter="1" />
+    <FileEntry Name="resultSnap\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>
