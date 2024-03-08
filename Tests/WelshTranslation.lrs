@@ -198,7 +198,7 @@ ScriptType=14
 Path=C:\Git\xui-ui-performance\Scripts\WelshTranslation\WelshTranslation.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=0\r\nIncludeFiltersInList=\r\n[General]\r\nAccessVTSPortByQueryString=0\r\nAutomaticTransactions=0\r\nDefaultRunLogic=uspFex.2\r\nUseThreads=1\r\nVTSHTTPAccessPort=80\r\nVTSHTTPSAccessPort=443\r\n[Log]\r\nAutoLog=0\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nLogOptions=LogDisabled\r\nMsgClassData=1\r\nMsgClassFull=1\r\nMsgClassParameters=1\r\n[ModemSpeed]\r\nCustomModemSpeed=\r\nEnableCustomModemSpeed=0\r\nEnableModemSpeed=0\r\nModemSpeed=\r\nModemSpeedDownload=\r\nModemSpeedDownloadAndUpload=128000\r\nModemSpeedMode=1\r\nModemSpeedUpload=\r\n[RtsConfigfuration]\r\nAUTMode=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\n[TruClient]\r\nActionOnError=1\r\nAddingPlugin=0\r\nAlwaysEnableNetTimeout=1\r\nApplyInnerWinSize=0\r\nApplyWinSizeByUser=0\r\nApplyWinSizeInteractive=0\r\nAutoConfigURL=\r\nAutomaticTransactions=0\r\nBrowserName=Chromium\r\nCloseCodedServerWhenFinish=1\r\nComponentBreakdown=0\r\nconfig.snapshot_dir=\r\nCustomizeKeepAliveTimeout=0\r\nCustomUserAgent=\r\nDnsCacheEntries=20\r\nDnsCacheTimeout=1800\r\nEnableChromiumLog=0\r\nEnableDynamicAUTView=0\r\nEnableHttp1_1=1\r\nEnableNegotiate=0\r\nEnforcementVersion=edge\r\nEvalJavaScriptTimeout=20\r\nExceptionProxyOverride=\r\nFlushInternalLog=1\r\nFlushUserLog=0\r\nFTPProxyServer=\r\nHTTPProxyServer=\r\nIncludeTimestampsInUserLog=1\r\nKeepAliveTimeout=60000\r\nLocalProxyOverride=0\r\nLogAutError=0\r\nLogAutNonError=0\r\nLogErrorsWarningsOnlyInStandard=0\r\nLogHttpRequestBody=0\r\nLogHttpRequestHeaders=0\r\nLogHttpResponseBody=0\r\nLogHttpResponseHeaders=0\r\nLogHttpTrace=0\r\nLogNTLM=0\r\nLogSSL=0\r\nMaxCodedActionsOnASingleServerOverTime=500\r\nMaxCodedWorkersPerNode=25\r\nMdrvPriorityInLoad=0\r\nMeasurementLevel=3\r\nMinSecureProtocol=0\r\nMinTimeApplyWaitStep=0\r\nMinTimeEnableRandom=0\r\nMinTimeEnableRandomLimit=0\r\nMinTimeRandomHigh=150\r\nMinTimeRandomLimitValue=3\r\nMinTimeRandomLow=50\r\nNannyAlwaysRestart=0\r\nNannyMaxMemGrowthAfterStable=0\r\nNannyMinIterBeforeRestart=0\r\nNannyMinMemDiffEstToStable=0\r\nNannyNeverRestart=0\r\nNannyRestartRetries=3\r\nNannyRestartTimeout=300000\r\nNetworkEndThreshold=1000\r\nNotSameProxyForAll=0\r\nObjectTimeout=20\r\nOmitCatchStepErrors=0\r\nPaintWindowsInLoad=0\r\nPPIExplicitLoadedDlls=mozcrt19,nspr4\r\nProxyEnable=0\r\nProxyHttp1.1=1\r\nProxyOverride=\r\nProxyServer=\r\nProxyType=5\r\nReplaySnapshotsMode=1\r\nReportBreakdownInterval=4000\r\nResetReplayState=0\r\nRunAsAService=0\r\nRunCodedWithNodeInteractive=1\r\nRunCodedWithNodeLoad=0\r\nSaveCodedServerLogFile=0\r\nSecureProtocols=168\r\nSecureProxyServer=\r\nServerInfoTimeout=60000\r\nShowCodedServerWindow=0\r\nSimulateNewUser=1\r\nSnapshotsWatermark=1\r\nSocksProxyServer=\r\nStartRenderSnapshotsInterval=100\r\nStepPacingInterval=500\r\nStepTimeout=180\r\nSupportOption1=\r\nSupportOption2=\r\nSupportOption3=\r\nSupportOption4=\r\nSupportOption5=\r\nSyncMode5=3\r\nTC2WebServerPort=-1\r\nTC2WebServerUrl=\r\nTCIEInjectionCheckRequestHeader=1\r\nTCIEInjectionCheckResponse=0\r\nTCIEInjectionStrategy=1\r\nTCIEInputModel=system\r\nTypingInterval=100\r\nUseOIA=0\r\nUseRecordedDuration=0\r\nUserLogInteractive=0\r\nUserLogLineLength=4000\r\nUseSSL2=0\r\nUseSSL3=1\r\nUseTLS1=1\r\nUseTls1_0=1\r\nUseTls1_1=0\r\nUseTls1_2=0\r\nWindowHeight=1024\r\nWindowHeightInteractive=1104\r\nWindowWidth=1280\r\nWindowWidthInteractive=1498\r\nWriteMdrvLog=1\r\n[TruClientEx]\r\nAllowPipelining=0\r\nAllowPipeliningProxy=0\r\nAllowPipeliningSSL=0\r\nCacheImgSize=5242880\r\nCacheMemoryCap=-1\r\ndevice=\r\nMaxPersistConnsProxy=8\r\nMaxPersistConnsServer=6\r\nMaxTotalConns=30\r\nMaxTotalConnsServer=15\r\nNetworkBufCache=32768\r\nPipeliningMaxReqs=4\r\nTCPSendBuf=131072\r\nUserAgent=\r\n
+Config=[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=0\r\nIncludeFiltersInList=\r\n[General]\r\nAccessVTSPortByQueryString=0\r\nAutomaticTransactions=0\r\nDefaultRunLogic=uspEh9.736\r\nUseThreads=1\r\nVTSHTTPAccessPort=80\r\nVTSHTTPSAccessPort=443\r\n[Log]\r\nAutoLog=0\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nLogOptions=LogDisabled\r\nMsgClassData=1\r\nMsgClassFull=1\r\nMsgClassParameters=1\r\n[ModemSpeed]\r\nCustomModemSpeed=\r\nEnableCustomModemSpeed=0\r\nEnableModemSpeed=0\r\nModemSpeed=\r\nModemSpeedDownload=\r\nModemSpeedDownloadAndUpload=128000\r\nModemSpeedMode=1\r\nModemSpeedUpload=\r\n[RtsConfigfuration]\r\nAUTMode=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\n[TruClient]\r\nActionOnError=1\r\nAddingPlugin=0\r\nAlwaysEnableNetTimeout=1\r\nApplyInnerWinSize=0\r\nApplyWinSizeByUser=0\r\nApplyWinSizeInteractive=0\r\nAutoConfigURL=\r\nAutomaticTransactions=0\r\nBrowserName=Chromium\r\nCloseCodedServerWhenFinish=1\r\nComponentBreakdown=0\r\nconfig.snapshot_dir=\r\nCustomizeKeepAliveTimeout=0\r\nCustomUserAgent=\r\nDnsCacheEntries=20\r\nDnsCacheTimeout=1800\r\nEnableChromiumLog=0\r\nEnableDynamicAUTView=0\r\nEnableHttp1_1=1\r\nEnableNegotiate=0\r\nEnforcementVersion=edge\r\nEvalJavaScriptTimeout=20\r\nExceptionProxyOverride=\r\nFlushInternalLog=1\r\nFlushUserLog=0\r\nFTPProxyServer=\r\nHTTPProxyServer=\r\nIncludeTimestampsInUserLog=1\r\nKeepAliveTimeout=60000\r\nLocalProxyOverride=0\r\nLogAutError=0\r\nLogAutNonError=0\r\nLogErrorsWarningsOnlyInStandard=0\r\nLogHttpRequestBody=0\r\nLogHttpRequestHeaders=0\r\nLogHttpResponseBody=0\r\nLogHttpResponseHeaders=0\r\nLogHttpTrace=0\r\nLogNTLM=0\r\nLogSSL=0\r\nMaxCodedActionsOnASingleServerOverTime=500\r\nMaxCodedWorkersPerNode=25\r\nMdrvPriorityInLoad=0\r\nMeasurementLevel=3\r\nMinSecureProtocol=0\r\nMinTimeApplyWaitStep=0\r\nMinTimeEnableRandom=0\r\nMinTimeEnableRandomLimit=0\r\nMinTimeRandomHigh=150\r\nMinTimeRandomLimitValue=3\r\nMinTimeRandomLow=50\r\nNannyAlwaysRestart=0\r\nNannyMaxMemGrowthAfterStable=0\r\nNannyMinIterBeforeRestart=0\r\nNannyMinMemDiffEstToStable=0\r\nNannyNeverRestart=0\r\nNannyRestartRetries=3\r\nNannyRestartTimeout=300000\r\nNetworkEndThreshold=1000\r\nNotSameProxyForAll=0\r\nObjectTimeout=20\r\nOmitCatchStepErrors=0\r\nPaintWindowsInLoad=0\r\nPPIExplicitLoadedDlls=mozcrt19,nspr4\r\nProxyEnable=0\r\nProxyHttp1.1=1\r\nProxyOverride=\r\nProxyServer=\r\nProxyType=5\r\nReplaySnapshotsMode=1\r\nReportBreakdownInterval=4000\r\nResetReplayState=0\r\nRunAsAService=0\r\nRunCodedWithNodeInteractive=1\r\nRunCodedWithNodeLoad=0\r\nSaveCodedServerLogFile=0\r\nSecureProtocols=168\r\nSecureProxyServer=\r\nServerInfoTimeout=60000\r\nShowCodedServerWindow=0\r\nSimulateNewUser=1\r\nSnapshotsWatermark=1\r\nSocksProxyServer=\r\nStartRenderSnapshotsInterval=100\r\nStepPacingInterval=500\r\nStepTimeout=180\r\nSupportOption1=\r\nSupportOption2=\r\nSupportOption3=\r\nSupportOption4=\r\nSupportOption5=\r\nSyncMode5=3\r\nTC2WebServerPort=-1\r\nTC2WebServerUrl=\r\nTCIEInjectionCheckRequestHeader=1\r\nTCIEInjectionCheckResponse=0\r\nTCIEInjectionStrategy=1\r\nTCIEInputModel=system\r\nTypingInterval=100\r\nUseOIA=0\r\nUseRecordedDuration=0\r\nUserLogInteractive=0\r\nUserLogLineLength=4000\r\nUseSSL2=0\r\nUseSSL3=1\r\nUseTLS1=1\r\nUseTls1_0=1\r\nUseTls1_1=0\r\nUseTls1_2=0\r\nWindowHeight=1024\r\nWindowHeightInteractive=1104\r\nWindowWidth=1280\r\nWindowWidthInteractive=1498\r\nWriteMdrvLog=1\r\n[TruClientEx]\r\nAllowPipelining=0\r\nAllowPipeliningProxy=0\r\nAllowPipeliningSSL=0\r\nCacheImgSize=5242880\r\nCacheMemoryCap=-1\r\ndevice=\r\nMaxPersistConnsProxy=8\r\nMaxPersistConnsServer=6\r\nMaxTotalConns=30\r\nMaxTotalConnsServer=15\r\nNetworkBufCache=32768\r\nPipeliningMaxReqs=4\r\nTCPSendBuf=131072\r\nUserAgent=\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=Profile Actions\r\nProfile Actions name=vuser_init,Lib-View,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicEndRoot\r\nMercIniTreeSons=vuser_end\r\nName=End\r\nRunLogicActionOrder=vuser_end\r\nRunLogicActionType=VuserEnd\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicRunMode=Sequential\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather=RunLogicEndRoot\r\nMercIniTreeSectionName=vuser_end\r\nName=vuser_end\r\nRunLogicActionType=VuserEnd\r\nRunLogicObjectKind=Action\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicErrorHandlerRoot\r\nMercIniTreeSons=vuser_errorhandler\r\nName=ErrorHandler\r\nRunLogicActionOrder=vuser_errorhandler\r\nRunLogicActionType=VuserErrorHandler\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicRunMode=Sequential\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather=RunLogicErrorHandlerRoot\r\nMercIniTreeSectionName=vuser_errorhandler\r\nName=vuser_errorhandler\r\nRunLogicActionType=VuserErrorHandler\r\nRunLogicObjectKind=Action\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicInitRoot\r\nMercIniTreeSons=vuser_init\r\nName=Init\r\nRunLogicActionOrder=vuser_init\r\nRunLogicActionType=VuserInit\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicRunMode=Sequential\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather=RunLogicInitRoot\r\nMercIniTreeSectionName=vuser_init\r\nName=vuser_init\r\nRunLogicActionType=VuserInit\r\nRunLogicObjectKind=Action\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=\r\nMercIniTreeSectionName=RunLogicRunRoot\r\nMercIniTreeSons=Action\r\nName=Run\r\nRunLogicActionOrder=Action\r\nRunLogicActionType=VuserRun\r\nRunLogicAfterPaceMax=90\r\nRunLogicAfterPaceMin=60\r\nRunLogicNumOfIterations=1\r\nRunLogicObjectKind=Group\r\nRunLogicPaceConstAfterTime=60\r\nRunLogicPaceConstTime=150\r\nRunLogicPaceType=Const\r\nRunLogicRandomPaceMax=90\r\nRunLogicRandomPaceMin=60\r\nRunLogicRunMode=Sequential\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather=RunLogicRunRoot\r\nMercIniTreeSectionName=Action\r\nName=Action\r\nRunLogicActionType=VuserRun\r\nRunLogicObjectKind=Action\r\n
 Param=
 TDPath=
@@ -206,44 +206,44 @@ TDServer=
 TDDatabase=
 Platform=All
 AstraSubType=0
-Trans=CaseFileViewTab
 Trans=010_SignInPage
-Trans=CaseFileViewMediaViewer
-Trans=150_SelectLanguageInterpreter
+Trans=CaseFileViewTab
 Trans=MyWorkMyCases
-Trans=090_DogfennauAchosTab
-Trans=CaseDocumentsTab
-Trans=MyWorkMyTasks
+Trans=150_SelectLanguageInterpreter
+Trans=CaseFileViewMediaViewer
 Trans=040_Cases
-Trans=200_SignOut
-Trans=130_RequestSupport
-Trans=080_SupportTab
+Trans=MyWorkMyTasks
+Trans=CaseDocumentsTab
+Trans=090_DogfennauAchosTab
 Trans=SelectedTab
-Trans=HearingsTab
-Trans=170_RequestDetails
-Trans=050_ApplyFilter
-Trans=CaseDocumentsMediaViewer
-Trans=160_SelectLanguage
+Trans=080_SupportTab
+Trans=130_RequestSupport
+Trans=200_SignOut
 Trans=MyWorkMyAccess
+Trans=160_SelectLanguage
+Trans=CaseDocumentsMediaViewer
+Trans=050_ApplyFilter
+Trans=170_RequestDetails
+Trans=HearingsTab
 Trans=140_SelectPerson
-Trans=MyWorkAvailableTasks
 Trans=SubmitScannedDocument
-Trans=CaseNotes
+Trans=MyWorkAvailableTasks
 Trans=110_ServiceRequestTab
+Trans=CaseNotes
 Trans=AttachedScanDocsDialog
-Trans=AddCaseNote
-Trans=190_TranslateToEnglish
-Trans=180_SubmitSupportRequest
 Trans=070_ApplicationTab
-Trans=020_SignIn
+Trans=180_SubmitSupportRequest
+Trans=190_TranslateToEnglish
+Trans=AddCaseNote
 Trans=100_HanesTab
+Trans=020_SignIn
 Trans=AddCaseNoteDialog
-Trans=030_TranslateToWelsh
-Trans=SearchCaseReference
 Trans=120_PartiesTab
-Trans=UploadDocument
-Trans=060_SelectCase
+Trans=SearchCaseReference
+Trans=030_TranslateToWelsh
 Trans=SearchDialog
+Trans=060_SelectCase
+Trans=UploadDocument
 }
 }
 
@@ -4537,7 +4537,7 @@ MachinesCount=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="65e73af3e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="65eb2c60e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioSchedulerConfig
