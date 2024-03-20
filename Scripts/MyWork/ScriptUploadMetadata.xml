@@ -180,5 +180,6 @@
     <FileEntry Name="Backup\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
     <FileEntry Name="results\" Filter="1" />
+    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
