@@ -53,7 +53,7 @@ Library_Common()
 	}
 	truclient_step("4", "Function ReturnAllTabs", "snapshot=Common_4.inf");
 	{
-		truclient_step("4.1", "Evaluate JavaScript code // Get ALL the divs that...vascript code');", "snapshot=Common_4.1.inf");
+		truclient_step("4.1", "Evaluate JavaScript code // This whole section sh...vascript code');", "snapshot=Common_4.1.inf");
 	}
 	truclient_step("5", "Function CasesSelectAllTabs", "snapshot=Common_5.inf");
 	{
@@ -97,40 +97,27 @@ Library_Common()
 		truclient_step("7.9", "Click on Case Notes tab", "snapshot=Common_7.9.inf");
 		lr_end_transaction("CaseNotes",0);
 	}
-	truclient_step("8", "Function AttachScannedDocsDialog", "snapshot=Common_8.inf");
+	truclient_step("8", "Function ManageDocumentsDialog", "snapshot=Common_8.inf");
 	{
-		truclient_step("8.1", "Select Attach scanned docs from Next step listbox", "snapshot=Common_8.1.inf");
-		lr_start_transaction("AttachedScanDocsDialog");
+		truclient_step("8.1", "Select Manage documents from Next step listbox", "snapshot=Common_8.1.inf");
+		lr_start_transaction("ManageDocumentsDialog");
 		truclient_step("8.2", "Click on Go button", "snapshot=Common_8.2.inf");
-		lr_end_transaction("AttachedScanDocsDialog",0);
+		lr_end_transaction("ManageDocumentsDialog",0);
 	}
-	truclient_step("9", "Function AttachScannedDocument", "snapshot=Common_9.inf");
+	truclient_step("9", "Function AttachDocument", "snapshot=Common_9.inf");
 	{
-		truclient_step("9.1", "Call Function Common.AttachScannedDocsDialog", "snapshot=Common_9.1.inf");
-		truclient_step("9.2", "Evaluate JavaScript code // create a string conta...te.getMinutes();", "snapshot=Common_9.2.inf");
-		/* If a scanned document already exists, add a new attachment to the bottom */
-		truclient_step("9.4", "If Scanned document url... label exists", "snapshot=Common_9.4.inf");
-		{
-			truclient_step("9.4.1", "Click on Add new button", "snapshot=Common_9.4.1.inf");
-			truclient_step("9.4.2", "Evaluate JavaScript code // capture the number of...) || []).length;", "snapshot=Common_9.4.2.inf");
-			lr_start_transaction("UploadDocument");
-			truclient_step("9.4.3", "Set C:\Git\xui-ui-performanc...nce_Test_1MB.pdf on Scanned document url... filebox", "snapshot=Common_9.4.3.inf");
-			lr_end_transaction("UploadDocument",0);
-			truclient_step("9.4.4", "Wait 3 seconds", "snapshot=Common_9.4.4.inf");
-			truclient_step("9.4.5", "Type datetime in File Name (Optional) textbox", "snapshot=Common_9.4.5.inf");
-			truclient_step("9.4.6", "Click on Continue button", "snapshot=Common_9.4.6.inf");
-			/* Else create a first attachment */
-			truclient_step("9.4.2", "Click on Add new button", "snapshot=Common_9.4.2.inf");
-			truclient_step("9.4.3", "Set C:\Git\xui-ui-performanc...nce_Test_1MB.pdf on Scanned document url... filebox", "snapshot=Common_9.4.3.inf");
-			truclient_step("9.4.4", "Type datetime in File Name (Optional) textbox", "snapshot=Common_9.4.4.inf");
-			truclient_step("9.4.5", "Click on Continue button", "snapshot=Common_9.4.5.inf");
-		}
-		/* Finish up the shared steps */
-		truclient_step("9.6", "Click on Yes", "snapshot=Common_9.6.inf");
-		lr_start_transaction("SubmitScannedDocument");
-		truclient_step("9.7", "Click on Submit button", "snapshot=Common_9.7.inf");
-		lr_end_transaction("SubmitScannedDocument",0);
-		truclient_step("9.8", "Click on Case documents tab", "snapshot=Common_9.8.inf");
+		truclient_step("9.1", "Call Function Common.ManageDocumentsDialog", "snapshot=Common_9.1.inf");
+		truclient_step("9.2", "Click on Yes, the document belongs...", "snapshot=Common_9.2.inf");
+		truclient_step("9.3", "Select Applicant from Submitting document on... listbox", "snapshot=Common_9.3.inf");
+		truclient_step("9.4", "Select Applicant application from Document category listbox", "snapshot=Common_9.4.inf");
+		truclient_step("9.5", "Set C:\Git\xui-ui-performanc...nce_Test_1MB.pdf on Scanned document url... filebox", "snapshot=Common_9.5.inf");
+		truclient_step("9.6", "Click on No", "snapshot=Common_9.6.inf");
+		truclient_step("9.7", "Click on No", "snapshot=Common_9.7.inf");
+		truclient_step("9.8", "Click on Continue button", "snapshot=Common_9.8.inf");
+		lr_start_transaction("SubmitAttachedDocument");
+		truclient_step("9.9", "Click on Save and continue button", "snapshot=Common_9.9.inf");
+		lr_end_transaction("SubmitAttachedDocument",0);
+		truclient_step("9.10", "Click on Close and Return to case... button", "snapshot=Common_9.10.inf");
 	}
 	truclient_step("10", "Function SelectHearings", "snapshot=Common_10.inf");
 	{
@@ -180,10 +167,11 @@ Library_Common()
 			truclient_step("12.3.5", "Click on Case File View tab", "snapshot=Common_12.3.5.inf");
 			lr_end_transaction("CaseFileViewTab",0);
 		}
-		truclient_step("12.4", "Click on Documents to be reviewed columnheader", "snapshot=Common_12.4.inf");
-		truclient_step("12.5", "Click on Bulk scan uploaded columnheader", "snapshot=Common_12.5.inf");
+		truclient_step("12.4", "Click on Applications columnheader", "snapshot=Common_12.4.inf");
+		truclient_step("12.5", "Click on Applicant documents columnheader", "snapshot=Common_12.5.inf");
+		truclient_step("12.6", "Click on Applicant application columnheader", "snapshot=Common_12.6.inf");
 		lr_start_transaction("CaseFileViewMediaViewer");
-		truclient_step("12.6", "Click on Performance_Test_1MB.pdf columnheader", "snapshot=Common_12.6.inf");
+		truclient_step("12.7", "Click on Performance_Test_1MB.pdf columnheader", "snapshot=Common_12.7.inf");
 		lr_end_transaction("CaseFileViewMediaViewer",0);
 	}
 	truclient_step("13", "Function SearchCaseReference", "snapshot=Common_13.inf");

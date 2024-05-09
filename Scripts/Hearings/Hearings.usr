@@ -67,7 +67,7 @@ Order="XUI02_050_RequestHearingStart__*delimiter*__XUI02_060_HearingRequestSubmi
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
-ActiveRunName=result1
+ActiveRunName=
 [Transactions]
 XUI02_050_RequestHearingStart=
 XUI02_060_HearingRequestSubmitted=
