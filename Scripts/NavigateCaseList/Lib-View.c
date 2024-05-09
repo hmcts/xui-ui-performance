@@ -76,8 +76,9 @@ Library_Common()
 	truclient_step("5", "Function AttachScannedDocsDialog", "snapshot=Common_5.inf");
 	{
 		truclient_step("5.1", "Select Attach scanned docs from Next step listbox", "snapshot=Common_5.1.inf");
+		truclient_step("5.2", "Select Manage documents from Next step listbox", "snapshot=Common_5.2.inf");
 		lr_start_transaction("XUI04_070_AttachedScanDocsDialog");
-		truclient_step("5.2", "Click on Go button", "snapshot=Common_5.2.inf");
+		truclient_step("5.3", "Click on Go button", "snapshot=Common_5.3.inf");
 		lr_end_transaction("XUI04_070_AttachedScanDocsDialog",0);
 	}
 	truclient_step("6", "Function AttachScannedDocument", "snapshot=Common_6.inf");

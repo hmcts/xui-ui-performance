@@ -11,9 +11,11 @@ Action()
 	truclient_step("5", "Call Function Common.SelectRandomCase", "snapshot=Action_5.inf");
 	truclient_step("6", "Call Function Common.SelectHearings", "snapshot=Action_6.inf");
 	truclient_step("7", "Call Function Common.AddCaseNote", "snapshot=Action_7.inf");
-	truclient_step("8", "Call Function Common.AttachScannedDocument", "snapshot=Action_8.inf");
-	truclient_step("9", "Call Function Common.SelectCaseDocumentsPDF", "snapshot=Action_9.inf");
-	truclient_step("10", "Call Function Common.SelectCaseFileViewPDF", "snapshot=Action_10.inf");
+	truclient_step("8", "Call Function Common.AttachDocument", "snapshot=Action_8.inf");
+	/* TEMP STEP TO FORCE DEBUG */
+	truclient_step("10", "Navigate to https://manage-case.perf...1711566754772190", "snapshot=Action_10.inf");
+	truclient_step("11", "Call Function Common.SelectCaseDocumentsPDF", "snapshot=Action_11.inf");
+	truclient_step("12", "Call Function Common.SelectCaseFileViewPDF", "snapshot=Action_12.inf");
 
 	return 0;
 }
