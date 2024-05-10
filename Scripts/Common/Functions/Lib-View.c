@@ -32,7 +32,7 @@ Library_Common()
 	truclient_step("2", "Function SelectCasesApplyFilter", "snapshot=Common_2.inf");
 	{
 		lr_start_transaction("Cases");
-		truclient_step("2.1", "Click on Case list link", "snapshot=Common_2.1.inf");
+		truclient_step("2.1", "Navigate to https://manage-case.perf....hmcts.net/cases", "snapshot=Common_2.1.inf");
 		lr_end_transaction("Cases",0);
 		truclient_step("2.2", "Wait until Your cases exists", "snapshot=Common_2.2.inf");
 		truclient_step("2.3", "Wait until Filters heading exists", "snapshot=Common_2.3.inf");
@@ -47,9 +47,9 @@ Library_Common()
 		/* Select a randomCaseIndex based on available case links */
 		truclient_step("3.2", "Evaluate JavaScript code //TC.log('Starting custo...andomCaseIndex);", "snapshot=Common_3.2.inf");
 		/* Pick a random case link */
-		lr_start_transaction("Select Case");
+		lr_start_transaction("SelectCase");
 		truclient_step("3.4", "Click on random case in list link", "snapshot=Common_3.4.inf");
-		lr_end_transaction("Select Case",0);
+		lr_end_transaction("SelectCase",0);
 	}
 	truclient_step("4", "Function ReturnAllTabs", "snapshot=Common_4.inf");
 	{
@@ -110,7 +110,9 @@ Library_Common()
 		truclient_step("9.2", "Click on Yes, the document belongs...", "snapshot=Common_9.2.inf");
 		truclient_step("9.3", "Select Applicant from Submitting document on... listbox", "snapshot=Common_9.3.inf");
 		truclient_step("9.4", "Select Applicant application from Document category listbox", "snapshot=Common_9.4.inf");
+		lr_start_transaction("UploadDocument");
 		truclient_step("9.5", "Set C:\Git\xui-ui-performanc...nce_Test_1MB.pdf on Scanned document url... filebox", "snapshot=Common_9.5.inf");
+		lr_end_transaction("UploadDocument",0);
 		truclient_step("9.6", "Click on No", "snapshot=Common_9.6.inf");
 		truclient_step("9.7", "Click on No", "snapshot=Common_9.7.inf");
 		truclient_step("9.8", "Click on Continue button", "snapshot=Common_9.8.inf");
