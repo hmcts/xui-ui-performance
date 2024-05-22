@@ -32,23 +32,23 @@ Library_Common()
 	truclient_step("2", "Function SelectCasesApplyFilter", "snapshot=Common_2.inf");
 	{
 		lr_start_transaction("Cases");
-		truclient_step("2.1", "Navigate to https://manage-case.perf....hmcts.net/cases", "snapshot=Common_2.1.inf");
+		truclient_step("2.1", "Navigate to TC.getParam('hostname')+'/cases'", "snapshot=Common_2.1.inf");
 		lr_end_transaction("Cases",0);
-		truclient_step("2.2", "Wait until Your cases exists", "snapshot=Common_2.2.inf");
-		truclient_step("2.3", "Wait until Filters heading exists", "snapshot=Common_2.3.inf");
-		truclient_step("2.4", "Select TC.getParam('state') from State listbox", "snapshot=Common_2.4.inf");
+		truclient_step("2.2", "Wait until Filters heading exists", "snapshot=Common_2.2.inf");
+		truclient_step("2.3", "Select TC.getParam('state') from State listbox", "snapshot=Common_2.3.inf");
 		lr_start_transaction("ApplyFilter");
-		truclient_step("2.5", "Click on Apply filter button", "snapshot=Common_2.5.inf");
+		truclient_step("2.4", "Click on Apply filter button", "snapshot=Common_2.4.inf");
 		lr_end_transaction("ApplyFilter",0);
-		truclient_step("2.6", "Verify Your cases 's Visible Text contains Your cases", "snapshot=Common_2.6.inf");
+		truclient_step("2.5", "Verify Your cases 's Visible Text contains Your cases", "snapshot=Common_2.5.inf");
 	}
 	truclient_step("3", "Function SelectRandomCase", "snapshot=Common_3.inf");
 	{
+		truclient_step("3.1", "Navigate to TC.getParam('hostname')+'/cases'", "snapshot=Common_3.1.inf");
 		/* Select a randomCaseIndex based on available case links */
-		truclient_step("3.2", "Evaluate JavaScript code //TC.log('Starting custo...andomCaseIndex);", "snapshot=Common_3.2.inf");
+		truclient_step("3.3", "Evaluate JavaScript code //TC.log('Starting custo...' + randomLink);", "snapshot=Common_3.3.inf");
 		/* Pick a random case link */
 		lr_start_transaction("SelectCase");
-		truclient_step("3.4", "Click on random case in list link", "snapshot=Common_3.4.inf");
+		truclient_step("3.5", "Navigate to randomLink", "snapshot=Common_3.5.inf");
 		lr_end_transaction("SelectCase",0);
 	}
 	truclient_step("4", "Function ReturnAllTabs", "snapshot=Common_4.inf");

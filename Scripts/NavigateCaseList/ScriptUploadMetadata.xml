@@ -43,11 +43,13 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="ManageCases.prm.bak" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvJUU.979.log" Filter="1" />
     <FileEntry Name="mdrvmMP.317.log" Filter="1" />
     <FileEntry Name="mdrvNCX.865.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NavigateCaseList.c.pickle" Filter="1" />
     <FileEntry Name="NavigateCaseList.ci" Filter="1" />
+    <FileEntry Name="NavigateCaseList.prm.bak" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />

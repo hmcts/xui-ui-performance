@@ -62,7 +62,7 @@ Action=1
 Lib-View=1
 vuser_end=1
 [TransactionsOrder]
-Order="SignInPage__*delimiter*__SignIn__*delimiter*__Cases__*delimiter*__ApplyFilter__*delimiter*__SelectCase__*delimiter*__SelectedTab__*delimiter*__AddCaseNoteDialog__*delimiter*__AddCaseNote__*delimiter*__CaseNotes__*delimiter*__ManageDocumentsDialog__*delimiter*__SubmitAttachedDocument__*delimiter*__HearingsTab__*delimiter*__CaseDocumentsTab__*delimiter*__CaseDocumentsMediaViewer__*delimiter*__CaseFileViewTab__*delimiter*__CaseFileViewMediaViewer__*delimiter*__SearchDialog__*delimiter*__SearchCaseReference__*delimiter*__MyWorkMyTasks__*delimiter*__MyWorkAvailableTasks__*delimiter*__MyWorkMyCases__*delimiter*__MyWorkMyAccess__*delimiter*__SignOut__*delimiter*__UploadDocument"
+Order="SignInPage__*delimiter*__SignIn__*delimiter*__Cases__*delimiter*__ApplyFilter__*delimiter*__SelectCase__*delimiter*__SelectedTab__*delimiter*__AddCaseNoteDialog__*delimiter*__AddCaseNote__*delimiter*__CaseNotes__*delimiter*__ManageDocumentsDialog__*delimiter*__UploadDocument__*delimiter*__SubmitAttachedDocument__*delimiter*__HearingsTab__*delimiter*__CaseDocumentsTab__*delimiter*__CaseDocumentsMediaViewer__*delimiter*__CaseFileViewTab__*delimiter*__CaseFileViewMediaViewer__*delimiter*__SearchDialog__*delimiter*__SearchCaseReference__*delimiter*__MyWorkMyTasks__*delimiter*__MyWorkAvailableTasks__*delimiter*__MyWorkMyCases__*delimiter*__MyWorkMyAccess__*delimiter*__SignOut"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -79,6 +79,7 @@ AddCaseNoteDialog=
 AddCaseNote=
 CaseNotes=
 ManageDocumentsDialog=
+UploadDocument=
 SubmitAttachedDocument=
 HearingsTab=
 CaseDocumentsTab=
@@ -92,4 +93,3 @@ MyWorkAvailableTasks=
 MyWorkMyCases=
 MyWorkMyAccess=
 SignOut=
-UploadDocument=
