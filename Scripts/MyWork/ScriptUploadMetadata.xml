@@ -30,6 +30,7 @@
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="Libraries\" Filter="2" />
     <FileEntry Name="profiles\" Filter="2" />
+    <FileEntry Name="146201041440.idx" Filter="1" />
     <FileEntry Name="149297181440.idx" Filter="1" />
     <FileEntry Name="14929718144_1yw.409.idx" Filter="1" />
     <FileEntry Name="14929718144_2iR.181.idx" Filter="1" />
@@ -63,6 +64,7 @@
     <FileEntry Name="14929718144_y0F.695.idx" Filter="1" />
     <FileEntry Name="14929718144_YAR.429.idx" Filter="1" />
     <FileEntry Name="14929718144_YAR.855.idx" Filter="1" />
+    <FileEntry Name="16290893440.idx" Filter="1" />
     <FileEntry Name="17017407440.idx" Filter="1" />
     <FileEntry Name="1701740744_14n.562.idx" Filter="1" />
     <FileEntry Name="1701740744_2Mt.730.idx" Filter="1" />
@@ -129,6 +131,8 @@
     <FileEntry Name="20091779544_VKx.63.idx" Filter="1" />
     <FileEntry Name="20091779544_wak.397.idx" Filter="1" />
     <FileEntry Name="20091779544_ZqC.183.idx" Filter="1" />
+    <FileEntry Name="232318119440.idx" Filter="1" />
+    <FileEntry Name="256920079440.idx" Filter="1" />
     <FileEntry Name="35289137440.idx" Filter="1" />
     <FileEntry Name="3528913744_5Fg.664.idx" Filter="1" />
     <FileEntry Name="3528913744_9x0.566.idx" Filter="1" />
@@ -168,26 +172,16 @@
     <FileEntry Name="default.cfg.bak" Filter="1" />
     <FileEntry Name="interactive_replay_Chromium.txt" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
-    <FileEntry Name="ManageCases.prm.bak" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
-    <FileEntry Name="mdrv7qU.403.log" Filter="1" />
-    <FileEntry Name="mdrvGM0.285.log" Filter="1" />
-    <FileEntry Name="mdrvmMP.317.log" Filter="1" />
-    <FileEntry Name="mdrvNCX.865.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="MyWork.c.pickle" Filter="1" />
     <FileEntry Name="MyWork.ci" Filter="1" />
     <FileEntry Name="MyWork.prm.bak" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
-    <FileEntry Name="output.bak" Filter="1" />
-    <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
-    <FileEntry Name="result1\" Filter="1" />
-    <FileEntry Name="results\" Filter="1" />
-    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
